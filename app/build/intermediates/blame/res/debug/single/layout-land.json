@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_main.xml",
+        "source": "L:\\barcode-reader-new-ver\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\barcode_capture.xml",
+        "source": "L:\\barcode-reader-new-ver\\app\\src\\main\\res\\layout-land\\barcode_capture.xml"
+    }
+]

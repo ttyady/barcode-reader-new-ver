@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+
+
+
+
+    <string name="action_settings">Settings</string>
+
+    <!-- タイトル -->
+    <string name="app_name">DBSample</string>
+    <string name="name_selectsheet_product">品名一覧画面</string>
+    <string name="name_selectsheet_listview">ListView表示画面</string>
+    <string name="name_selectsheet_tabel">TableLayout表示画面</string>
+
+    <!-- ここからactivity_main 01関連 -->
+    <string name="text01_product">品名</string>
+    <string name="text01_madein">産地</string>
+    <string name="text01_number">個数</string>
+    <string name="text01_price">単価</string>
+    <string name="text01_kome">※</string>
+    <string name="text01_hinttext">全角・半角12文字以内</string>
+    <string name="text01_hintnumber">半角数字</string>
+    <string name="button01_regist">登録</string>
+    <string name="button01_show">表示</string>
+
+    <!-- 選択用RadioButton -->
+    <string name="radio01_product">品名一覧 (ListView×ArrayAdapter)</string>
+    <string name="radio01_listview">ListView表示 (ListView×BaseAdapter)</string>
+    <string name="radio01_tablelayout">TableLayout表示</string>
+    <!-- ここまで -->
+
+    <!-- ここからselect_sheet_product 02関連 -->
+    <!-- select_sheet_product 02 -->
+    <string name="text02_title_detail">ListViewを表示する為にArrayAdapterを使ってシンプルに品名だけをリスト表示します。</string>
+    <string name="text02_title">品名一覧</string>
+    <string name="button02_alldelete">全削除</string>
+
+    <!-- row_sheet_listview 05 -->
+    <string name="text05_title_madein">産地：</string>
+    <string name="text05_title_number">個数：</string>
+    <string name="text05_title_price">単価：</string>
+    <!-- ここまで -->
+
+    <!-- select_sheet_listview 03 -->
+    <string name="text03_title_detail">BaseAdapterを使いListViewをカスタムしてリスト表示します。</string>
+
+    <!-- select_sheet_table 04 -->
+    <string name="text04_title_detail">SearchViewを使って品名を検索し、DBから取得したデータをTableRowに加えていく表示の仕方です。</string>
+    <string name="text04_hinttext">品名を入力して下さい。</string>
+    <string name="button04_search">検索</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp">
+
+    <!-- 品名 -->
+    <TextView
+        android:id="@+id/text05Product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- タイトル：産地 -->
+        <TextView
+            android:id="@+id/text05TitleMadeIn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/text05_title_madein"
+            android:textSize="14sp" />
+
+        <!-- データ表示用：産地 -->
+        <TextView
+            android:id="@+id/text05MadeIn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- タイトル：個数 -->
+        <TextView
+            android:id="@+id/text05TitleNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/text05_title_number"
+            android:textSize="14sp" />
+
+        <!-- データ表示用：個数 -->
+        <TextView
+            android:id="@+id/text05Number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- タイトル：単価 -->
+        <TextView
+            android:id="@+id/text05TitlePrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/text05_title_price"
+            android:textSize="14sp" />
+
+        <!-- データ表示用：単価 -->
+        <TextView
+            android:id="@+id/text05Price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
