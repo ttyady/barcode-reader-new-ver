@@ -5,26 +5,26 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="1046279002218076"
+    timestamp="1046856507608757"
     token="7904634578208434886"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="8552" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="8652" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1086" />
     <task
         name="verifier"
-        duration="0" />
+        duration="37" />
 
     <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="L:\barcode-reader-new-ver\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         timestamp="1046124733175009"
@@ -39,6 +39,20 @@
         <artifact
             location="L:\barcode-reader-new-ver\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
+    </build>
+    <build
+        timestamp="1046739003267970"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="L:\barcode-reader-new-ver\app\build\intermediates\builds\debug\1046739003267970\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1046856507608757"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="L:\barcode-reader-new-ver\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -23,6 +23,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.barcode.Barcode;
@@ -83,6 +84,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             startActivity(intent);
         }
         if (v.getId() == R.id.delete_database) {
+            Toast.makeText(this,"データベース削除完了",Toast.LENGTH_SHORT).show();
             Log.d(TAG, "database削除");
             DBAdapter dbA = new DBAdapter(this);
             dbA.databaseDelete();

@@ -62,7 +62,9 @@ public class DataRegistration extends Activity implements
                 // DBに登録
                 saveList();
 
+
             }
+
         });
 
         // 表示ボタン押下時処理
@@ -190,6 +192,7 @@ public class DataRegistration extends Activity implements
             dbAdapter.closeDB();                                        // DBを閉じる
 
             init();     // 初期値設定
+            Toast.makeText(DataRegistration.this,"DB登録完了",Toast.LENGTH_SHORT).show();
 
         }
 
