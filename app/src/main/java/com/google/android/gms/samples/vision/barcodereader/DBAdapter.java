@@ -104,7 +104,7 @@ public class DBAdapter {
     }
 
     //-------------------------------------------------*/
-    public void saveDB(int product, String madein, String number) {
+    public void saveDB(Long product, String madein, String number) {
 
         db.beginTransaction();          // トランザクション開始
 

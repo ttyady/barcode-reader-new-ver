@@ -41,9 +41,8 @@
         <!-- タイトル：バーコード -->
         <TextView
             android:id="@+id/text05TitleMadeIn"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.2"
             android:text="@string/text05_title_product"
             android:textSize="14sp" />
 

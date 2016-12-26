@@ -45,7 +45,6 @@
             android:hint="@string/text01_hintnumber"
             android:inputType="number"
             android:lines="1"
-            android:maxLength="12"
             android:maxLines="1"
             android:minLines="1"
             android:singleLine="true"

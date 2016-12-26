@@ -179,8 +179,8 @@ public class DataRegistration extends Activity implements
 
         } else {        // EditTextが全て入力されている場合
 
-            // 入力されたバーコードは文字列からint型へ変換
-            int iProduct = Integer.parseInt(strProduct);
+            // 入力されたバーコードは文字列からLong型へ変換
+            Long iProduct = Long.parseLong(strProduct);
             //int iNumber = Integer.parseInt(strNumber);
 
             // DBへの登録処理
