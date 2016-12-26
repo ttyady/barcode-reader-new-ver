@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/text02_title_detail"
-        android:textColor="#333333" />
+        android:textColor="#FFFFFF" />
 
     <!-- リストビュー -->
     <!-- listSelector="@android:color/transparent"で行を選択しても、その行の色を透過させる事により色が付く事を防ぐ。-->

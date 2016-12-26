@@ -18,11 +18,11 @@
 
         <TextView
             android:id="@+id/text01Product"
-            android:layout_width="0dp"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="@string/text01_product"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="16sp" />
 
         <TextView
@@ -35,15 +35,15 @@
             android:textSize="14sp" />
 
         <!-- ellipsize：文字が行に収まりきらない末尾を「...」表示 -->
-        <!-- inputType：表示するキーボードを文字に指定 -->
+        <!-- inputType：表示するキーボードを数字に指定 -->
         <EditText
             android:id="@+id/editText01Product"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ellipsize="end"
-            android:hint="@string/text01_hinttext"
-            android:inputType="text"
+            android:hint="@string/text01_hintnumber"
+            android:inputType="number"
             android:lines="1"
             android:maxLength="12"
             android:maxLines="1"
@@ -64,11 +64,11 @@
 
         <TextView
             android:id="@+id/text01MadeIn"
-            android:layout_width="0dp"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="@string/text01_madein"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="16sp" />
 
         <TextView
@@ -108,11 +108,11 @@
 
         <TextView
             android:id="@+id/text01Number"
-            android:layout_width="0dp"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="@string/text01_number"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="16sp" />
 
         <TextView
@@ -170,7 +170,7 @@
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="@string/radio01_product"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="16sp" />
 
         <RadioButton
@@ -180,7 +180,7 @@
             android:layout_marginTop="8dp"
             android:checked="false"
             android:text="@string/radio01_listview"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="16sp" />
 
         <RadioButton
@@ -190,7 +190,7 @@
             android:layout_marginTop="8dp"
             android:checked="false"
             android:text="@string/radio01_tablelayout"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="16sp" />
     </RadioGroup>
 

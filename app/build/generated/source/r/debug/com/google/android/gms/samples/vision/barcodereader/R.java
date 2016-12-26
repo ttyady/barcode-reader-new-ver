@@ -2733,7 +2733,7 @@ containing a value of this type.
         public static final int bottom=0x7f0b0022;
         public static final int button01Regist=0x7f0b008a;
         public static final int button01Show=0x7f0b008f;
-        public static final int button02AllDelete=0x7f0b00b2;
+        public static final int button02AllDelete=0x7f0b00b0;
         public static final int buttonPanel=0x7f0b004e;
         public static final int cancel_action=0x7f0b009b;
         public static final int center=0x7f0b0023;
@@ -2789,8 +2789,8 @@ containing a value of this type.
         public static final int linearLayout01Number=0x7f0b0086;
         public static final int linearLayout01Product=0x7f0b007e;
         public static final int listMode=0x7f0b000b;
-        public static final int listView02Product=0x7f0b00b1;
-        public static final int listView03=0x7f0b00af;
+        public static final int listView02Product=0x7f0b00af;
+        public static final int listView03=0x7f0b00ad;
         public static final int list_item=0x7f0b004b;
         public static final int media_actions=0x7f0b009d;
         public static final int middle=0x7f0b0035;
@@ -2818,9 +2818,9 @@ containing a value of this type.
         public static final int scrollIndicatorDown=0x7f0b0058;
         public static final int scrollIndicatorUp=0x7f0b0055;
         public static final int scrollView=0x7f0b0056;
-        public static final int scrollView03=0x7f0b00b4;
+        public static final int scrollView03=0x7f0b00b2;
         public static final int scrollable=0x7f0b0043;
-        public static final int searchView03=0x7f0b00b3;
+        public static final int searchView03=0x7f0b00b1;
         public static final int search_badge=0x7f0b0069;
         public static final int search_bar=0x7f0b0068;
         public static final int search_button=0x7f0b006a;
@@ -2851,7 +2851,7 @@ containing a value of this type.
         public static final int submenuarrow=0x7f0b005f;
         public static final int submit_area=0x7f0b0070;
         public static final int tabMode=0x7f0b000d;
-        public static final int tableLayout03List=0x7f0b00b5;
+        public static final int tableLayout03List=0x7f0b00b3;
         public static final int text=0x7f0b00a4;
         public static final int text01Kome01=0x7f0b0080;
         public static final int text01Kome02=0x7f0b0084;
@@ -2859,15 +2859,13 @@ containing a value of this type.
         public static final int text01MadeIn=0x7f0b0083;
         public static final int text01Number=0x7f0b0087;
         public static final int text01Product=0x7f0b007f;
-        public static final int text02TitleDetail=0x7f0b00b0;
-        public static final int text03TitleDetail=0x7f0b00ae;
+        public static final int text02TitleDetail=0x7f0b00ae;
+        public static final int text03TitleDetail=0x7f0b00ac;
         public static final int text05MadeIn=0x7f0b00a9;
         public static final int text05Number=0x7f0b00ab;
-        public static final int text05Price=0x7f0b00ad;
         public static final int text05Product=0x7f0b00a7;
         public static final int text05TitleMadeIn=0x7f0b00a8;
         public static final int text05TitleNumber=0x7f0b00aa;
-        public static final int text05TitlePrice=0x7f0b00ac;
         public static final int text2=0x7f0b00a2;
         public static final int textSpacerNoButtons=0x7f0b0057;
         public static final int text_input_password_toggle=0x7f0b0099;
@@ -3040,18 +3038,16 @@ containing a value of this type.
         public static final int text01_kome=0x7f050050;
         public static final int text01_madein=0x7f050051;
         public static final int text01_number=0x7f050052;
-        public static final int text01_price=0x7f050053;
-        public static final int text01_product=0x7f050054;
-        public static final int text02_title=0x7f050055;
-        public static final int text02_title_detail=0x7f050056;
-        public static final int text03_title_detail=0x7f050057;
-        public static final int text04_hinttext=0x7f050058;
-        public static final int text04_title_detail=0x7f050059;
-        public static final int text05_title_madein=0x7f05005a;
-        public static final int text05_title_number=0x7f05005b;
-        public static final int text05_title_price=0x7f05005c;
-        public static final int title_activity_main=0x7f05005d;
-        public static final int use_flash=0x7f05005e;
+        public static final int text01_product=0x7f050053;
+        public static final int text02_title=0x7f050054;
+        public static final int text02_title_detail=0x7f050055;
+        public static final int text03_title_detail=0x7f050056;
+        public static final int text04_hinttext=0x7f050057;
+        public static final int text04_title_detail=0x7f050058;
+        public static final int text05_title_madein=0x7f050059;
+        public static final int text05_title_number=0x7f05005a;
+        public static final int title_activity_main=0x7f05005b;
+        public static final int use_flash=0x7f05005c;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f07008c;

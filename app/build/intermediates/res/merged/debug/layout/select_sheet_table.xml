@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/text04_title_detail"
-        android:textColor="#333333" />
+        android:textColor="#FFFFFF" />
 
     <!-- 検索窓 -->
     <SearchView

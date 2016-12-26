@@ -21,7 +21,7 @@ public class DataRegistration extends Activity implements
 
 
     private EditText mEditText01Product;        // 品名
-    private EditText mEditText01MadeIn;         // 品名
+    private EditText mEditText01MadeIn;         // 産地
     private EditText mEditText01Number;         // 個数
 
     private TextView mText01Kome01;             // 品名の※印
@@ -103,6 +103,7 @@ public class DataRegistration extends Activity implements
         mButton01Show = (Button) findViewById(R.id.button01Show);               // 表示ボタン
 
         mRadioGroup01Show = (RadioGroup) findViewById(R.id.radioGroup01);       // 選択用ラジオボタングループ
+
 
     }
 

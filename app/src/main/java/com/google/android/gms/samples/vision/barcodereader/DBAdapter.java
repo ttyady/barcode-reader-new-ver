@@ -232,7 +232,7 @@ public class DBAdapter {
             //テーブルを作成するSQL文の定義 ※スペースに気を付ける
             String createTbl = "CREATE TABLE " + DB_TABLE + " ("
                     + COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
-                    + COL_PRODUCT + " TEXT NOT NULL,"
+                    + COL_PRODUCT + " INTEGER NOT NULL,"
                     + COL_MADEIN + " TEXT NOT NULL,"
                     + COL_NUMBER + " INTEGER NOT NULL"
                     + ");";
