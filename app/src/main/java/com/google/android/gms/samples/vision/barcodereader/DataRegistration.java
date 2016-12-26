@@ -23,12 +23,10 @@ public class DataRegistration extends Activity implements
     private EditText mEditText01Product;        // 品名
     private EditText mEditText01MadeIn;         // 品名
     private EditText mEditText01Number;         // 個数
-    private EditText mEditText01Price;          // 単価
 
     private TextView mText01Kome01;             // 品名の※印
     private TextView mText01Kome02;             // 産地の※印
     private TextView mText01Kome03;             // 個数の※印
-    private TextView mText01Kome04;             // 単価の※印
 
     private Button mButton01Regist;             // 登録ボタン
     private Button mButton01Show;               // 表示ボタン
@@ -46,6 +44,7 @@ public class DataRegistration extends Activity implements
         findViews();        // 各部品の結びつけ処理
 
         init();             //初期値設定
+
 
         // ラジオボタン選択時
         mRadioGroup01Show.setOnCheckedChangeListener(this);
@@ -78,6 +77,7 @@ public class DataRegistration extends Activity implements
 
             }
         });
+
     }
 
 
@@ -88,14 +88,16 @@ public class DataRegistration extends Activity implements
     private void findViews() {
 
         mEditText01Product = (EditText) findViewById(R.id.editText01Product);   // 品名
+        Intent intent = getIntent();
+        String barcodedata = intent.getStringExtra("barcodeValue");
+        mEditText01Product.setText(barcodedata);
         mEditText01MadeIn = (EditText) findViewById(R.id.editText01MadeIn);     // 産地
         mEditText01Number = (EditText) findViewById(R.id.editText01Number);     // 個数
-        mEditText01Price = (EditText) findViewById(R.id.editText01Price);       // 単価
 
         mText01Kome01 = (TextView) findViewById(R.id.text01Kome01);             // 品名の※印
         mText01Kome02 = (TextView) findViewById(R.id.text01Kome02);             // 産地※印
         mText01Kome03 = (TextView) findViewById(R.id.text01Kome03);             // 個数の※印
-        mText01Kome04 = (TextView) findViewById(R.id.text01Kome04);             // 単価の※印
+
 
         mButton01Regist = (Button) findViewById(R.id.button01Regist);           // 登録ボタン
         mButton01Show = (Button) findViewById(R.id.button01Show);               // 表示ボタン
@@ -109,15 +111,12 @@ public class DataRegistration extends Activity implements
      * init()
      */
     private void init() {
-        mEditText01Product.setText("");
         mEditText01MadeIn.setText("");
         mEditText01Number.setText("");
-        mEditText01Price.setText("");
 
         mText01Kome01.setText("");
         mText01Kome02.setText("");
         mText01Kome03.setText("");
-        mText01Kome04.setText("");
         mEditText01Product.requestFocus();      // フォーカスを品名のEditTextに指定
     }
 
@@ -150,10 +149,9 @@ public class DataRegistration extends Activity implements
         String strProduct = mEditText01Product.getText().toString();
         String strMadeIn = mEditText01MadeIn.getText().toString();
         String strNumber = mEditText01Number.getText().toString();
-        String strPrice = mEditText01Price.getText().toString();
 
         // EditTextが空白の場合
-        if (strProduct.equals("") || strMadeIn.equals("") || strNumber.equals("") || strPrice.equals("")) {
+        if (strProduct.equals("") || strMadeIn.equals("") || strNumber.equals("")) {
 
             if (strProduct.equals("")) {
                 mText01Kome01.setText("※");     // 品名が空白の場合、※印を表示
@@ -173,11 +171,6 @@ public class DataRegistration extends Activity implements
                 mText01Kome03.setText("");      // 空白でない場合は※印を消す
             }
 
-            if (strPrice.equals("")) {
-                mText01Kome04.setText("※");     // 単価が空白の場合、※印を表示
-            } else {
-                mText01Kome04.setText("");      // 空白でない場合は※印を消す
-            }
 
             Toast.makeText(DataRegistration.this, "※の箇所を入力して下さい。", Toast.LENGTH_SHORT).show();
 
@@ -185,12 +178,11 @@ public class DataRegistration extends Activity implements
 
             // 入力された単価と個数は文字列からint型へ変換
             int iNumber = Integer.parseInt(strNumber);
-            int iPrice = Integer.parseInt(strPrice);
 
             // DBへの登録処理
             DBAdapter dbAdapter = new DBAdapter(this);
             dbAdapter.openDB();                                         // DBの読み書き
-            dbAdapter.saveDB(strProduct, strMadeIn, iNumber, iPrice);   // DBに登録
+            dbAdapter.saveDB(strProduct, strMadeIn, iNumber);   // DBに登録
             dbAdapter.closeDB();                                        // DBを閉じる
 
             init();     // 初期値設定

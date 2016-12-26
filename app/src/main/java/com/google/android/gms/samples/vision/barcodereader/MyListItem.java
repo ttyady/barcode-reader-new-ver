@@ -15,7 +15,6 @@ public class MyListItem {
     protected String product;   // 品名
     protected String madeIn;    // 産地
     protected String number;    // 個数
-    protected String price;     // 単価
 
     /**
      * MyListItem()
@@ -24,14 +23,12 @@ public class MyListItem {
      * @param product String 品名
      * @param madeIn  String 産地
      * @param number  String 個数
-     * @param price   String 単価
      */
-    public MyListItem(int id, String product, String madeIn, String number, String price) {
+    public MyListItem(int id, String product, String madeIn, String number) {
         this.id = id;
         this.product = product;
         this.madeIn = madeIn;
         this.number = number;
-        this.price = price;
     }
 
     /**
@@ -75,13 +72,4 @@ public class MyListItem {
         return number;
     }
 
-    /**
-     * 単価を取得
-     * getPrice()
-     *
-     * @return price String 単価
-     */
-    public String getPrice() {
-        return price;
-    }
 }

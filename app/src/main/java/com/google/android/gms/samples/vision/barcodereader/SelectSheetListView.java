@@ -118,14 +118,12 @@ public class SelectSheetListView extends AppCompatActivity {
                         c.getInt(0),
                         c.getString(1),
                         c.getString(2),
-                        c.getString(3),
-                        c.getString(4));
+                        c.getString(3));
 
                 Log.d("取得したCursor(ID):", String.valueOf(c.getInt(0)));
                 Log.d("取得したCursor(品名):", c.getString(1));
                 Log.d("取得したCursor(産地):", c.getString(2));
                 Log.d("取得したCursor(個数):", c.getString(3));
-                Log.d("取得したCursor(単価):", c.getString(4));
 
                 items.add(myListItem);          // 取得した要素をitemsに追加
 
@@ -152,7 +150,6 @@ public class SelectSheetListView extends AppCompatActivity {
             TextView text05Product;
             TextView text05MadeIn;
             TextView text05Number;
-            TextView text05Price;
         }
 
         // コンストラクタの生成
@@ -198,14 +195,12 @@ public class SelectSheetListView extends AppCompatActivity {
                 TextView text05Product = (TextView) view.findViewById(R.id.text05Product);      // 品名のTextView
                 TextView text05MadeIn = (TextView) view.findViewById(R.id.text05MadeIn);        // 産地のTextView
                 TextView text05Number = (TextView) view.findViewById(R.id.text05Number);        // 個数のTextView
-                TextView text05Price = (TextView) view.findViewById(R.id.text05Price);          // 単価のTextView
 
                 // holderにviewを持たせておく
                 holder = new ViewHolder();
                 holder.text05Product = text05Product;
                 holder.text05MadeIn = text05MadeIn;
                 holder.text05Number = text05Number;
-                holder.text05Price = text05Price;
                 view.setTag(holder);
 
             } else {
@@ -217,7 +212,6 @@ public class SelectSheetListView extends AppCompatActivity {
             holder.text05Product.setText(myListItem.getProduct());
             holder.text05MadeIn.setText(myListItem.getMadeIn());
             holder.text05Number.setText(myListItem.getNumber());
-            holder.text05Price.setText(myListItem.getPrice());
 
             return view;
 

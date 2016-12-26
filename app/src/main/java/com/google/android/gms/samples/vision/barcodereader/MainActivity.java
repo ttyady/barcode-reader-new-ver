@@ -55,6 +55,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         findViewById(R.id.read_barcode).setOnClickListener(this);
         findViewById(R.id.barcode_save).setOnClickListener(this);
+        findViewById(R.id.delete_database).setOnClickListener(this);
     }
 
     /**
@@ -75,13 +76,18 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if (v.getId() == R.id.barcode_save) {
             Log.d(TAG, "保存ボタンを押す");
 
-            Intent intent = new Intent(this,DataRegistration.class);
+            Intent intent = new Intent(this, DataRegistration.class);
 
-/*            String bar = barcodeValue.getText().toString();
-            intent.putExtra("barcodeValue",bar);*/
+            String bar = barcodeValue.getText().toString();
+            intent.putExtra("barcodeValue",bar);
             startActivity(intent);
         }
+        if (v.getId() == R.id.delete_database) {
+            Log.d(TAG, "database削除");
+            DBAdapter dbA = new DBAdapter(this);
+            dbA.databaseDelete();
 
+        }
     }
 
     /**

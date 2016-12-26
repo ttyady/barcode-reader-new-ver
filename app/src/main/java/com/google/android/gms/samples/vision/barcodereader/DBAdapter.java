@@ -27,11 +27,11 @@ public class DBAdapter {
     public final static String COL_PRODUCT = "product";    // 品名
     public final static String COL_MADEIN = "madein";      // 産地
     public final static String COL_NUMBER = "number";      // 個数
-    public final static String COL_PRICE = "price";        // 単価
 
     private SQLiteDatabase db = null;           // SQLiteDatabase
     private DBHelper dbHelper = null;           // DBHepler
     protected Context context;                  // Context
+
 
     // コンストラクタ
     public DBAdapter(Context context) {
@@ -77,9 +77,34 @@ public class DBAdapter {
      * @param product 品名
      * @param madein  産地
      * @param number  個数
-     * @param price   単価
      */
-    public void saveDB(String product, String madein, int number, int price) {
+
+/*    //-------------------------------------------------
+    public void saveDB() {
+        db.beginTransaction();          // トランザクション開始
+
+        try {
+            ContentValues values = new ContentValues();     // ContentValuesでデータを設定していく
+            values.put(COL_PRODUCT, "ASDF");
+            values.put(COL_MADEIN, "jap");
+            values.put(COL_NUMBER, 4214);
+
+            // insertメソッド データ登録
+            // 第1引数：DBのテーブル名
+            // 第2引数：更新する条件式
+            // 第3引数：ContentValues
+            db.insert(DB_TABLE, null, values);      // レコードへ登録
+
+            db.setTransactionSuccessful();      // トランザクションへコミット
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            db.endTransaction();                // トランザクションの終了
+        }
+    }
+
+    //-------------------------------------------------*/
+    public void saveDB(String product, String madein, int number) {
 
         db.beginTransaction();          // トランザクション開始
 
@@ -88,7 +113,6 @@ public class DBAdapter {
             values.put(COL_PRODUCT, product);
             values.put(COL_MADEIN, madein);
             values.put(COL_NUMBER, number);
-            values.put(COL_PRICE, price);
 
             // insertメソッド データ登録
             // 第1引数：DBのテーブル名
@@ -177,6 +201,10 @@ public class DBAdapter {
         }
     }
 
+    public void databaseDelete(){
+        context.deleteDatabase(dbHelper.getDatabaseName());
+    }
+
     /**
      * データベースの生成やアップグレードを管理するSQLiteOpenHelperを継承したクラス
      * DBHelper
@@ -206,8 +234,7 @@ public class DBAdapter {
                     + COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
                     + COL_PRODUCT + " TEXT NOT NULL,"
                     + COL_MADEIN + " TEXT NOT NULL,"
-                    + COL_NUMBER + " INTEGER NOT NULL,"
-                    + COL_PRICE + " INTEGER NOT NULL"
+                    + COL_NUMBER + " INTEGER NOT NULL"
                     + ");";
 
             db.execSQL(createTbl);      //SQL文の実行
