@@ -5,7 +5,7 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="1044996270996570"
+    timestamp="1046279002218076"
     token="7904634578208434886"
     verifier="COMPATIBLE" >
 
@@ -27,21 +27,14 @@
         type="RESOURCES" />
 
     <build
-        timestamp="1044440257010580"
+        timestamp="1046124733175009"
         verifier="BINARY_MANIFEST_FILE_CHANGE" >
         <artifact
             location="L:\barcode-reader-new-ver\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1044903316128018"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\builds\debug\1044903316128018\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="1044996270996570"
+        timestamp="1046279002218076"
         verifier="COMPATIBLE" >
         <artifact
             location="L:\barcode-reader-new-ver\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"

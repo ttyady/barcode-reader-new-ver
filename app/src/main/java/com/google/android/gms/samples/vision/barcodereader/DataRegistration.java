@@ -177,13 +177,16 @@ public class DataRegistration extends Activity implements
 
         } else {        // EditTextが全て入力されている場合
 
-            // 入力された単価と個数は文字列からint型へ変換
-            int iNumber = Integer.parseInt(strNumber);
+            // 入力されたバーコードは文字列からint型へ変換
+            int iProduct = Integer.parseInt(strProduct);
+            //int iNumber = Integer.parseInt(strNumber);
 
             // DBへの登録処理
             DBAdapter dbAdapter = new DBAdapter(this);
             dbAdapter.openDB();                                         // DBの読み書き
-            dbAdapter.saveDB(strProduct, strMadeIn, iNumber);   // DBに登録
+
+            //dbAdapter.saveDB(strProduct, strMadeIn, iNumber);   // DBに登録
+            dbAdapter.saveDB(iProduct, strMadeIn, strNumber);   // DBに登録
             dbAdapter.closeDB();                                        // DBを閉じる
 
             init();     // 初期値設定

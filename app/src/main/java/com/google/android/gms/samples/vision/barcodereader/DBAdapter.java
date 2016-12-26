@@ -104,7 +104,7 @@ public class DBAdapter {
     }
 
     //-------------------------------------------------*/
-    public void saveDB(String product, String madein, int number) {
+    public void saveDB(int product, String madein, String number) {
 
         db.beginTransaction();          // トランザクション開始
 
@@ -234,7 +234,7 @@ public class DBAdapter {
                     + COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
                     + COL_PRODUCT + " INTEGER NOT NULL,"
                     + COL_MADEIN + " TEXT NOT NULL,"
-                    + COL_NUMBER + " INTEGER NOT NULL"
+                    + COL_NUMBER + " TEXT NOT NULL"
                     + ");";
 
             db.execSQL(createTbl);      //SQL文の実行

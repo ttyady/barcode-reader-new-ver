@@ -616,6 +616,7 @@
     <string name="read_barcode">Read Barcode</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="text01_hintdate">mm/dd</string>
     <string name="text01_hintnumber">半角数字</string>
     <string name="text01_hinttext">全角・半角12文字以内</string>
     <string name="text01_kome">※</string>
@@ -627,8 +628,9 @@
     <string name="text03_title_detail">BaseAdapterを使いListViewをカスタムしてリスト表示します。</string>
     <string name="text04_hinttext">バーコードを入力して下さい。</string>
     <string name="text04_title_detail">SearchViewを使ってバーコードを検索し、DBから取得したデータをTableRowに加えていく表示の仕方です。</string>
-    <string name="text05_title_madein">品名：</string>
-    <string name="text05_title_number">廃棄日：</string>
+    <string name="text05_title_madein">品名:</string>
+    <string name="text05_title_number">廃棄日:</string>
+    <string name="text05_title_product">バーコード:</string>
     <string name="title_activity_main">Barcode Reader Sample</string>
     <string name="use_flash">Use Flash</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

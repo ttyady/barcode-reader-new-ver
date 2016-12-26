@@ -10,9 +10,10 @@
 
     <!-- 品名 -->
     <TextView
-        android:id="@+id/text05Product"
+        android:id="@+id/text05MadeIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="0.4"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
@@ -21,41 +22,40 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <!-- タイトル：産地 -->
+        <!-- タイトル：廃棄日 -->
+        <TextView
+            android:id="@+id/text05TitleNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text05_title_number"
+            android:textSize="20sp" />
+
+        <!-- データ表示用：廃棄日 -->
+        <TextView
+            android:id="@+id/text05Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+        <!-- タイトル：バーコード -->
         <TextView
             android:id="@+id/text05TitleMadeIn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
-            android:text="@string/text05_title_madein"
+            android:text="@string/text05_title_product"
             android:textSize="14sp" />
 
-        <!-- データ表示用：産地 -->
+        <!-- データ表示用：バーコード -->
         <TextView
-            android:id="@+id/text05MadeIn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.4"
-            android:textColor="#FFFFFF"
-            android:textSize="14sp" />
-
-        <!-- タイトル：個数 -->
-        <TextView
-            android:id="@+id/text05TitleNumber"
+            android:id="@+id/text05Product"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
-            android:text="@string/text05_title_number"
-            android:textSize="14sp" />
-
-        <!-- データ表示用：個数 -->
-        <TextView
-            android:id="@+id/text05Number"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.1"
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
+
 
     </LinearLayout>
 </LinearLayout>

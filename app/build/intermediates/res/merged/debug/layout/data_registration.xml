@@ -124,15 +124,15 @@
             android:textColor="#FF0000"
             android:textSize="14sp" />
 
-        <!-- inputType：表示するキーボードを数値に指定 -->
+        <!-- inputType：表示するキーボードをカレンダーに指定 -->
         <EditText
             android:id="@+id/editText01Number"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:ellipsize="end"
-            android:hint="@string/text01_hintnumber"
-            android:inputType="number"
+            android:hint="@string/text01_hintdate"
+            android:inputType="date"
             android:lines="1"
             android:maxLength="24"
             android:maxLines="1"
