@@ -204,5 +204,29 @@
         android:text="@string/button01_show"
         android:textSize="16sp" />
 
+    <Button
+        android:id="@+id/re_read_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button01Show"
+        android:text="READ BARCODE"/>
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_focus"
+        android:id="@+id/re_auto_focus"
+        android:layout_below="@+id/re_read_barcode"
+        android:layout_marginBottom="77dp"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/use_flash"
+        android:id="@+id/re_use_flash"
+        android:layout_toRightOf="@+id/re_auto_focus"
+        android:layout_alignBaseline="@id/re_auto_focus"
+        android:checked="false" />
+
 
 </RelativeLayout>

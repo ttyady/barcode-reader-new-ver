@@ -11,10 +11,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.common.api.CommonStatusCodes;
+import com.google.android.gms.vision.barcode.Barcode;
 
 public class DataRegistration extends Activity implements
         RadioGroup.OnCheckedChangeListener {
@@ -30,8 +34,14 @@ public class DataRegistration extends Activity implements
 
     private Button mButton01Regist;             // 登録ボタン
     private Button mButton01Show;               // 表示ボタン
+    private Button mButtonReadBarcode;         // バーコード読み込みボタン
 
     private RadioGroup mRadioGroup01Show;       // 選択用ラジオボタングループ
+
+    private CompoundButton autoFocus;
+    private CompoundButton useFlash;
+
+    private static final int RC_BARCODE_CAPTURE = 9001;
 
     private Intent intent;                      // インテント
 
@@ -80,6 +90,20 @@ public class DataRegistration extends Activity implements
             }
         });
 
+        // バーコード読み込みボタン押下時処理
+        mButtonReadBarcode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // launch barcode activity.
+                Intent intent = new Intent(DataRegistration.this, BarcodeCaptureActivity.class);
+                intent.putExtra(BarcodeCaptureActivity.AutoFocus, autoFocus.isChecked());
+                intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
+
+                startActivityForResult(intent, RC_BARCODE_CAPTURE);
+            }
+        });
+
+
     }
 
 
@@ -103,8 +127,12 @@ public class DataRegistration extends Activity implements
 
         mButton01Regist = (Button) findViewById(R.id.button01Regist);           // 登録ボタン
         mButton01Show = (Button) findViewById(R.id.button01Show);               // 表示ボタン
+        mButtonReadBarcode = (Button) findViewById(R.id.re_read_barcode);        // バーコード読み取りボタン
 
         mRadioGroup01Show = (RadioGroup) findViewById(R.id.radioGroup01);       // 選択用ラジオボタングループ
+
+        autoFocus = (CompoundButton) findViewById(R.id.re_auto_focus);
+        useFlash = (CompoundButton) findViewById(R.id.re_use_flash);
 
 
     }
@@ -196,6 +224,22 @@ public class DataRegistration extends Activity implements
 
         }
 
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == RC_BARCODE_CAPTURE) {
+            if (resultCode == CommonStatusCodes.SUCCESS) {
+                if (data != null) {
+                    Barcode barcode = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
+
+                    mEditText01Product.setText(barcode.displayValue);
+                }
+            }
+        }
+        else {
+            super.onActivityResult(requestCode, resultCode, data);
+        }
     }
 /*
     // メニュー未使用
