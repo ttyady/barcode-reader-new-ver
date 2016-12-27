@@ -137,7 +137,9 @@
             android:maxLines="1"
             android:minLines="1"
             android:singleLine="true"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:focusable="false"
+            android:clickable="true"/>
     </LinearLayout>
 
 

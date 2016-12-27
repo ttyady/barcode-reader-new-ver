@@ -5,6 +5,7 @@ package com.google.android.gms.samples.vision.barcodereader;
  */
 
 import android.app.Activity;
+import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -19,6 +21,8 @@ import android.widget.Toast;
 
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.barcode.Barcode;
+
+import java.util.Calendar;
 
 public class DataRegistration extends Activity implements
         RadioGroup.OnCheckedChangeListener {
@@ -44,6 +48,12 @@ public class DataRegistration extends Activity implements
     private static final int RC_BARCODE_CAPTURE = 9001;
 
     private Intent intent;                      // インテント
+
+    private int year;
+    private int month;
+    private int day;
+
+    private static final int DATE_DIALOG_ID = 0;
 
     @Override
 
@@ -103,8 +113,29 @@ public class DataRegistration extends Activity implements
             }
         });
 
-
+        mEditText01Number.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar _calendar = Calendar.getInstance();
+                DatePickerDialog _datePickerDialog = new DatePickerDialog(
+                        DataRegistration.this,
+                        new DatePickerDialog.OnDateSetListener() {
+                            @Override
+                            public void onDateSet(DatePicker view, int year, int monthOfYear,
+                                                  int dayOfMonth) {
+                                // TODO Auto-generated method stub
+                            }
+                        },
+                        year = _calendar.get(Calendar.YEAR),
+                        month =_calendar.get(Calendar.MONTH),
+                        day =_calendar.get(Calendar.DAY_OF_MONTH)
+                );
+                _datePickerDialog.show();
+                mEditText01Number.setText(year+"/"+month+"/"+day);
+            }
+        });
     }
+
 
 
     /**

@@ -5,237 +5,46 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="1050606487712564"
+    timestamp="1056447939380163"
     token="7904634578208434886"
-    verifier="CLASS_ADDED" >
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="3359" />
+        duration="3687" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1155" />
+        duration="737" />
     <task
         name="verifier"
-        duration="239" />
+        duration="65" />
 
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2a706aa51734ce44eb2d49b3c5da755976653f06\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_9a666819ad6f9cddf602759227eba78671d9da8e\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_0c485e87dc836505f5e9144a14fc42541cd61196\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dd5fc8823b25cfc69a409b9c4a1c28be3cf629f7\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_f275a24ecc54621df721d90dca14f78d88ab83aa\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_851a7132e89ced3e8abc9924799281568d3a34f1\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_f15eaf19f98269d2a731b88550b4ec8d1e600344\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_5894e574ae0872a1fc7b998009a7d70b6f491fc1\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_40c44dd02ecc2819c8cbe2d53ce96638d9683cf7\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_566afe191a7ed1d1c74cca5171c239c93c86eb72\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_0204aca1a050eaf77c46165b2640d92aa3a1ac5e\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_5bc6bdcf212e8f9c42821489a000873559cc2386\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_dc6db69089ec33b918cb5eb493f7b1006075e09b\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_21a940d8ed51f030599ac607298b2a1a0b72e914\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ff7e8b402cc6a5a257fb0d7590ae00ac2c99ef81\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_31668cf79c4941af4e650b0adbbcbbe7120f9962\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_91b4b2c76e295e696dfa3ad9f777387302afeb9b\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_88295de776bc52317ff0c4064f4914677d671711\classes.dex"
-        type="DEX" />
     <artifact
         location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
         type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_cecbddd5d301e2efc11d11aa5b24314b061e4212\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_d5a99527df8f56283dfb048434a28dfbdde1a585\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_6718d9e5f92bc02866382847f2f1c726c1792f6a\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_1a16f7389e761eda4ce61e3f3828729dc19f1704\classes.dex"
-        type="DEX" />
-    <artifact
-        location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_39c903fad3e68fd4a9e42bb7213fc9b15ac297a9\classes.dex"
-        type="DEX" />
 
     <build
-        timestamp="1046124733175009"
-        verifier="BINARY_MANIFEST_FILE_CHANGE" >
+        timestamp="1055618744564260"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="L:\barcode-reader-new-ver\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1050606487712564"
-        verifier="CLASS_ADDED" >
+        timestamp="1055878947843010"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="L:\barcode-reader-new-ver\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2a706aa51734ce44eb2d49b3c5da755976653f06\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_9a666819ad6f9cddf602759227eba78671d9da8e\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_0c485e87dc836505f5e9144a14fc42541cd61196\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dd5fc8823b25cfc69a409b9c4a1c28be3cf629f7\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_f275a24ecc54621df721d90dca14f78d88ab83aa\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_851a7132e89ced3e8abc9924799281568d3a34f1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_f15eaf19f98269d2a731b88550b4ec8d1e600344\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_5894e574ae0872a1fc7b998009a7d70b6f491fc1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_40c44dd02ecc2819c8cbe2d53ce96638d9683cf7\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_566afe191a7ed1d1c74cca5171c239c93c86eb72\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_0204aca1a050eaf77c46165b2640d92aa3a1ac5e\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_5bc6bdcf212e8f9c42821489a000873559cc2386\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_dc6db69089ec33b918cb5eb493f7b1006075e09b\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_21a940d8ed51f030599ac607298b2a1a0b72e914\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ff7e8b402cc6a5a257fb0d7590ae00ac2c99ef81\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_31668cf79c4941af4e650b0adbbcbbe7120f9962\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_91b4b2c76e295e696dfa3ad9f777387302afeb9b\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_88295de776bc52317ff0c4064f4914677d671711\classes.dex"
-            type="DEX" />
+    </build>
+    <build
+        timestamp="1056447939380163"
+        verifier="METHOD_ADDED" >
         <artifact
             location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_cecbddd5d301e2efc11d11aa5b24314b061e4212\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_d5a99527df8f56283dfb048434a28dfbdde1a585\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_6718d9e5f92bc02866382847f2f1c726c1792f6a\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_1a16f7389e761eda4ce61e3f3828729dc19f1704\classes.dex"
-            type="DEX" />
-        <artifact
-            location="L:\barcode-reader-new-ver\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_39c903fad3e68fd4a9e42bb7213fc9b15ac297a9\classes.dex"
             type="DEX" />
     </build>
 
