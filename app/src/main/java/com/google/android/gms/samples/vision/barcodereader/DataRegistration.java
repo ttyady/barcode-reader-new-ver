@@ -52,6 +52,7 @@ public class DataRegistration extends Activity implements
     private int year;
     private int month;
     private int day;
+    private DatePickerDialog.OnDateSetListener varDateSetListener;
 
     private static final int DATE_DIALOG_ID = 0;
 
@@ -65,6 +66,12 @@ public class DataRegistration extends Activity implements
 
         init();             //初期値設定
 
+        varDateSetListener = new DatePickerDialog.OnDateSetListener(){
+            @Override
+            public void onDateSet(DatePicker view , int year , int monthOfYear , int dayOfMonth){
+                mEditText01Number.setText(year + "/" + (monthOfYear + 1) + "/" + dayOfMonth);
+            }
+        };
 
         // ラジオボタン選択時
         mRadioGroup01Show.setOnCheckedChangeListener(this);
@@ -116,22 +123,15 @@ public class DataRegistration extends Activity implements
         mEditText01Number.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Calendar _calendar = Calendar.getInstance();
-                DatePickerDialog _datePickerDialog = new DatePickerDialog(
+                Calendar calendar = Calendar.getInstance();
+                DatePickerDialog dateDialog = new DatePickerDialog(
                         DataRegistration.this,
-                        new DatePickerDialog.OnDateSetListener() {
-                            @Override
-                            public void onDateSet(DatePicker view, int year, int monthOfYear,
-                                                  int dayOfMonth) {
-                                // TODO Auto-generated method stub
-                            }
-                        },
-                        year = _calendar.get(Calendar.YEAR),
-                        month =_calendar.get(Calendar.MONTH),
-                        day =_calendar.get(Calendar.DAY_OF_MONTH)
+                        varDateSetListener,
+                        calendar.get(Calendar.YEAR),
+                        calendar.get(Calendar.MONTH),
+                        calendar.get(Calendar.DAY_OF_MONTH)
                 );
-                _datePickerDialog.show();
-                mEditText01Number.setText(year+"/"+month+"/"+day);
+                dateDialog.show();
             }
         });
     }
