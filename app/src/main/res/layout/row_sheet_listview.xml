@@ -38,13 +38,14 @@
             android:layout_weight="0.1"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
+
         <!-- タイトル：バーコード -->
         <TextView
             android:id="@+id/text05TitleMadeIn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text05_title_product"
-            android:textSize="14sp" />
+            android:textSize="10sp" />
 
         <!-- データ表示用：バーコード -->
         <TextView
@@ -53,8 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
             android:textColor="#FFFFFF"
-            android:textSize="14sp" />
-
+            android:textSize="10sp" />
 
     </LinearLayout>
 </LinearLayout>

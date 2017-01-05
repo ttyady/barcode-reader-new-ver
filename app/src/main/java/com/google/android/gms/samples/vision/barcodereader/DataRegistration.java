@@ -61,9 +61,12 @@ public class DataRegistration extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.data_registration);
+        intent = getIntent();
+        String barcodedata = intent.getStringExtra("barcodeValue");
+
         findViews();        // 各部品の結びつけ処理
 
-        init();             //初期値設定
+        init(barcodedata);             //初期値設定
 
         varDateSetListener = new DatePickerDialog.OnDateSetListener(){
             @Override
@@ -142,9 +145,9 @@ public class DataRegistration extends Activity {
     private void findViews() {
 
         mEditText01Product = (EditText) findViewById(R.id.editText01Product);   // 品名
-        Intent intent = getIntent();
+/*        Intent intent = getIntent();
         String barcodedata = intent.getStringExtra("barcodeValue");
-        mEditText01Product.setText(barcodedata);
+        mEditText01Product.setText(barcodedata);*/
         mEditText01MadeIn = (EditText) findViewById(R.id.editText01MadeIn);     // 産地
         mEditText01Number = (EditText) findViewById(R.id.editText01Number);     // 個数
 
@@ -169,7 +172,23 @@ public class DataRegistration extends Activity {
      * 初期値設定 (EditTextの入力欄は空白、※印は消す)
      * init()
      */
+    private void init(String barcodedata) {
+        mEditText01Product.setText(barcodedata);
+        mEditText01MadeIn.setText("");
+        mEditText01Number.setText("");
+
+        mText01Kome01.setText("");
+        mText01Kome02.setText("");
+        mText01Kome03.setText("");
+        mEditText01Product.requestFocus();      // フォーカスを品名のEditTextに指定
+    }
+
+    /**
+     * 初期値設定 (EditTextの入力欄は空白、※印は消す)
+     * init()
+     */
     private void init() {
+        mEditText01Product.setText("");
         mEditText01MadeIn.setText("");
         mEditText01Number.setText("");
 
