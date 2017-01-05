@@ -630,7 +630,7 @@
     <string name="text04_title_detail">SearchViewを使ってバーコードを検索し、DBから取得したデータをTableRowに加えていく表示の仕方です。</string>
     <string name="text05_title_madein">品名:</string>
     <string name="text05_title_number">廃棄日:</string>
-    <string name="text05_title_product">バーコード:r</string>
+    <string name="text05_title_product">バーコード:</string>
     <string name="title_activity_main">Barcode Reader Sample</string>
     <string name="use_flash">Use Flash</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

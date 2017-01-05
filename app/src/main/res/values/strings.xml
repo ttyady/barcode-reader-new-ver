@@ -48,7 +48,7 @@
     <string name="button02_alldelete">全削除</string>
 
     <!-- row_sheet_listview 05 -->
-    <string name="text05_title_product">バーコード:r</string>
+    <string name="text05_title_product">バーコード:</string>
     <string name="text05_title_madein">品名:</string>
     <string name="text05_title_number">廃棄日:</string>
     <!-- ここまで -->

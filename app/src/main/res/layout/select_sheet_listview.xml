@@ -8,13 +8,13 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp">
 
-    <!-- 説明 -->
+<!--    &lt;!&ndash; 説明 &ndash;&gt;
     <TextView
         android:id="@+id/text03TitleDetail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/text03_title_detail"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF" />-->
 
     <!-- ListView -->
     <ListView

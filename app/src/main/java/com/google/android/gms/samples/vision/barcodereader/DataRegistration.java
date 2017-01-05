@@ -24,8 +24,7 @@ import com.google.android.gms.vision.barcode.Barcode;
 
 import java.util.Calendar;
 
-public class DataRegistration extends Activity implements
-        RadioGroup.OnCheckedChangeListener {
+public class DataRegistration extends Activity {
 
 
     private EditText mEditText01Product;        // 品名
@@ -73,8 +72,8 @@ public class DataRegistration extends Activity implements
             }
         };
 
-        // ラジオボタン選択時
-        mRadioGroup01Show.setOnCheckedChangeListener(this);
+/*        // ラジオボタン選択時
+        mRadioGroup01Show.setOnCheckedChangeListener(this);*/
 
         // 登録ボタン押下時処理
         mButton01Regist.setOnClickListener(new View.OnClickListener() {
@@ -88,8 +87,6 @@ public class DataRegistration extends Activity implements
 
                 // DBに登録
                 saveList();
-
-
             }
 
         });
@@ -98,11 +95,11 @@ public class DataRegistration extends Activity implements
         mButton01Show.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (intent != null) {
-                    startActivity(intent);      // 各画面へ遷移
-                } else {
+                intent = new Intent(DataRegistration.this, SelectSheetListView.class);
+                startActivity(intent);      // 各画面へ遷移
+/*                } else {
                     Toast.makeText(DataRegistration.this, "ラジオボタンが選択されていません。", Toast.LENGTH_SHORT).show();
-                }
+                }*/
 
             }
         });
@@ -160,7 +157,7 @@ public class DataRegistration extends Activity implements
         mButton01Show = (Button) findViewById(R.id.button01Show);               // 表示ボタン
         mButtonReadBarcode = (Button) findViewById(R.id.re_read_barcode);        // バーコード読み取りボタン
 
-        mRadioGroup01Show = (RadioGroup) findViewById(R.id.radioGroup01);       // 選択用ラジオボタングループ
+        //mRadioGroup01Show = (RadioGroup) findViewById(R.id.radioGroup01);       // 選択用ラジオボタングループ
 
         autoFocus = (CompoundButton) findViewById(R.id.re_auto_focus);
         useFlash = (CompoundButton) findViewById(R.id.re_use_flash);
@@ -182,10 +179,10 @@ public class DataRegistration extends Activity implements
         mEditText01Product.requestFocus();      // フォーカスを品名のEditTextに指定
     }
 
-    /**
+/*    *//**
      * ラジオボタン選択処理
      * onCheckedChanged()
-     */
+     *//*
     @Override
     public void onCheckedChanged(RadioGroup group, int checkedId) {
         switch (checkedId) {
@@ -199,7 +196,7 @@ public class DataRegistration extends Activity implements
                 intent = new Intent(DataRegistration.this, SelectSheetTable.class);
                 break;
         }
-    }
+    }*/
 
     /**
      * EditTextに入力したテキストをDBに登録

@@ -3907,8 +3907,8 @@
                     "startLine": 632,
                     "startColumn": 4,
                     "startOffset": 54716,
-                    "endColumn": 56,
-                    "endOffset": 54768
+                    "endColumn": 55,
+                    "endOffset": 54767
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\src\\main\\res\\values\\strings.xml",
@@ -3916,8 +3916,8 @@
                         "startLine": 50,
                         "startColumn": 4,
                         "startOffset": 2354,
-                        "endColumn": 56,
-                        "endOffset": 2406
+                        "endColumn": 55,
+                        "endOffset": 2405
                     }
                 }
             },
@@ -3925,9 +3925,9 @@
                 "to": {
                     "startLine": 633,
                     "startColumn": 4,
-                    "startOffset": 54773,
+                    "startOffset": 54772,
                     "endColumn": 69,
-                    "endOffset": 54838
+                    "endOffset": 54837
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\src\\main\\res\\values\\strings.xml"
@@ -3937,9 +3937,9 @@
                 "to": {
                     "startLine": 634,
                     "startColumn": 4,
-                    "startOffset": 54843,
+                    "startOffset": 54842,
                     "endColumn": 47,
-                    "endOffset": 54886
+                    "endOffset": 54885
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\src\\main\\res\\values\\strings.xml"
@@ -3949,9 +3949,9 @@
                 "to": {
                     "startLine": 635,
                     "startColumn": 4,
-                    "startOffset": 54891,
+                    "startOffset": 54890,
                     "endColumn": 77,
-                    "endOffset": 54964
+                    "endOffset": 54963
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -3961,9 +3961,9 @@
                 "to": {
                     "startLine": 636,
                     "startColumn": 4,
-                    "startOffset": 54969,
+                    "startOffset": 54968,
                     "endColumn": 89,
-                    "endOffset": 55054
+                    "endOffset": 55053
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -3973,9 +3973,9 @@
                 "to": {
                     "startLine": 637,
                     "startColumn": 4,
-                    "startOffset": 55059,
+                    "startOffset": 55058,
                     "endColumn": 87,
-                    "endOffset": 55142
+                    "endOffset": 55141
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -3985,9 +3985,9 @@
                 "to": {
                     "startLine": 638,
                     "startColumn": 4,
-                    "startOffset": 55147,
+                    "startOffset": 55146,
                     "endColumn": 95,
-                    "endOffset": 55238
+                    "endOffset": 55237
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -3997,10 +3997,10 @@
                 "to": {
                     "startLine": 639,
                     "startColumn": 4,
-                    "startOffset": 55243,
+                    "startOffset": 55242,
                     "endLine": 642,
                     "endColumn": 12,
-                    "endOffset": 55525
+                    "endOffset": 55524
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -4010,10 +4010,10 @@
                 "to": {
                     "startLine": 643,
                     "startColumn": 4,
-                    "startOffset": 55530,
+                    "startOffset": 55529,
                     "endLine": 649,
                     "endColumn": 12,
-                    "endOffset": 56026
+                    "endOffset": 56025
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4023,9 +4023,9 @@
                 "to": {
                     "startLine": 650,
                     "startColumn": 4,
-                    "startOffset": 56031,
+                    "startOffset": 56030,
                     "endColumn": 88,
-                    "endOffset": 56115
+                    "endOffset": 56114
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4035,10 +4035,10 @@
                 "to": {
                     "startLine": 651,
                     "startColumn": 4,
-                    "startOffset": 56120,
+                    "startOffset": 56119,
                     "endLine": 654,
                     "endColumn": 12,
-                    "endOffset": 56362
+                    "endOffset": 56361
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4048,10 +4048,10 @@
                 "to": {
                     "startLine": 655,
                     "startColumn": 4,
-                    "startOffset": 56367,
+                    "startOffset": 56366,
                     "endLine": 658,
                     "endColumn": 12,
-                    "endOffset": 56643
+                    "endOffset": 56642
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4061,10 +4061,10 @@
                 "to": {
                     "startLine": 659,
                     "startColumn": 4,
-                    "startOffset": 56648,
+                    "startOffset": 56647,
                     "endLine": 663,
                     "endColumn": 12,
-                    "endOffset": 56928
+                    "endOffset": 56927
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4074,10 +4074,10 @@
                 "to": {
                     "startLine": 664,
                     "startColumn": 4,
-                    "startOffset": 56933,
+                    "startOffset": 56932,
                     "endLine": 669,
                     "endColumn": 12,
-                    "endOffset": 57321
+                    "endOffset": 57320
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4087,10 +4087,10 @@
                 "to": {
                     "startLine": 670,
                     "startColumn": 4,
-                    "startOffset": 57326,
+                    "startOffset": 57325,
                     "endLine": 676,
                     "endColumn": 12,
-                    "endOffset": 57798
+                    "endOffset": 57797
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4100,10 +4100,10 @@
                 "to": {
                     "startLine": 677,
                     "startColumn": 4,
-                    "startOffset": 57803,
+                    "startOffset": 57802,
                     "endLine": 680,
                     "endColumn": 12,
-                    "endOffset": 58020
+                    "endOffset": 58019
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4113,10 +4113,10 @@
                 "to": {
                     "startLine": 681,
                     "startColumn": 4,
-                    "startOffset": 58025,
+                    "startOffset": 58024,
                     "endLine": 684,
                     "endColumn": 12,
-                    "endOffset": 58242
+                    "endOffset": 58241
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4126,10 +4126,10 @@
                 "to": {
                     "startLine": 685,
                     "startColumn": 4,
-                    "startOffset": 58247,
+                    "startOffset": 58246,
                     "endLine": 689,
                     "endColumn": 12,
-                    "endOffset": 58510
+                    "endOffset": 58509
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4139,10 +4139,10 @@
                 "to": {
                     "startLine": 690,
                     "startColumn": 4,
-                    "startOffset": 58515,
+                    "startOffset": 58514,
                     "endLine": 693,
                     "endColumn": 12,
-                    "endOffset": 58737
+                    "endOffset": 58736
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4152,10 +4152,10 @@
                 "to": {
                     "startLine": 694,
                     "startColumn": 4,
-                    "startOffset": 58742,
+                    "startOffset": 58741,
                     "endLine": 697,
                     "endColumn": 12,
-                    "endOffset": 58967
+                    "endOffset": 58966
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4165,10 +4165,10 @@
                 "to": {
                     "startLine": 698,
                     "startColumn": 4,
-                    "startOffset": 58972,
+                    "startOffset": 58971,
                     "endLine": 701,
                     "endColumn": 12,
-                    "endOffset": 59197
+                    "endOffset": 59196
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4178,10 +4178,10 @@
                 "to": {
                     "startLine": 702,
                     "startColumn": 4,
-                    "startOffset": 59202,
+                    "startOffset": 59201,
                     "endLine": 705,
                     "endColumn": 12,
-                    "endOffset": 59427
+                    "endOffset": 59426
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4191,10 +4191,10 @@
                 "to": {
                     "startLine": 706,
                     "startColumn": 4,
-                    "startOffset": 59432,
+                    "startOffset": 59431,
                     "endLine": 709,
                     "endColumn": 12,
-                    "endOffset": 59657
+                    "endOffset": 59656
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4204,10 +4204,10 @@
                 "to": {
                     "startLine": 710,
                     "startColumn": 4,
-                    "startOffset": 59662,
+                    "startOffset": 59661,
                     "endLine": 713,
                     "endColumn": 12,
-                    "endOffset": 59884
+                    "endOffset": 59883
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4217,10 +4217,10 @@
                 "to": {
                     "startLine": 714,
                     "startColumn": 4,
-                    "startOffset": 59889,
+                    "startOffset": 59888,
                     "endLine": 717,
                     "endColumn": 12,
-                    "endOffset": 60123
+                    "endOffset": 60122
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4230,10 +4230,10 @@
                 "to": {
                     "startLine": 718,
                     "startColumn": 4,
-                    "startOffset": 60128,
+                    "startOffset": 60127,
                     "endLine": 721,
                     "endColumn": 12,
-                    "endOffset": 60349
+                    "endOffset": 60348
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4243,10 +4243,10 @@
                 "to": {
                     "startLine": 722,
                     "startColumn": 4,
-                    "startOffset": 60354,
+                    "startOffset": 60353,
                     "endLine": 725,
                     "endColumn": 12,
-                    "endOffset": 60594
+                    "endOffset": 60593
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4256,10 +4256,10 @@
                 "to": {
                     "startLine": 726,
                     "startColumn": 4,
-                    "startOffset": 60599,
+                    "startOffset": 60598,
                     "endLine": 729,
                     "endColumn": 12,
-                    "endOffset": 60824
+                    "endOffset": 60823
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4269,10 +4269,10 @@
                 "to": {
                     "startLine": 730,
                     "startColumn": 4,
-                    "startOffset": 60829,
+                    "startOffset": 60828,
                     "endLine": 733,
                     "endColumn": 12,
-                    "endOffset": 61072
+                    "endOffset": 61071
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4282,10 +4282,10 @@
                 "to": {
                     "startLine": 734,
                     "startColumn": 4,
-                    "startOffset": 61077,
+                    "startOffset": 61076,
                     "endLine": 737,
                     "endColumn": 12,
-                    "endOffset": 61291
+                    "endOffset": 61290
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4295,10 +4295,10 @@
                 "to": {
                     "startLine": 738,
                     "startColumn": 4,
-                    "startOffset": 61296,
+                    "startOffset": 61295,
                     "endLine": 742,
                     "endColumn": 12,
-                    "endOffset": 61574
+                    "endOffset": 61573
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4308,10 +4308,10 @@
                 "to": {
                     "startLine": 743,
                     "startColumn": 4,
-                    "startOffset": 61579,
+                    "startOffset": 61578,
                     "endLine": 746,
                     "endColumn": 12,
-                    "endOffset": 61782
+                    "endOffset": 61781
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4321,10 +4321,10 @@
                 "to": {
                     "startLine": 747,
                     "startColumn": 4,
-                    "startOffset": 61787,
+                    "startOffset": 61786,
                     "endLine": 749,
                     "endColumn": 12,
-                    "endOffset": 61913
+                    "endOffset": 61912
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4334,10 +4334,10 @@
                 "to": {
                     "startLine": 750,
                     "startColumn": 4,
-                    "startOffset": 61918,
+                    "startOffset": 61917,
                     "endLine": 753,
                     "endColumn": 12,
-                    "endOffset": 62140
+                    "endOffset": 62139
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4347,10 +4347,10 @@
                 "to": {
                     "startLine": 754,
                     "startColumn": 4,
-                    "startOffset": 62145,
+                    "startOffset": 62144,
                     "endLine": 757,
                     "endColumn": 12,
-                    "endOffset": 62386
+                    "endOffset": 62385
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4360,10 +4360,10 @@
                 "to": {
                     "startLine": 758,
                     "startColumn": 4,
-                    "startOffset": 62391,
+                    "startOffset": 62390,
                     "endLine": 761,
                     "endColumn": 12,
-                    "endOffset": 62611
+                    "endOffset": 62610
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4373,10 +4373,10 @@
                 "to": {
                     "startLine": 762,
                     "startColumn": 4,
-                    "startOffset": 62616,
+                    "startOffset": 62615,
                     "endLine": 765,
                     "endColumn": 12,
-                    "endOffset": 62858
+                    "endOffset": 62857
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4386,10 +4386,10 @@
                 "to": {
                     "startLine": 766,
                     "startColumn": 4,
-                    "startOffset": 62863,
+                    "startOffset": 62862,
                     "endLine": 769,
                     "endColumn": 12,
-                    "endOffset": 63079
+                    "endOffset": 63078
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4399,10 +4399,10 @@
                 "to": {
                     "startLine": 770,
                     "startColumn": 4,
-                    "startOffset": 63084,
+                    "startOffset": 63083,
                     "endLine": 773,
                     "endColumn": 12,
-                    "endOffset": 63324
+                    "endOffset": 63323
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4412,10 +4412,10 @@
                 "to": {
                     "startLine": 774,
                     "startColumn": 4,
-                    "startOffset": 63329,
+                    "startOffset": 63328,
                     "endLine": 777,
                     "endColumn": 12,
-                    "endOffset": 63600
+                    "endOffset": 63599
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4425,10 +4425,10 @@
                 "to": {
                     "startLine": 778,
                     "startColumn": 4,
-                    "startOffset": 63605,
+                    "startOffset": 63604,
                     "endLine": 781,
                     "endColumn": 12,
-                    "endOffset": 63901
+                    "endOffset": 63900
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4438,10 +4438,10 @@
                 "to": {
                     "startLine": 782,
                     "startColumn": 4,
-                    "startOffset": 63906,
+                    "startOffset": 63905,
                     "endLine": 785,
                     "endColumn": 12,
-                    "endOffset": 64225
+                    "endOffset": 64224
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4451,10 +4451,10 @@
                 "to": {
                     "startLine": 786,
                     "startColumn": 4,
-                    "startOffset": 64230,
+                    "startOffset": 64229,
                     "endLine": 789,
                     "endColumn": 12,
-                    "endOffset": 64516
+                    "endOffset": 64515
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4464,10 +4464,10 @@
                 "to": {
                     "startLine": 790,
                     "startColumn": 4,
-                    "startOffset": 64521,
+                    "startOffset": 64520,
                     "endLine": 793,
                     "endColumn": 12,
-                    "endOffset": 64830
+                    "endOffset": 64829
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4477,9 +4477,9 @@
                 "to": {
                     "startLine": 794,
                     "startColumn": 4,
-                    "startOffset": 64835,
+                    "startOffset": 64834,
                     "endColumn": 136,
-                    "endOffset": 64967
+                    "endOffset": 64966
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4489,9 +4489,9 @@
                 "to": {
                     "startLine": 795,
                     "startColumn": 4,
-                    "startOffset": 64972,
+                    "startOffset": 64971,
                     "endColumn": 130,
-                    "endOffset": 65098
+                    "endOffset": 65097
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4501,9 +4501,9 @@
                 "to": {
                     "startLine": 796,
                     "startColumn": 4,
-                    "startOffset": 65103,
+                    "startOffset": 65102,
                     "endColumn": 104,
-                    "endOffset": 65203
+                    "endOffset": 65202
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4513,10 +4513,10 @@
                 "to": {
                     "startLine": 797,
                     "startColumn": 4,
-                    "startOffset": 65208,
+                    "startOffset": 65207,
                     "endLine": 799,
                     "endColumn": 12,
-                    "endOffset": 65407
+                    "endOffset": 65406
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4526,10 +4526,10 @@
                 "to": {
                     "startLine": 800,
                     "startColumn": 4,
-                    "startOffset": 65412,
+                    "startOffset": 65411,
                     "endLine": 802,
                     "endColumn": 12,
-                    "endOffset": 65615
+                    "endOffset": 65614
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4539,10 +4539,10 @@
                 "to": {
                     "startLine": 803,
                     "startColumn": 4,
-                    "startOffset": 65620,
+                    "startOffset": 65619,
                     "endLine": 806,
                     "endColumn": 12,
-                    "endOffset": 65886
+                    "endOffset": 65885
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4552,9 +4552,9 @@
                 "to": {
                     "startLine": 807,
                     "startColumn": 4,
-                    "startOffset": 65891,
+                    "startOffset": 65890,
                     "endColumn": 111,
-                    "endOffset": 65998
+                    "endOffset": 65997
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4564,9 +4564,9 @@
                 "to": {
                     "startLine": 808,
                     "startColumn": 4,
-                    "startOffset": 66003,
+                    "startOffset": 66002,
                     "endColumn": 111,
-                    "endOffset": 66110
+                    "endOffset": 66109
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4576,9 +4576,9 @@
                 "to": {
                     "startLine": 809,
                     "startColumn": 4,
-                    "startOffset": 66115,
+                    "startOffset": 66114,
                     "endColumn": 104,
-                    "endOffset": 66215
+                    "endOffset": 66214
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4588,9 +4588,9 @@
                 "to": {
                     "startLine": 810,
                     "startColumn": 4,
-                    "startOffset": 66220,
+                    "startOffset": 66219,
                     "endColumn": 116,
-                    "endOffset": 66332
+                    "endOffset": 66331
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4600,10 +4600,10 @@
                 "to": {
                     "startLine": 811,
                     "startColumn": 4,
-                    "startOffset": 66337,
+                    "startOffset": 66336,
                     "endLine": 813,
                     "endColumn": 12,
-                    "endOffset": 66546
+                    "endOffset": 66545
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4613,10 +4613,10 @@
                 "to": {
                     "startLine": 814,
                     "startColumn": 4,
-                    "startOffset": 66551,
+                    "startOffset": 66550,
                     "endLine": 815,
                     "endColumn": 12,
-                    "endOffset": 66692
+                    "endOffset": 66691
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4626,10 +4626,10 @@
                 "to": {
                     "startLine": 816,
                     "startColumn": 4,
-                    "startOffset": 66697,
+                    "startOffset": 66696,
                     "endLine": 817,
                     "endColumn": 12,
-                    "endOffset": 66832
+                    "endOffset": 66831
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4639,10 +4639,10 @@
                 "to": {
                     "startLine": 818,
                     "startColumn": 4,
-                    "startOffset": 66837,
+                    "startOffset": 66836,
                     "endLine": 819,
                     "endColumn": 12,
-                    "endOffset": 66918
+                    "endOffset": 66917
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4652,10 +4652,10 @@
                 "to": {
                     "startLine": 820,
                     "startColumn": 4,
-                    "startOffset": 66923,
+                    "startOffset": 66922,
                     "endLine": 824,
                     "endColumn": 12,
-                    "endOffset": 67266
+                    "endOffset": 67265
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4665,9 +4665,9 @@
                 "to": {
                     "startLine": 825,
                     "startColumn": 4,
-                    "startOffset": 67271,
+                    "startOffset": 67270,
                     "endColumn": 87,
-                    "endOffset": 67354
+                    "endOffset": 67353
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4677,10 +4677,10 @@
                 "to": {
                     "startLine": 826,
                     "startColumn": 4,
-                    "startOffset": 67359,
+                    "startOffset": 67358,
                     "endLine": 829,
                     "endColumn": 12,
-                    "endOffset": 67584
+                    "endOffset": 67583
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4690,10 +4690,10 @@
                 "to": {
                     "startLine": 830,
                     "startColumn": 4,
-                    "startOffset": 67589,
+                    "startOffset": 67588,
                     "endLine": 835,
                     "endColumn": 12,
-                    "endOffset": 68002
+                    "endOffset": 68001
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4703,10 +4703,10 @@
                 "to": {
                     "startLine": 836,
                     "startColumn": 4,
-                    "startOffset": 68007,
+                    "startOffset": 68006,
                     "endLine": 839,
                     "endColumn": 12,
-                    "endOffset": 68235
+                    "endOffset": 68234
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4716,9 +4716,9 @@
                 "to": {
                     "startLine": 840,
                     "startColumn": 4,
-                    "startOffset": 68240,
+                    "startOffset": 68239,
                     "endColumn": 81,
-                    "endOffset": 68317
+                    "endOffset": 68316
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4728,10 +4728,10 @@
                 "to": {
                     "startLine": 841,
                     "startColumn": 4,
-                    "startOffset": 68322,
+                    "startOffset": 68321,
                     "endLine": 842,
                     "endColumn": 12,
-                    "endOffset": 68415
+                    "endOffset": 68414
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4741,10 +4741,10 @@
                 "to": {
                     "startLine": 843,
                     "startColumn": 4,
-                    "startOffset": 68420,
+                    "startOffset": 68419,
                     "endLine": 853,
                     "endColumn": 12,
-                    "endOffset": 69007
+                    "endOffset": 69006
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4754,9 +4754,9 @@
                 "to": {
                     "startLine": 854,
                     "startColumn": 4,
-                    "startOffset": 69012,
+                    "startOffset": 69011,
                     "endColumn": 99,
-                    "endOffset": 69107
+                    "endOffset": 69106
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4766,10 +4766,10 @@
                 "to": {
                     "startLine": 855,
                     "startColumn": 4,
-                    "startOffset": 69112,
+                    "startOffset": 69111,
                     "endLine": 858,
                     "endColumn": 12,
-                    "endOffset": 69343
+                    "endOffset": 69342
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4779,10 +4779,10 @@
                 "to": {
                     "startLine": 859,
                     "startColumn": 4,
-                    "startOffset": 69348,
+                    "startOffset": 69347,
                     "endLine": 864,
                     "endColumn": 12,
-                    "endOffset": 69767
+                    "endOffset": 69766
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4792,10 +4792,10 @@
                 "to": {
                     "startLine": 865,
                     "startColumn": 4,
-                    "startOffset": 69772,
+                    "startOffset": 69771,
                     "endLine": 868,
                     "endColumn": 12,
-                    "endOffset": 70006
+                    "endOffset": 70005
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4805,9 +4805,9 @@
                 "to": {
                     "startLine": 869,
                     "startColumn": 4,
-                    "startOffset": 70011,
+                    "startOffset": 70010,
                     "endColumn": 93,
-                    "endOffset": 70100
+                    "endOffset": 70099
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4817,9 +4817,9 @@
                 "to": {
                     "startLine": 870,
                     "startColumn": 4,
-                    "startOffset": 70105,
+                    "startOffset": 70104,
                     "endColumn": 88,
-                    "endOffset": 70189
+                    "endOffset": 70188
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4829,10 +4829,10 @@
                 "to": {
                     "startLine": 871,
                     "startColumn": 4,
-                    "startOffset": 70194,
+                    "startOffset": 70193,
                     "endLine": 874,
                     "endColumn": 12,
-                    "endOffset": 70426
+                    "endOffset": 70425
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4842,10 +4842,10 @@
                 "to": {
                     "startLine": 875,
                     "startColumn": 4,
-                    "startOffset": 70431,
+                    "startOffset": 70430,
                     "endLine": 900,
                     "endColumn": 12,
-                    "endOffset": 72349
+                    "endOffset": 72348
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4855,10 +4855,10 @@
                 "to": {
                     "startLine": 901,
                     "startColumn": 4,
-                    "startOffset": 72354,
+                    "startOffset": 72353,
                     "endLine": 904,
                     "endColumn": 12,
-                    "endOffset": 72591
+                    "endOffset": 72590
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4868,9 +4868,9 @@
                 "to": {
                     "startLine": 905,
                     "startColumn": 4,
-                    "startOffset": 72596,
+                    "startOffset": 72595,
                     "endColumn": 101,
-                    "endOffset": 72693
+                    "endOffset": 72692
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4880,10 +4880,10 @@
                 "to": {
                     "startLine": 906,
                     "startColumn": 4,
-                    "startOffset": 72698,
+                    "startOffset": 72697,
                     "endLine": 909,
                     "endColumn": 12,
-                    "endOffset": 72930
+                    "endOffset": 72929
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4893,10 +4893,10 @@
                 "to": {
                     "startLine": 910,
                     "startColumn": 4,
-                    "startOffset": 72935,
+                    "startOffset": 72934,
                     "endLine": 936,
                     "endColumn": 12,
-                    "endOffset": 74984
+                    "endOffset": 74983
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4906,10 +4906,10 @@
                 "to": {
                     "startLine": 937,
                     "startColumn": 4,
-                    "startOffset": 74989,
+                    "startOffset": 74988,
                     "endLine": 1094,
                     "endColumn": 12,
-                    "endOffset": 84580
+                    "endOffset": 84579
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4919,10 +4919,10 @@
                 "to": {
                     "startLine": 1095,
                     "startColumn": 4,
-                    "startOffset": 84585,
+                    "startOffset": 84584,
                     "endLine": 1116,
                     "endColumn": 12,
-                    "endOffset": 85831
+                    "endOffset": 85830
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4932,10 +4932,10 @@
                 "to": {
                     "startLine": 1117,
                     "startColumn": 4,
-                    "startOffset": 85836,
+                    "startOffset": 85835,
                     "endLine": 1274,
                     "endColumn": 12,
-                    "endOffset": 95526
+                    "endOffset": 95525
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4945,10 +4945,10 @@
                 "to": {
                     "startLine": 1275,
                     "startColumn": 4,
-                    "startOffset": 95531,
+                    "startOffset": 95530,
                     "endLine": 1296,
                     "endColumn": 12,
-                    "endOffset": 96789
+                    "endOffset": 96788
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4958,10 +4958,10 @@
                 "to": {
                     "startLine": 1297,
                     "startColumn": 4,
-                    "startOffset": 96794,
+                    "startOffset": 96793,
                     "endLine": 1318,
                     "endColumn": 12,
-                    "endOffset": 98054
+                    "endOffset": 98053
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4971,10 +4971,10 @@
                 "to": {
                     "startLine": 1319,
                     "startColumn": 4,
-                    "startOffset": 98059,
+                    "startOffset": 98058,
                     "endLine": 1325,
                     "endColumn": 12,
-                    "endOffset": 98590
+                    "endOffset": 98589
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4984,10 +4984,10 @@
                 "to": {
                     "startLine": 1326,
                     "startColumn": 4,
-                    "startOffset": 98595,
+                    "startOffset": 98594,
                     "endLine": 1330,
                     "endColumn": 12,
-                    "endOffset": 98920
+                    "endOffset": 98919
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -4997,10 +4997,10 @@
                 "to": {
                     "startLine": 1331,
                     "startColumn": 4,
-                    "startOffset": 98925,
+                    "startOffset": 98924,
                     "endLine": 1352,
                     "endColumn": 12,
-                    "endOffset": 100185
+                    "endOffset": 100184
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5010,10 +5010,10 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 100190,
+                    "startOffset": 100189,
                     "endLine": 1357,
                     "endColumn": 12,
-                    "endOffset": 100441
+                    "endOffset": 100440
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5023,10 +5023,10 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 100446,
+                    "startOffset": 100445,
                     "endLine": 1362,
                     "endColumn": 12,
-                    "endOffset": 100677
+                    "endOffset": 100676
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5036,10 +5036,10 @@
                 "to": {
                     "startLine": 1363,
                     "startColumn": 4,
-                    "startOffset": 100682,
+                    "startOffset": 100681,
                     "endLine": 1372,
                     "endColumn": 12,
-                    "endOffset": 101224
+                    "endOffset": 101223
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5049,10 +5049,10 @@
                 "to": {
                     "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 101229,
+                    "startOffset": 101228,
                     "endLine": 1381,
                     "endColumn": 12,
-                    "endOffset": 101718
+                    "endOffset": 101717
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5062,10 +5062,10 @@
                 "to": {
                     "startLine": 1382,
                     "startColumn": 4,
-                    "startOffset": 101723,
+                    "startOffset": 101722,
                     "endLine": 1390,
                     "endColumn": 12,
-                    "endOffset": 102323
+                    "endOffset": 102322
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5075,10 +5075,10 @@
                 "to": {
                     "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 102328,
+                    "startOffset": 102327,
                     "endLine": 1394,
                     "endColumn": 12,
-                    "endOffset": 102521
+                    "endOffset": 102520
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5088,10 +5088,10 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 102526,
+                    "startOffset": 102525,
                     "endLine": 1401,
                     "endColumn": 12,
-                    "endOffset": 103101
+                    "endOffset": 103100
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5101,10 +5101,10 @@
                 "to": {
                     "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 103106,
+                    "startOffset": 103105,
                     "endLine": 1409,
                     "endColumn": 12,
-                    "endOffset": 103665
+                    "endOffset": 103664
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5114,10 +5114,10 @@
                 "to": {
                     "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 103670,
+                    "startOffset": 103669,
                     "endLine": 1416,
                     "endColumn": 12,
-                    "endOffset": 104040
+                    "endOffset": 104039
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5127,9 +5127,9 @@
                 "to": {
                     "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 104045,
+                    "startOffset": 104044,
                     "endColumn": 117,
-                    "endOffset": 104158
+                    "endOffset": 104157
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5139,10 +5139,10 @@
                 "to": {
                     "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 104163,
+                    "startOffset": 104162,
                     "endLine": 1426,
                     "endColumn": 12,
-                    "endOffset": 104696
+                    "endOffset": 104695
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5152,10 +5152,10 @@
                 "to": {
                     "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 104701,
+                    "startOffset": 104700,
                     "endLine": 1429,
                     "endColumn": 12,
-                    "endOffset": 104853
+                    "endOffset": 104852
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5165,10 +5165,10 @@
                 "to": {
                     "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 104858,
+                    "startOffset": 104857,
                     "endLine": 1432,
                     "endColumn": 12,
-                    "endOffset": 105027
+                    "endOffset": 105026
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5178,10 +5178,10 @@
                 "to": {
                     "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 105032,
+                    "startOffset": 105031,
                     "endLine": 1437,
                     "endColumn": 12,
-                    "endOffset": 105347
+                    "endOffset": 105346
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5191,10 +5191,10 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 105352,
+                    "startOffset": 105351,
                     "endLine": 1441,
                     "endColumn": 12,
-                    "endOffset": 105603
+                    "endOffset": 105602
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5204,10 +5204,10 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 105608,
+                    "startOffset": 105607,
                     "endLine": 1445,
                     "endColumn": 12,
-                    "endOffset": 105773
+                    "endOffset": 105772
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5217,10 +5217,10 @@
                 "to": {
                     "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 105778,
+                    "startOffset": 105777,
                     "endLine": 1448,
                     "endColumn": 12,
-                    "endOffset": 105914
+                    "endOffset": 105913
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5230,9 +5230,9 @@
                 "to": {
                     "startLine": 1449,
                     "startColumn": 4,
-                    "startOffset": 105919,
+                    "startOffset": 105918,
                     "endColumn": 63,
-                    "endOffset": 105978
+                    "endOffset": 105977
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5242,10 +5242,10 @@
                 "to": {
                     "startLine": 1450,
                     "startColumn": 4,
-                    "startOffset": 105983,
+                    "startOffset": 105982,
                     "endLine": 1453,
                     "endColumn": 12,
-                    "endOffset": 106260
+                    "endOffset": 106259
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5255,10 +5255,10 @@
                 "to": {
                     "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 106265,
+                    "startOffset": 106264,
                     "endLine": 1457,
                     "endColumn": 12,
-                    "endOffset": 106546
+                    "endOffset": 106545
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5268,10 +5268,10 @@
                 "to": {
                     "startLine": 1458,
                     "startColumn": 4,
-                    "startOffset": 106551,
+                    "startOffset": 106550,
                     "endLine": 1467,
                     "endColumn": 12,
-                    "endOffset": 107222
+                    "endOffset": 107221
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5281,10 +5281,10 @@
                 "to": {
                     "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 107227,
+                    "startOffset": 107226,
                     "endLine": 1472,
                     "endColumn": 12,
-                    "endOffset": 107486
+                    "endOffset": 107485
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5294,10 +5294,10 @@
                 "to": {
                     "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 107491,
+                    "startOffset": 107490,
                     "endLine": 1479,
                     "endColumn": 12,
-                    "endOffset": 107824
+                    "endOffset": 107823
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5307,10 +5307,10 @@
                 "to": {
                     "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 107829,
+                    "startOffset": 107828,
                     "endLine": 1485,
                     "endColumn": 12,
-                    "endOffset": 108177
+                    "endOffset": 108176
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5320,9 +5320,9 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 108182,
+                    "startOffset": 108181,
                     "endColumn": 93,
-                    "endOffset": 108271
+                    "endOffset": 108270
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5332,10 +5332,10 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 108276,
+                    "startOffset": 108275,
                     "endLine": 1489,
                     "endColumn": 12,
-                    "endOffset": 108457
+                    "endOffset": 108456
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5345,10 +5345,10 @@
                 "to": {
                     "startLine": 1490,
                     "startColumn": 4,
-                    "startOffset": 108462,
+                    "startOffset": 108461,
                     "endLine": 1493,
                     "endColumn": 12,
-                    "endOffset": 108763
+                    "endOffset": 108762
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5358,10 +5358,10 @@
                 "to": {
                     "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 108768,
+                    "startOffset": 108767,
                     "endLine": 1498,
                     "endColumn": 12,
-                    "endOffset": 109025
+                    "endOffset": 109024
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5371,10 +5371,10 @@
                 "to": {
                     "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 109030,
+                    "startOffset": 109029,
                     "endLine": 1500,
                     "endColumn": 12,
-                    "endOffset": 109150
+                    "endOffset": 109149
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5384,10 +5384,10 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 109155,
+                    "startOffset": 109154,
                     "endLine": 1502,
                     "endColumn": 12,
-                    "endOffset": 109277
+                    "endOffset": 109276
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5397,10 +5397,10 @@
                 "to": {
                     "startLine": 1503,
                     "startColumn": 4,
-                    "startOffset": 109282,
+                    "startOffset": 109281,
                     "endLine": 1505,
                     "endColumn": 12,
-                    "endOffset": 109516
+                    "endOffset": 109515
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5410,10 +5410,10 @@
                 "to": {
                     "startLine": 1506,
                     "startColumn": 4,
-                    "startOffset": 109521,
+                    "startOffset": 109520,
                     "endLine": 1508,
                     "endColumn": 12,
-                    "endOffset": 109727
+                    "endOffset": 109726
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5423,10 +5423,10 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 109732,
+                    "startOffset": 109731,
                     "endLine": 1510,
                     "endColumn": 12,
-                    "endOffset": 109846
+                    "endOffset": 109845
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5436,10 +5436,10 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 109851,
+                    "startOffset": 109850,
                     "endLine": 1514,
                     "endColumn": 12,
-                    "endOffset": 110039
+                    "endOffset": 110038
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5449,10 +5449,10 @@
                 "to": {
                     "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 110044,
+                    "startOffset": 110043,
                     "endLine": 1517,
                     "endColumn": 12,
-                    "endOffset": 110216
+                    "endOffset": 110215
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5462,10 +5462,10 @@
                 "to": {
                     "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 110221,
+                    "startOffset": 110220,
                     "endLine": 1524,
                     "endColumn": 12,
-                    "endOffset": 110671
+                    "endOffset": 110670
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5475,10 +5475,10 @@
                 "to": {
                     "startLine": 1525,
                     "startColumn": 4,
-                    "startOffset": 110676,
+                    "startOffset": 110675,
                     "endLine": 1527,
                     "endColumn": 12,
-                    "endOffset": 110852
+                    "endOffset": 110851
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5488,10 +5488,10 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 110857,
+                    "startOffset": 110856,
                     "endLine": 1530,
                     "endColumn": 12,
-                    "endOffset": 110974
+                    "endOffset": 110973
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5501,10 +5501,10 @@
                 "to": {
                     "startLine": 1531,
                     "startColumn": 4,
-                    "startOffset": 110979,
+                    "startOffset": 110978,
                     "endLine": 1534,
                     "endColumn": 12,
-                    "endOffset": 111233
+                    "endOffset": 111232
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5514,10 +5514,10 @@
                 "to": {
                     "startLine": 1535,
                     "startColumn": 4,
-                    "startOffset": 111238,
+                    "startOffset": 111237,
                     "endLine": 1536,
                     "endColumn": 12,
-                    "endOffset": 111346
+                    "endOffset": 111345
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5527,10 +5527,10 @@
                 "to": {
                     "startLine": 1537,
                     "startColumn": 4,
-                    "startOffset": 111351,
+                    "startOffset": 111350,
                     "endLine": 1540,
                     "endColumn": 12,
-                    "endOffset": 111533
+                    "endOffset": 111532
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5540,10 +5540,10 @@
                 "to": {
                     "startLine": 1541,
                     "startColumn": 4,
-                    "startOffset": 111538,
+                    "startOffset": 111537,
                     "endLine": 1542,
                     "endColumn": 12,
-                    "endOffset": 111635
+                    "endOffset": 111634
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5553,10 +5553,10 @@
                 "to": {
                     "startLine": 1543,
                     "startColumn": 4,
-                    "startOffset": 111640,
+                    "startOffset": 111639,
                     "endLine": 1548,
                     "endColumn": 12,
-                    "endOffset": 112079
+                    "endOffset": 112078
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5566,10 +5566,10 @@
                 "to": {
                     "startLine": 1549,
                     "startColumn": 4,
-                    "startOffset": 112084,
+                    "startOffset": 112083,
                     "endLine": 1550,
                     "endColumn": 12,
-                    "endOffset": 112203
+                    "endOffset": 112202
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5579,10 +5579,10 @@
                 "to": {
                     "startLine": 1551,
                     "startColumn": 4,
-                    "startOffset": 112208,
+                    "startOffset": 112207,
                     "endLine": 1554,
                     "endColumn": 12,
-                    "endOffset": 112478
+                    "endOffset": 112477
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5592,10 +5592,10 @@
                 "to": {
                     "startLine": 1555,
                     "startColumn": 4,
-                    "startOffset": 112483,
+                    "startOffset": 112482,
                     "endLine": 1562,
                     "endColumn": 12,
-                    "endOffset": 112986
+                    "endOffset": 112985
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5605,10 +5605,10 @@
                 "to": {
                     "startLine": 1563,
                     "startColumn": 4,
-                    "startOffset": 112991,
+                    "startOffset": 112990,
                     "endLine": 1570,
                     "endColumn": 12,
-                    "endOffset": 113482
+                    "endOffset": 113481
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5618,10 +5618,10 @@
                 "to": {
                     "startLine": 1571,
                     "startColumn": 4,
-                    "startOffset": 113487,
+                    "startOffset": 113486,
                     "endLine": 1582,
                     "endColumn": 12,
-                    "endOffset": 114359
+                    "endOffset": 114358
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5631,10 +5631,10 @@
                 "to": {
                     "startLine": 1583,
                     "startColumn": 4,
-                    "startOffset": 114364,
+                    "startOffset": 114363,
                     "endLine": 1588,
                     "endColumn": 12,
-                    "endOffset": 114653
+                    "endOffset": 114652
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5644,10 +5644,10 @@
                 "to": {
                     "startLine": 1589,
                     "startColumn": 4,
-                    "startOffset": 114658,
+                    "startOffset": 114657,
                     "endLine": 1597,
                     "endColumn": 12,
-                    "endOffset": 115223
+                    "endOffset": 115222
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5657,10 +5657,10 @@
                 "to": {
                     "startLine": 1598,
                     "startColumn": 4,
-                    "startOffset": 115228,
+                    "startOffset": 115227,
                     "endLine": 1600,
                     "endColumn": 12,
-                    "endOffset": 115372
+                    "endOffset": 115371
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5670,10 +5670,10 @@
                 "to": {
                     "startLine": 1601,
                     "startColumn": 4,
-                    "startOffset": 115377,
+                    "startOffset": 115376,
                     "endLine": 1611,
                     "endColumn": 12,
-                    "endOffset": 116104
+                    "endOffset": 116103
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5683,10 +5683,10 @@
                 "to": {
                     "startLine": 1612,
                     "startColumn": 4,
-                    "startOffset": 116109,
+                    "startOffset": 116108,
                     "endLine": 1614,
                     "endColumn": 12,
-                    "endOffset": 116276
+                    "endOffset": 116275
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5696,10 +5696,10 @@
                 "to": {
                     "startLine": 1615,
                     "startColumn": 4,
-                    "startOffset": 116281,
+                    "startOffset": 116280,
                     "endLine": 1619,
                     "endColumn": 12,
-                    "endOffset": 116612
+                    "endOffset": 116611
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5709,10 +5709,10 @@
                 "to": {
                     "startLine": 1620,
                     "startColumn": 4,
-                    "startOffset": 116617,
+                    "startOffset": 116616,
                     "endLine": 1633,
                     "endColumn": 12,
-                    "endOffset": 117670
+                    "endOffset": 117669
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5722,10 +5722,10 @@
                 "to": {
                     "startLine": 1634,
                     "startColumn": 4,
-                    "startOffset": 117675,
+                    "startOffset": 117674,
                     "endLine": 1638,
                     "endColumn": 12,
-                    "endOffset": 117948
+                    "endOffset": 117947
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5735,10 +5735,10 @@
                 "to": {
                     "startLine": 1639,
                     "startColumn": 4,
-                    "startOffset": 117953,
+                    "startOffset": 117952,
                     "endLine": 1641,
                     "endColumn": 12,
-                    "endOffset": 118102
+                    "endOffset": 118101
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -5748,10 +5748,10 @@
                 "to": {
                     "startLine": 1642,
                     "startColumn": 4,
-                    "startOffset": 118107,
+                    "startOffset": 118106,
                     "endLine": 1651,
                     "endColumn": 12,
-                    "endOffset": 118693
+                    "endOffset": 118692
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -5761,10 +5761,10 @@
                 "to": {
                     "startLine": 1652,
                     "startColumn": 4,
-                    "startOffset": 118698,
+                    "startOffset": 118697,
                     "endLine": 1693,
                     "endColumn": 12,
-                    "endOffset": 121812
+                    "endOffset": 121811
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5774,10 +5774,10 @@
                 "to": {
                     "startLine": 1694,
                     "startColumn": 4,
-                    "startOffset": 121817,
+                    "startOffset": 121816,
                     "endLine": 1736,
                     "endColumn": 12,
-                    "endOffset": 125071
+                    "endOffset": 125070
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5787,9 +5787,9 @@
                 "to": {
                     "startLine": 1737,
                     "startColumn": 4,
-                    "startOffset": 125076,
+                    "startOffset": 125075,
                     "endColumn": 61,
-                    "endOffset": 125133
+                    "endOffset": 125132
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5799,10 +5799,10 @@
                 "to": {
                     "startLine": 1738,
                     "startColumn": 4,
-                    "startOffset": 125138,
+                    "startOffset": 125137,
                     "endLine": 1747,
                     "endColumn": 12,
-                    "endOffset": 125711
+                    "endOffset": 125710
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5812,10 +5812,10 @@
                 "to": {
                     "startLine": 1748,
                     "startColumn": 4,
-                    "startOffset": 125716,
+                    "startOffset": 125715,
                     "endLine": 1756,
                     "endColumn": 12,
-                    "endOffset": 126295
+                    "endOffset": 126294
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5825,9 +5825,9 @@
                 "to": {
                     "startLine": 1757,
                     "startColumn": 4,
-                    "startOffset": 126300,
+                    "startOffset": 126299,
                     "endColumn": 85,
-                    "endOffset": 126381
+                    "endOffset": 126380
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5837,10 +5837,10 @@
                 "to": {
                     "startLine": 1758,
                     "startColumn": 4,
-                    "startOffset": 126386,
+                    "startOffset": 126385,
                     "endLine": 1759,
                     "endColumn": 12,
-                    "endOffset": 126494
+                    "endOffset": 126493
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5850,10 +5850,10 @@
                 "to": {
                     "startLine": 1760,
                     "startColumn": 4,
-                    "startOffset": 126499,
+                    "startOffset": 126498,
                     "endLine": 1763,
                     "endColumn": 12,
-                    "endOffset": 126723
+                    "endOffset": 126722
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5863,10 +5863,10 @@
                 "to": {
                     "startLine": 1764,
                     "startColumn": 4,
-                    "startOffset": 126728,
+                    "startOffset": 126727,
                     "endLine": 1766,
                     "endColumn": 12,
-                    "endOffset": 126883
+                    "endOffset": 126882
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5876,10 +5876,10 @@
                 "to": {
                     "startLine": 1767,
                     "startColumn": 4,
-                    "startOffset": 126888,
+                    "startOffset": 126887,
                     "endLine": 1769,
                     "endColumn": 12,
-                    "endOffset": 127035
+                    "endOffset": 127034
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5889,10 +5889,10 @@
                 "to": {
                     "startLine": 1770,
                     "startColumn": 4,
-                    "startOffset": 127040,
+                    "startOffset": 127039,
                     "endLine": 1772,
                     "endColumn": 12,
-                    "endOffset": 127206
+                    "endOffset": 127205
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5902,10 +5902,10 @@
                 "to": {
                     "startLine": 1773,
                     "startColumn": 4,
-                    "startOffset": 127211,
+                    "startOffset": 127210,
                     "endLine": 1775,
                     "endColumn": 12,
-                    "endOffset": 127373
+                    "endOffset": 127372
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5915,10 +5915,10 @@
                 "to": {
                     "startLine": 1776,
                     "startColumn": 4,
-                    "startOffset": 127378,
+                    "startOffset": 127377,
                     "endLine": 1779,
                     "endColumn": 12,
-                    "endOffset": 127616
+                    "endOffset": 127615
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5928,10 +5928,10 @@
                 "to": {
                     "startLine": 1780,
                     "startColumn": 4,
-                    "startOffset": 127621,
+                    "startOffset": 127620,
                     "endLine": 1782,
                     "endColumn": 12,
-                    "endOffset": 127786
+                    "endOffset": 127785
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5941,10 +5941,10 @@
                 "to": {
                     "startLine": 1783,
                     "startColumn": 4,
-                    "startOffset": 127791,
+                    "startOffset": 127790,
                     "endLine": 1785,
                     "endColumn": 12,
-                    "endOffset": 127959
+                    "endOffset": 127958
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5954,10 +5954,10 @@
                 "to": {
                     "startLine": 1786,
                     "startColumn": 4,
-                    "startOffset": 127964,
+                    "startOffset": 127963,
                     "endLine": 1788,
                     "endColumn": 12,
-                    "endOffset": 128130
+                    "endOffset": 128129
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5967,10 +5967,10 @@
                 "to": {
                     "startLine": 1789,
                     "startColumn": 4,
-                    "startOffset": 128135,
+                    "startOffset": 128134,
                     "endLine": 1792,
                     "endColumn": 12,
-                    "endOffset": 128404
+                    "endOffset": 128403
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5980,10 +5980,10 @@
                 "to": {
                     "startLine": 1793,
                     "startColumn": 4,
-                    "startOffset": 128409,
+                    "startOffset": 128408,
                     "endLine": 1795,
                     "endColumn": 12,
-                    "endOffset": 128603
+                    "endOffset": 128602
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -5993,10 +5993,10 @@
                 "to": {
                     "startLine": 1796,
                     "startColumn": 4,
-                    "startOffset": 128608,
+                    "startOffset": 128607,
                     "endLine": 1799,
                     "endColumn": 12,
-                    "endOffset": 128808
+                    "endOffset": 128807
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6006,10 +6006,10 @@
                 "to": {
                     "startLine": 1800,
                     "startColumn": 4,
-                    "startOffset": 128813,
+                    "startOffset": 128812,
                     "endLine": 1803,
                     "endColumn": 12,
-                    "endOffset": 129138
+                    "endOffset": 129137
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6019,9 +6019,9 @@
                 "to": {
                     "startLine": 1804,
                     "startColumn": 4,
-                    "startOffset": 129143,
+                    "startOffset": 129142,
                     "endColumn": 83,
-                    "endOffset": 129222
+                    "endOffset": 129221
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6031,9 +6031,9 @@
                 "to": {
                     "startLine": 1805,
                     "startColumn": 4,
-                    "startOffset": 129227,
+                    "startOffset": 129226,
                     "endColumn": 95,
-                    "endOffset": 129318
+                    "endOffset": 129317
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6043,9 +6043,9 @@
                 "to": {
                     "startLine": 1806,
                     "startColumn": 4,
-                    "startOffset": 129323,
+                    "startOffset": 129322,
                     "endColumn": 95,
-                    "endOffset": 129414
+                    "endOffset": 129413
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6055,9 +6055,9 @@
                 "to": {
                     "startLine": 1807,
                     "startColumn": 4,
-                    "startOffset": 129419,
+                    "startOffset": 129418,
                     "endColumn": 97,
-                    "endOffset": 129512
+                    "endOffset": 129511
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6067,9 +6067,9 @@
                 "to": {
                     "startLine": 1808,
                     "startColumn": 4,
-                    "startOffset": 129517,
+                    "startOffset": 129516,
                     "endColumn": 99,
-                    "endOffset": 129612
+                    "endOffset": 129611
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6079,9 +6079,9 @@
                 "to": {
                     "startLine": 1809,
                     "startColumn": 4,
-                    "startOffset": 129617,
+                    "startOffset": 129616,
                     "endColumn": 101,
-                    "endOffset": 129714
+                    "endOffset": 129713
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6091,9 +6091,9 @@
                 "to": {
                     "startLine": 1810,
                     "startColumn": 4,
-                    "startOffset": 129719,
+                    "startOffset": 129718,
                     "endColumn": 101,
-                    "endOffset": 129816
+                    "endOffset": 129815
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6103,9 +6103,9 @@
                 "to": {
                     "startLine": 1811,
                     "startColumn": 4,
-                    "startOffset": 129821,
+                    "startOffset": 129820,
                     "endColumn": 101,
-                    "endOffset": 129918
+                    "endOffset": 129917
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6115,9 +6115,9 @@
                 "to": {
                     "startLine": 1812,
                     "startColumn": 4,
-                    "startOffset": 129923,
+                    "startOffset": 129922,
                     "endColumn": 101,
-                    "endOffset": 130020
+                    "endOffset": 130019
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6127,9 +6127,9 @@
                 "to": {
                     "startLine": 1813,
                     "startColumn": 4,
-                    "startOffset": 130025,
+                    "startOffset": 130024,
                     "endColumn": 101,
-                    "endOffset": 130122
+                    "endOffset": 130121
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6139,9 +6139,9 @@
                 "to": {
                     "startLine": 1814,
                     "startColumn": 4,
-                    "startOffset": 130127,
+                    "startOffset": 130126,
                     "endColumn": 99,
-                    "endOffset": 130222
+                    "endOffset": 130221
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6151,9 +6151,9 @@
                 "to": {
                     "startLine": 1815,
                     "startColumn": 4,
-                    "startOffset": 130227,
+                    "startOffset": 130226,
                     "endColumn": 95,
-                    "endOffset": 130318
+                    "endOffset": 130317
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6163,9 +6163,9 @@
                 "to": {
                     "startLine": 1816,
                     "startColumn": 4,
-                    "startOffset": 130323,
+                    "startOffset": 130322,
                     "endColumn": 111,
-                    "endOffset": 130430
+                    "endOffset": 130429
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6175,9 +6175,9 @@
                 "to": {
                     "startLine": 1817,
                     "startColumn": 4,
-                    "startOffset": 130435,
+                    "startOffset": 130434,
                     "endColumn": 128,
-                    "endOffset": 130559
+                    "endOffset": 130558
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6187,9 +6187,9 @@
                 "to": {
                     "startLine": 1818,
                     "startColumn": 4,
-                    "startOffset": 130564,
+                    "startOffset": 130563,
                     "endColumn": 122,
-                    "endOffset": 130682
+                    "endOffset": 130681
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6199,9 +6199,9 @@
                 "to": {
                     "startLine": 1819,
                     "startColumn": 4,
-                    "startOffset": 130687,
+                    "startOffset": 130686,
                     "endColumn": 130,
-                    "endOffset": 130813
+                    "endOffset": 130812
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6211,9 +6211,9 @@
                 "to": {
                     "startLine": 1820,
                     "startColumn": 4,
-                    "startOffset": 130818,
+                    "startOffset": 130817,
                     "endColumn": 130,
-                    "endOffset": 130944
+                    "endOffset": 130943
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6223,9 +6223,9 @@
                 "to": {
                     "startLine": 1821,
                     "startColumn": 4,
-                    "startOffset": 130949,
+                    "startOffset": 130948,
                     "endColumn": 97,
-                    "endOffset": 131042
+                    "endOffset": 131041
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6235,9 +6235,9 @@
                 "to": {
                     "startLine": 1822,
                     "startColumn": 4,
-                    "startOffset": 131047,
+                    "startOffset": 131046,
                     "endColumn": 113,
-                    "endOffset": 131156
+                    "endOffset": 131155
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6247,9 +6247,9 @@
                 "to": {
                     "startLine": 1823,
                     "startColumn": 4,
-                    "startOffset": 131161,
+                    "startOffset": 131160,
                     "endColumn": 93,
-                    "endOffset": 131250
+                    "endOffset": 131249
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6259,10 +6259,10 @@
                 "to": {
                     "startLine": 1824,
                     "startColumn": 4,
-                    "startOffset": 131255,
+                    "startOffset": 131254,
                     "endLine": 1825,
                     "endColumn": 12,
-                    "endOffset": 131390
+                    "endOffset": 131389
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6272,10 +6272,10 @@
                 "to": {
                     "startLine": 1826,
                     "startColumn": 4,
-                    "startOffset": 131395,
+                    "startOffset": 131394,
                     "endLine": 1827,
                     "endColumn": 12,
-                    "endOffset": 131524
+                    "endOffset": 131523
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6285,9 +6285,9 @@
                 "to": {
                     "startLine": 1828,
                     "startColumn": 4,
-                    "startOffset": 131529,
+                    "startOffset": 131528,
                     "endColumn": 95,
-                    "endOffset": 131620
+                    "endOffset": 131619
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6297,9 +6297,9 @@
                 "to": {
                     "startLine": 1829,
                     "startColumn": 4,
-                    "startOffset": 131625,
+                    "startOffset": 131624,
                     "endColumn": 111,
-                    "endOffset": 131732
+                    "endOffset": 131731
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6309,9 +6309,9 @@
                 "to": {
                     "startLine": 1830,
                     "startColumn": 4,
-                    "startOffset": 131737,
+                    "startOffset": 131736,
                     "endColumn": 99,
-                    "endOffset": 131832
+                    "endOffset": 131831
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6321,9 +6321,9 @@
                 "to": {
                     "startLine": 1831,
                     "startColumn": 4,
-                    "startOffset": 131837,
+                    "startOffset": 131836,
                     "endColumn": 115,
-                    "endOffset": 131948
+                    "endOffset": 131947
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6333,9 +6333,9 @@
                 "to": {
                     "startLine": 1832,
                     "startColumn": 4,
-                    "startOffset": 131953,
+                    "startOffset": 131952,
                     "endColumn": 95,
-                    "endOffset": 132044
+                    "endOffset": 132043
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6345,9 +6345,9 @@
                 "to": {
                     "startLine": 1833,
                     "startColumn": 4,
-                    "startOffset": 132049,
+                    "startOffset": 132048,
                     "endColumn": 111,
-                    "endOffset": 132156
+                    "endOffset": 132155
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6357,10 +6357,10 @@
                 "to": {
                     "startLine": 1834,
                     "startColumn": 4,
-                    "startOffset": 132161,
+                    "startOffset": 132160,
                     "endLine": 1835,
                     "endColumn": 12,
-                    "endOffset": 132296
+                    "endOffset": 132295
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6370,9 +6370,9 @@
                 "to": {
                     "startLine": 1836,
                     "startColumn": 4,
-                    "startOffset": 132301,
+                    "startOffset": 132300,
                     "endColumn": 135,
-                    "endOffset": 132432
+                    "endOffset": 132431
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6382,10 +6382,10 @@
                 "to": {
                     "startLine": 1837,
                     "startColumn": 4,
-                    "startOffset": 132437,
+                    "startOffset": 132436,
                     "endLine": 1838,
                     "endColumn": 12,
-                    "endOffset": 132596
+                    "endOffset": 132595
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6395,9 +6395,9 @@
                 "to": {
                     "startLine": 1839,
                     "startColumn": 4,
-                    "startOffset": 132601,
+                    "startOffset": 132600,
                     "endColumn": 129,
-                    "endOffset": 132726
+                    "endOffset": 132725
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6407,10 +6407,10 @@
                 "to": {
                     "startLine": 1840,
                     "startColumn": 4,
-                    "startOffset": 132731,
+                    "startOffset": 132730,
                     "endLine": 1841,
                     "endColumn": 12,
-                    "endOffset": 132884
+                    "endOffset": 132883
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6420,10 +6420,10 @@
                 "to": {
                     "startLine": 1842,
                     "startColumn": 4,
-                    "startOffset": 132889,
+                    "startOffset": 132888,
                     "endLine": 1843,
                     "endColumn": 12,
-                    "endOffset": 133034
+                    "endOffset": 133033
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6433,9 +6433,9 @@
                 "to": {
                     "startLine": 1844,
                     "startColumn": 4,
-                    "startOffset": 133039,
+                    "startOffset": 133038,
                     "endColumn": 140,
-                    "endOffset": 133175
+                    "endOffset": 133174
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6445,10 +6445,10 @@
                 "to": {
                     "startLine": 1845,
                     "startColumn": 4,
-                    "startOffset": 133180,
+                    "startOffset": 133179,
                     "endLine": 1846,
                     "endColumn": 12,
-                    "endOffset": 133319
+                    "endOffset": 133318
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6458,9 +6458,9 @@
                 "to": {
                     "startLine": 1847,
                     "startColumn": 4,
-                    "startOffset": 133324,
+                    "startOffset": 133323,
                     "endColumn": 134,
-                    "endOffset": 133454
+                    "endOffset": 133453
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6470,9 +6470,9 @@
                 "to": {
                     "startLine": 1848,
                     "startColumn": 4,
-                    "startOffset": 133459,
+                    "startOffset": 133458,
                     "endColumn": 111,
-                    "endOffset": 133566
+                    "endOffset": 133565
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6482,9 +6482,9 @@
                 "to": {
                     "startLine": 1849,
                     "startColumn": 4,
-                    "startOffset": 133571,
+                    "startOffset": 133570,
                     "endColumn": 127,
-                    "endOffset": 133694
+                    "endOffset": 133693
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6494,10 +6494,10 @@
                 "to": {
                     "startLine": 1850,
                     "startColumn": 4,
-                    "startOffset": 133699,
+                    "startOffset": 133698,
                     "endLine": 1851,
                     "endColumn": 12,
-                    "endOffset": 133830
+                    "endOffset": 133829
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6507,9 +6507,9 @@
                 "to": {
                     "startLine": 1852,
                     "startColumn": 4,
-                    "startOffset": 133835,
+                    "startOffset": 133834,
                     "endColumn": 131,
-                    "endOffset": 133962
+                    "endOffset": 133961
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6519,9 +6519,9 @@
                 "to": {
                     "startLine": 1853,
                     "startColumn": 4,
-                    "startOffset": 133967,
+                    "startOffset": 133966,
                     "endColumn": 129,
-                    "endOffset": 134092
+                    "endOffset": 134091
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6531,9 +6531,9 @@
                 "to": {
                     "startLine": 1854,
                     "startColumn": 4,
-                    "startOffset": 134097,
+                    "startOffset": 134096,
                     "endColumn": 129,
-                    "endOffset": 134222
+                    "endOffset": 134221
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6543,9 +6543,9 @@
                 "to": {
                     "startLine": 1855,
                     "startColumn": 4,
-                    "startOffset": 134227,
+                    "startOffset": 134226,
                     "endColumn": 111,
-                    "endOffset": 134334
+                    "endOffset": 134333
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6555,9 +6555,9 @@
                 "to": {
                     "startLine": 1856,
                     "startColumn": 4,
-                    "startOffset": 134339,
+                    "startOffset": 134338,
                     "endColumn": 139,
-                    "endOffset": 134474
+                    "endOffset": 134473
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6567,10 +6567,10 @@
                 "to": {
                     "startLine": 1857,
                     "startColumn": 4,
-                    "startOffset": 134479,
+                    "startOffset": 134478,
                     "endLine": 1859,
                     "endColumn": 12,
-                    "endOffset": 134675
+                    "endOffset": 134674
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -6580,9 +6580,9 @@
                 "to": {
                     "startLine": 1860,
                     "startColumn": 4,
-                    "startOffset": 134680,
+                    "startOffset": 134679,
                     "endColumn": 91,
-                    "endOffset": 134767
+                    "endOffset": 134766
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -6592,10 +6592,10 @@
                 "to": {
                     "startLine": 1861,
                     "startColumn": 4,
-                    "startOffset": 134772,
+                    "startOffset": 134771,
                     "endLine": 1863,
                     "endColumn": 12,
-                    "endOffset": 134946
+                    "endOffset": 134945
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -6605,10 +6605,10 @@
                 "to": {
                     "startLine": 1864,
                     "startColumn": 4,
-                    "startOffset": 134951,
+                    "startOffset": 134950,
                     "endLine": 1866,
                     "endColumn": 12,
-                    "endOffset": 135114
+                    "endOffset": 135113
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -6618,10 +6618,10 @@
                 "to": {
                     "startLine": 1867,
                     "startColumn": 4,
-                    "startOffset": 135119,
+                    "startOffset": 135118,
                     "endLine": 1869,
                     "endColumn": 12,
-                    "endOffset": 135289
+                    "endOffset": 135288
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -6631,10 +6631,10 @@
                 "to": {
                     "startLine": 1870,
                     "startColumn": 4,
-                    "startOffset": 135294,
+                    "startOffset": 135293,
                     "endLine": 1873,
                     "endColumn": 12,
-                    "endOffset": 135542
+                    "endOffset": 135541
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -6644,10 +6644,10 @@
                 "to": {
                     "startLine": 1874,
                     "startColumn": 4,
-                    "startOffset": 135547,
+                    "startOffset": 135546,
                     "endLine": 1878,
                     "endColumn": 12,
-                    "endOffset": 135833
+                    "endOffset": 135832
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -6657,9 +6657,9 @@
                 "to": {
                     "startLine": 1879,
                     "startColumn": 4,
-                    "startOffset": 135838,
+                    "startOffset": 135837,
                     "endColumn": 67,
-                    "endOffset": 135901
+                    "endOffset": 135900
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6669,9 +6669,9 @@
                 "to": {
                     "startLine": 1880,
                     "startColumn": 4,
-                    "startOffset": 135906,
+                    "startOffset": 135905,
                     "endColumn": 72,
-                    "endOffset": 135974
+                    "endOffset": 135973
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6681,9 +6681,9 @@
                 "to": {
                     "startLine": 1881,
                     "startColumn": 4,
-                    "startOffset": 135979,
+                    "startOffset": 135978,
                     "endColumn": 73,
-                    "endOffset": 136048
+                    "endOffset": 136047
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6693,9 +6693,9 @@
                 "to": {
                     "startLine": 1882,
                     "startColumn": 4,
-                    "startOffset": 136053,
+                    "startOffset": 136052,
                     "endColumn": 72,
-                    "endOffset": 136121
+                    "endOffset": 136120
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6705,9 +6705,9 @@
                 "to": {
                     "startLine": 1883,
                     "startColumn": 4,
-                    "startOffset": 136126,
+                    "startOffset": 136125,
                     "endColumn": 73,
-                    "endOffset": 136195
+                    "endOffset": 136194
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6717,10 +6717,10 @@
                 "to": {
                     "startLine": 1884,
                     "startColumn": 4,
-                    "startOffset": 136200,
+                    "startOffset": 136199,
                     "endLine": 1885,
                     "endColumn": 12,
-                    "endOffset": 136341
+                    "endOffset": 136340
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6730,10 +6730,10 @@
                 "to": {
                     "startLine": 1886,
                     "startColumn": 4,
-                    "startOffset": 136346,
+                    "startOffset": 136345,
                     "endLine": 1887,
                     "endColumn": 12,
-                    "endOffset": 136485
+                    "endOffset": 136484
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6743,10 +6743,10 @@
                 "to": {
                     "startLine": 1888,
                     "startColumn": 4,
-                    "startOffset": 136490,
+                    "startOffset": 136489,
                     "endLine": 1889,
                     "endColumn": 12,
-                    "endOffset": 136623
+                    "endOffset": 136622
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6756,9 +6756,9 @@
                 "to": {
                     "startLine": 1890,
                     "startColumn": 4,
-                    "startOffset": 136628,
+                    "startOffset": 136627,
                     "endColumn": 65,
-                    "endOffset": 136689
+                    "endOffset": 136688
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6768,9 +6768,9 @@
                 "to": {
                     "startLine": 1891,
                     "startColumn": 4,
-                    "startOffset": 136694,
+                    "startOffset": 136693,
                     "endColumn": 89,
-                    "endOffset": 136779
+                    "endOffset": 136778
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6780,9 +6780,9 @@
                 "to": {
                     "startLine": 1892,
                     "startColumn": 4,
-                    "startOffset": 136784,
+                    "startOffset": 136783,
                     "endColumn": 75,
-                    "endOffset": 136855
+                    "endOffset": 136854
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6792,9 +6792,9 @@
                 "to": {
                     "startLine": 1893,
                     "startColumn": 4,
-                    "startOffset": 136860,
+                    "startOffset": 136859,
                     "endColumn": 103,
-                    "endOffset": 136959
+                    "endOffset": 136958
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6804,9 +6804,9 @@
                 "to": {
                     "startLine": 1894,
                     "startColumn": 4,
-                    "startOffset": 136964,
+                    "startOffset": 136963,
                     "endColumn": 89,
-                    "endOffset": 137049
+                    "endOffset": 137048
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6816,9 +6816,9 @@
                 "to": {
                     "startLine": 1895,
                     "startColumn": 4,
-                    "startOffset": 137054,
+                    "startOffset": 137053,
                     "endColumn": 101,
-                    "endOffset": 137151
+                    "endOffset": 137150
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6828,9 +6828,9 @@
                 "to": {
                     "startLine": 1896,
                     "startColumn": 4,
-                    "startOffset": 137156,
+                    "startOffset": 137155,
                     "endColumn": 107,
-                    "endOffset": 137259
+                    "endOffset": 137258
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6840,9 +6840,9 @@
                 "to": {
                     "startLine": 1897,
                     "startColumn": 4,
-                    "startOffset": 137264,
+                    "startOffset": 137263,
                     "endColumn": 107,
-                    "endOffset": 137367
+                    "endOffset": 137366
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6852,9 +6852,9 @@
                 "to": {
                     "startLine": 1898,
                     "startColumn": 4,
-                    "startOffset": 137372,
+                    "startOffset": 137371,
                     "endColumn": 99,
-                    "endOffset": 137467
+                    "endOffset": 137466
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6864,9 +6864,9 @@
                 "to": {
                     "startLine": 1899,
                     "startColumn": 4,
-                    "startOffset": 137472,
+                    "startOffset": 137471,
                     "endColumn": 79,
-                    "endOffset": 137547
+                    "endOffset": 137546
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6876,9 +6876,9 @@
                 "to": {
                     "startLine": 1900,
                     "startColumn": 4,
-                    "startOffset": 137552,
+                    "startOffset": 137551,
                     "endColumn": 91,
-                    "endOffset": 137639
+                    "endOffset": 137638
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6888,9 +6888,9 @@
                 "to": {
                     "startLine": 1901,
                     "startColumn": 4,
-                    "startOffset": 137644,
+                    "startOffset": 137643,
                     "endColumn": 97,
-                    "endOffset": 137737
+                    "endOffset": 137736
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6900,10 +6900,10 @@
                 "to": {
                     "startLine": 1902,
                     "startColumn": 4,
-                    "startOffset": 137742,
+                    "startOffset": 137741,
                     "endLine": 1903,
                     "endColumn": 12,
-                    "endOffset": 137847
+                    "endOffset": 137846
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6913,9 +6913,9 @@
                 "to": {
                     "startLine": 1904,
                     "startColumn": 4,
-                    "startOffset": 137852,
+                    "startOffset": 137851,
                     "endColumn": 77,
-                    "endOffset": 137925
+                    "endOffset": 137924
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6925,9 +6925,9 @@
                 "to": {
                     "startLine": 1905,
                     "startColumn": 4,
-                    "startOffset": 137930,
+                    "startOffset": 137929,
                     "endColumn": 105,
-                    "endOffset": 138031
+                    "endOffset": 138030
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6937,9 +6937,9 @@
                 "to": {
                     "startLine": 1906,
                     "startColumn": 4,
-                    "startOffset": 138036,
+                    "startOffset": 138035,
                     "endColumn": 91,
-                    "endOffset": 138123
+                    "endOffset": 138122
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6949,9 +6949,9 @@
                 "to": {
                     "startLine": 1907,
                     "startColumn": 4,
-                    "startOffset": 138128,
+                    "startOffset": 138127,
                     "endColumn": 103,
-                    "endOffset": 138227
+                    "endOffset": 138226
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6961,9 +6961,9 @@
                 "to": {
                     "startLine": 1908,
                     "startColumn": 4,
-                    "startOffset": 138232,
+                    "startOffset": 138231,
                     "endColumn": 109,
-                    "endOffset": 138337
+                    "endOffset": 138336
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6973,10 +6973,10 @@
                 "to": {
                     "startLine": 1909,
                     "startColumn": 4,
-                    "startOffset": 138342,
+                    "startOffset": 138341,
                     "endLine": 1910,
                     "endColumn": 12,
-                    "endOffset": 138459
+                    "endOffset": 138458
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6986,10 +6986,10 @@
                 "to": {
                     "startLine": 1911,
                     "startColumn": 4,
-                    "startOffset": 138464,
+                    "startOffset": 138463,
                     "endLine": 1914,
                     "endColumn": 12,
-                    "endOffset": 138622
+                    "endOffset": 138621
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -6999,10 +6999,10 @@
                 "to": {
                     "startLine": 1915,
                     "startColumn": 4,
-                    "startOffset": 138627,
+                    "startOffset": 138626,
                     "endLine": 1918,
                     "endColumn": 12,
-                    "endOffset": 138779
+                    "endOffset": 138778
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7012,10 +7012,10 @@
                 "to": {
                     "startLine": 1919,
                     "startColumn": 4,
-                    "startOffset": 138784,
+                    "startOffset": 138783,
                     "endLine": 1921,
                     "endColumn": 12,
-                    "endOffset": 138933
+                    "endOffset": 138932
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -7025,10 +7025,10 @@
                 "to": {
                     "startLine": 1922,
                     "startColumn": 4,
-                    "startOffset": 138938,
+                    "startOffset": 138937,
                     "endLine": 1926,
                     "endColumn": 12,
-                    "endOffset": 139291
+                    "endOffset": 139290
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -7038,10 +7038,10 @@
                 "to": {
                     "startLine": 1927,
                     "startColumn": 4,
-                    "startOffset": 139296,
+                    "startOffset": 139295,
                     "endLine": 1929,
                     "endColumn": 12,
-                    "endOffset": 139458
+                    "endOffset": 139457
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -7051,10 +7051,10 @@
                 "to": {
                     "startLine": 1930,
                     "startColumn": 4,
-                    "startOffset": 139463,
+                    "startOffset": 139462,
                     "endLine": 1934,
                     "endColumn": 12,
-                    "endOffset": 139828
+                    "endOffset": 139827
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -7064,10 +7064,10 @@
                 "to": {
                     "startLine": 1935,
                     "startColumn": 4,
-                    "startOffset": 139833,
+                    "startOffset": 139832,
                     "endLine": 1938,
                     "endColumn": 12,
-                    "endOffset": 139988
+                    "endOffset": 139987
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -7077,10 +7077,10 @@
                 "to": {
                     "startLine": 1939,
                     "startColumn": 4,
-                    "startOffset": 139993,
+                    "startOffset": 139992,
                     "endLine": 1942,
                     "endColumn": 12,
-                    "endOffset": 140142
+                    "endOffset": 140141
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -7090,9 +7090,9 @@
                 "to": {
                     "startLine": 1943,
                     "startColumn": 4,
-                    "startOffset": 140147,
+                    "startOffset": 140146,
                     "endColumn": 79,
-                    "endOffset": 140222
+                    "endOffset": 140221
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7102,9 +7102,9 @@
                 "to": {
                     "startLine": 1944,
                     "startColumn": 4,
-                    "startOffset": 140227,
+                    "startOffset": 140226,
                     "endColumn": 99,
-                    "endOffset": 140322
+                    "endOffset": 140321
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7114,9 +7114,9 @@
                 "to": {
                     "startLine": 1945,
                     "startColumn": 4,
-                    "startOffset": 140327,
+                    "startOffset": 140326,
                     "endColumn": 89,
-                    "endOffset": 140412
+                    "endOffset": 140411
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7126,9 +7126,9 @@
                 "to": {
                     "startLine": 1946,
                     "startColumn": 4,
-                    "startOffset": 140417,
+                    "startOffset": 140416,
                     "endColumn": 109,
-                    "endOffset": 140522
+                    "endOffset": 140521
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7138,9 +7138,9 @@
                 "to": {
                     "startLine": 1947,
                     "startColumn": 4,
-                    "startOffset": 140527,
+                    "startOffset": 140526,
                     "endColumn": 93,
-                    "endOffset": 140616
+                    "endOffset": 140615
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7150,9 +7150,9 @@
                 "to": {
                     "startLine": 1948,
                     "startColumn": 4,
-                    "startOffset": 140621,
+                    "startOffset": 140620,
                     "endColumn": 105,
-                    "endOffset": 140722
+                    "endOffset": 140721
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7162,9 +7162,9 @@
                 "to": {
                     "startLine": 1949,
                     "startColumn": 4,
-                    "startOffset": 140727,
+                    "startOffset": 140726,
                     "endColumn": 91,
-                    "endOffset": 140814
+                    "endOffset": 140813
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7174,10 +7174,10 @@
                 "to": {
                     "startLine": 1950,
                     "startColumn": 4,
-                    "startOffset": 140819,
+                    "startOffset": 140818,
                     "endLine": 1951,
                     "endColumn": 12,
-                    "endOffset": 140914
+                    "endOffset": 140913
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7187,10 +7187,10 @@
                 "to": {
                     "startLine": 1952,
                     "startColumn": 4,
-                    "startOffset": 140919,
+                    "startOffset": 140918,
                     "endLine": 1953,
                     "endColumn": 12,
-                    "endOffset": 141026
+                    "endOffset": 141025
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7200,10 +7200,10 @@
                 "to": {
                     "startLine": 1954,
                     "startColumn": 4,
-                    "startOffset": 141031,
+                    "startOffset": 141030,
                     "endLine": 1955,
                     "endColumn": 12,
-                    "endOffset": 141140
+                    "endOffset": 141139
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7213,10 +7213,10 @@
                 "to": {
                     "startLine": 1956,
                     "startColumn": 4,
-                    "startOffset": 141145,
+                    "startOffset": 141144,
                     "endLine": 1957,
                     "endColumn": 12,
-                    "endOffset": 141256
+                    "endOffset": 141255
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7226,10 +7226,10 @@
                 "to": {
                     "startLine": 1958,
                     "startColumn": 4,
-                    "startOffset": 141261,
+                    "startOffset": 141260,
                     "endLine": 1959,
                     "endColumn": 12,
-                    "endOffset": 141372
+                    "endOffset": 141371
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7239,9 +7239,9 @@
                 "to": {
                     "startLine": 1960,
                     "startColumn": 4,
-                    "startOffset": 141377,
+                    "startOffset": 141376,
                     "endColumn": 93,
-                    "endOffset": 141466
+                    "endOffset": 141465
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7251,9 +7251,9 @@
                 "to": {
                     "startLine": 1961,
                     "startColumn": 4,
-                    "startOffset": 141471,
+                    "startOffset": 141470,
                     "endColumn": 113,
-                    "endOffset": 141580
+                    "endOffset": 141579
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7263,9 +7263,9 @@
                 "to": {
                     "startLine": 1962,
                     "startColumn": 4,
-                    "startOffset": 141585,
+                    "startOffset": 141584,
                     "endColumn": 111,
-                    "endOffset": 141692
+                    "endOffset": 141691
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7275,10 +7275,10 @@
                 "to": {
                     "startLine": 1963,
                     "startColumn": 4,
-                    "startOffset": 141697,
+                    "startOffset": 141696,
                     "endLine": 1964,
                     "endColumn": 12,
-                    "endOffset": 141794
+                    "endOffset": 141793
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7288,10 +7288,10 @@
                 "to": {
                     "startLine": 1965,
                     "startColumn": 4,
-                    "startOffset": 141799,
+                    "startOffset": 141798,
                     "endLine": 1966,
                     "endColumn": 12,
-                    "endOffset": 141914
+                    "endOffset": 141913
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7301,10 +7301,10 @@
                 "to": {
                     "startLine": 1967,
                     "startColumn": 4,
-                    "startOffset": 141919,
+                    "startOffset": 141918,
                     "endLine": 1968,
                     "endColumn": 12,
-                    "endOffset": 142036
+                    "endOffset": 142035
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7314,9 +7314,9 @@
                 "to": {
                     "startLine": 1969,
                     "startColumn": 4,
-                    "startOffset": 142041,
+                    "startOffset": 142040,
                     "endColumn": 81,
-                    "endOffset": 142118
+                    "endOffset": 142117
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7326,9 +7326,9 @@
                 "to": {
                     "startLine": 1970,
                     "startColumn": 4,
-                    "startOffset": 142123,
+                    "startOffset": 142122,
                     "endColumn": 103,
-                    "endOffset": 142222
+                    "endOffset": 142221
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7338,9 +7338,9 @@
                 "to": {
                     "startLine": 1971,
                     "startColumn": 4,
-                    "startOffset": 142227,
+                    "startOffset": 142226,
                     "endColumn": 119,
-                    "endOffset": 142342
+                    "endOffset": 142341
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7350,9 +7350,9 @@
                 "to": {
                     "startLine": 1972,
                     "startColumn": 4,
-                    "startOffset": 142347,
+                    "startOffset": 142346,
                     "endColumn": 125,
-                    "endOffset": 142468
+                    "endOffset": 142467
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7362,9 +7362,9 @@
                 "to": {
                     "startLine": 1973,
                     "startColumn": 4,
-                    "startOffset": 142473,
+                    "startOffset": 142472,
                     "endColumn": 97,
-                    "endOffset": 142566
+                    "endOffset": 142565
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7374,9 +7374,9 @@
                 "to": {
                     "startLine": 1974,
                     "startColumn": 4,
-                    "startOffset": 142571,
+                    "startOffset": 142570,
                     "endColumn": 93,
-                    "endOffset": 142660
+                    "endOffset": 142659
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7386,9 +7386,9 @@
                 "to": {
                     "startLine": 1975,
                     "startColumn": 4,
-                    "startOffset": 142665,
+                    "startOffset": 142664,
                     "endColumn": 87,
-                    "endOffset": 142748
+                    "endOffset": 142747
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7398,9 +7398,9 @@
                 "to": {
                     "startLine": 1976,
                     "startColumn": 4,
-                    "startOffset": 142753,
+                    "startOffset": 142752,
                     "endColumn": 111,
-                    "endOffset": 142860
+                    "endOffset": 142859
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7410,9 +7410,9 @@
                 "to": {
                     "startLine": 1977,
                     "startColumn": 4,
-                    "startOffset": 142865,
+                    "startOffset": 142864,
                     "endColumn": 115,
-                    "endOffset": 142976
+                    "endOffset": 142975
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7422,9 +7422,9 @@
                 "to": {
                     "startLine": 1978,
                     "startColumn": 4,
-                    "startOffset": 142981,
+                    "startOffset": 142980,
                     "endColumn": 121,
-                    "endOffset": 143098
+                    "endOffset": 143097
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7434,9 +7434,9 @@
                 "to": {
                     "startLine": 1979,
                     "startColumn": 4,
-                    "startOffset": 143103,
+                    "startOffset": 143102,
                     "endColumn": 111,
-                    "endOffset": 143210
+                    "endOffset": 143209
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7446,10 +7446,10 @@
                 "to": {
                     "startLine": 1980,
                     "startColumn": 4,
-                    "startOffset": 143215,
+                    "startOffset": 143214,
                     "endLine": 1982,
                     "endColumn": 12,
-                    "endOffset": 143385
+                    "endOffset": 143384
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7459,9 +7459,9 @@
                 "to": {
                     "startLine": 1983,
                     "startColumn": 4,
-                    "startOffset": 143390,
+                    "startOffset": 143389,
                     "endColumn": 115,
-                    "endOffset": 143501
+                    "endOffset": 143500
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7471,9 +7471,9 @@
                 "to": {
                     "startLine": 1984,
                     "startColumn": 4,
-                    "startOffset": 143506,
+                    "startOffset": 143505,
                     "endColumn": 85,
-                    "endOffset": 143587
+                    "endOffset": 143586
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7483,9 +7483,9 @@
                 "to": {
                     "startLine": 1985,
                     "startColumn": 4,
-                    "startOffset": 143592,
+                    "startOffset": 143591,
                     "endColumn": 91,
-                    "endOffset": 143679
+                    "endOffset": 143678
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7495,10 +7495,10 @@
                 "to": {
                     "startLine": 1986,
                     "startColumn": 4,
-                    "startOffset": 143684,
+                    "startOffset": 143683,
                     "endLine": 1987,
                     "endColumn": 12,
-                    "endOffset": 143791
+                    "endOffset": 143790
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7508,10 +7508,10 @@
                 "to": {
                     "startLine": 1988,
                     "startColumn": 4,
-                    "startOffset": 143796,
+                    "startOffset": 143795,
                     "endLine": 1989,
                     "endColumn": 12,
-                    "endOffset": 143915
+                    "endOffset": 143914
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7521,9 +7521,9 @@
                 "to": {
                     "startLine": 1990,
                     "startColumn": 4,
-                    "startOffset": 143920,
+                    "startOffset": 143919,
                     "endColumn": 66,
-                    "endOffset": 143982
+                    "endOffset": 143981
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7533,10 +7533,10 @@
                 "to": {
                     "startLine": 1991,
                     "startColumn": 4,
-                    "startOffset": 143987,
+                    "startOffset": 143986,
                     "endLine": 1992,
                     "endColumn": 12,
-                    "endOffset": 144108
+                    "endOffset": 144107
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7546,9 +7546,9 @@
                 "to": {
                     "startLine": 1993,
                     "startColumn": 4,
-                    "startOffset": 144113,
+                    "startOffset": 144112,
                     "endColumn": 67,
-                    "endOffset": 144176
+                    "endOffset": 144175
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7558,10 +7558,10 @@
                 "to": {
                     "startLine": 1994,
                     "startColumn": 4,
-                    "startOffset": 144181,
+                    "startOffset": 144180,
                     "endLine": 1995,
                     "endColumn": 12,
-                    "endOffset": 144304
+                    "endOffset": 144303
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7571,10 +7571,10 @@
                 "to": {
                     "startLine": 1996,
                     "startColumn": 4,
-                    "startOffset": 144309,
+                    "startOffset": 144308,
                     "endLine": 1997,
                     "endColumn": 12,
-                    "endOffset": 144448
+                    "endOffset": 144447
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7584,10 +7584,10 @@
                 "to": {
                     "startLine": 1998,
                     "startColumn": 4,
-                    "startOffset": 144453,
+                    "startOffset": 144452,
                     "endLine": 1999,
                     "endColumn": 12,
-                    "endOffset": 144576
+                    "endOffset": 144575
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7597,9 +7597,9 @@
                 "to": {
                     "startLine": 2000,
                     "startColumn": 4,
-                    "startOffset": 144581,
+                    "startOffset": 144580,
                     "endColumn": 68,
-                    "endOffset": 144645
+                    "endOffset": 144644
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7609,9 +7609,9 @@
                 "to": {
                     "startLine": 2001,
                     "startColumn": 4,
-                    "startOffset": 144650,
+                    "startOffset": 144649,
                     "endColumn": 94,
-                    "endOffset": 144740
+                    "endOffset": 144739
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7621,9 +7621,9 @@
                 "to": {
                     "startLine": 2002,
                     "startColumn": 4,
-                    "startOffset": 144745,
+                    "startOffset": 144744,
                     "endColumn": 114,
-                    "endOffset": 144855
+                    "endOffset": 144854
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7633,9 +7633,9 @@
                 "to": {
                     "startLine": 2003,
                     "startColumn": 4,
-                    "startOffset": 144860,
+                    "startOffset": 144859,
                     "endColumn": 112,
-                    "endOffset": 144968
+                    "endOffset": 144967
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7645,9 +7645,9 @@
                 "to": {
                     "startLine": 2004,
                     "startColumn": 4,
-                    "startOffset": 144973,
+                    "startOffset": 144972,
                     "endColumn": 98,
-                    "endOffset": 145067
+                    "endOffset": 145066
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7657,9 +7657,9 @@
                 "to": {
                     "startLine": 2005,
                     "startColumn": 4,
-                    "startOffset": 145072,
+                    "startOffset": 145071,
                     "endColumn": 108,
-                    "endOffset": 145176
+                    "endOffset": 145175
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7669,9 +7669,9 @@
                 "to": {
                     "startLine": 2006,
                     "startColumn": 4,
-                    "startOffset": 145181,
+                    "startOffset": 145180,
                     "endColumn": 110,
-                    "endOffset": 145287
+                    "endOffset": 145286
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7681,9 +7681,9 @@
                 "to": {
                     "startLine": 2007,
                     "startColumn": 4,
-                    "startOffset": 145292,
+                    "startOffset": 145291,
                     "endColumn": 110,
-                    "endOffset": 145398
+                    "endOffset": 145397
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7693,9 +7693,9 @@
                 "to": {
                     "startLine": 2008,
                     "startColumn": 4,
-                    "startOffset": 145403,
+                    "startOffset": 145402,
                     "endColumn": 100,
-                    "endOffset": 145499
+                    "endOffset": 145498
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7705,9 +7705,9 @@
                 "to": {
                     "startLine": 2009,
                     "startColumn": 4,
-                    "startOffset": 145504,
+                    "startOffset": 145503,
                     "endColumn": 104,
-                    "endOffset": 145604
+                    "endOffset": 145603
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7717,9 +7717,9 @@
                 "to": {
                     "startLine": 2010,
                     "startColumn": 4,
-                    "startOffset": 145609,
+                    "startOffset": 145608,
                     "endColumn": 99,
-                    "endOffset": 145704
+                    "endOffset": 145703
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7729,10 +7729,10 @@
                 "to": {
                     "startLine": 2011,
                     "startColumn": 4,
-                    "startOffset": 145709,
+                    "startOffset": 145708,
                     "endLine": 2012,
                     "endColumn": 12,
-                    "endOffset": 145834
+                    "endOffset": 145833
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7742,9 +7742,9 @@
                 "to": {
                     "startLine": 2013,
                     "startColumn": 4,
-                    "startOffset": 145839,
+                    "startOffset": 145838,
                     "endColumn": 90,
-                    "endOffset": 145925
+                    "endOffset": 145924
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7754,9 +7754,9 @@
                 "to": {
                     "startLine": 2014,
                     "startColumn": 4,
-                    "startOffset": 145930,
+                    "startOffset": 145929,
                     "endColumn": 122,
-                    "endOffset": 146048
+                    "endOffset": 146047
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7766,9 +7766,9 @@
                 "to": {
                     "startLine": 2015,
                     "startColumn": 4,
-                    "startOffset": 146053,
+                    "startOffset": 146052,
                     "endColumn": 93,
-                    "endOffset": 146142
+                    "endOffset": 146141
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7778,10 +7778,10 @@
                 "to": {
                     "startLine": 2016,
                     "startColumn": 4,
-                    "startOffset": 146147,
+                    "startOffset": 146146,
                     "endLine": 2017,
                     "endColumn": 12,
-                    "endOffset": 146254
+                    "endOffset": 146253
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7791,9 +7791,9 @@
                 "to": {
                     "startLine": 2018,
                     "startColumn": 4,
-                    "startOffset": 146259,
+                    "startOffset": 146258,
                     "endColumn": 85,
-                    "endOffset": 146340
+                    "endOffset": 146339
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7803,9 +7803,9 @@
                 "to": {
                     "startLine": 2019,
                     "startColumn": 4,
-                    "startOffset": 146345,
+                    "startOffset": 146344,
                     "endColumn": 103,
-                    "endOffset": 146444
+                    "endOffset": 146443
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7815,9 +7815,9 @@
                 "to": {
                     "startLine": 2020,
                     "startColumn": 4,
-                    "startOffset": 146449,
+                    "startOffset": 146448,
                     "endColumn": 95,
-                    "endOffset": 146540
+                    "endOffset": 146539
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7827,9 +7827,9 @@
                 "to": {
                     "startLine": 2021,
                     "startColumn": 4,
-                    "startOffset": 146545,
+                    "startOffset": 146544,
                     "endColumn": 87,
-                    "endOffset": 146628
+                    "endOffset": 146627
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7839,10 +7839,10 @@
                 "to": {
                     "startLine": 2022,
                     "startColumn": 4,
-                    "startOffset": 146633,
+                    "startOffset": 146632,
                     "endLine": 2023,
                     "endColumn": 12,
-                    "endOffset": 146746
+                    "endOffset": 146745
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7852,10 +7852,10 @@
                 "to": {
                     "startLine": 2024,
                     "startColumn": 4,
-                    "startOffset": 146751,
+                    "startOffset": 146750,
                     "endLine": 2025,
                     "endColumn": 12,
-                    "endOffset": 146850
+                    "endOffset": 146849
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7865,10 +7865,10 @@
                 "to": {
                     "startLine": 2026,
                     "startColumn": 4,
-                    "startOffset": 146855,
+                    "startOffset": 146854,
                     "endLine": 2027,
                     "endColumn": 12,
-                    "endOffset": 146954
+                    "endOffset": 146953
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7878,10 +7878,10 @@
                 "to": {
                     "startLine": 2028,
                     "startColumn": 4,
-                    "startOffset": 146959,
+                    "startOffset": 146958,
                     "endLine": 2029,
                     "endColumn": 12,
-                    "endOffset": 147080
+                    "endOffset": 147079
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7891,9 +7891,9 @@
                 "to": {
                     "startLine": 2030,
                     "startColumn": 4,
-                    "startOffset": 147085,
+                    "startOffset": 147084,
                     "endColumn": 87,
-                    "endOffset": 147168
+                    "endOffset": 147167
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7903,9 +7903,9 @@
                 "to": {
                     "startLine": 2031,
                     "startColumn": 4,
-                    "startOffset": 147173,
+                    "startOffset": 147172,
                     "endColumn": 107,
-                    "endOffset": 147276
+                    "endOffset": 147275
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7915,9 +7915,9 @@
                 "to": {
                     "startLine": 2032,
                     "startColumn": 4,
-                    "startOffset": 147281,
+                    "startOffset": 147280,
                     "endColumn": 99,
-                    "endOffset": 147376
+                    "endOffset": 147375
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7927,9 +7927,9 @@
                 "to": {
                     "startLine": 2033,
                     "startColumn": 4,
-                    "startOffset": 147381,
+                    "startOffset": 147380,
                     "endColumn": 89,
-                    "endOffset": 147466
+                    "endOffset": 147465
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7939,9 +7939,9 @@
                 "to": {
                     "startLine": 2034,
                     "startColumn": 4,
-                    "startOffset": 147471,
+                    "startOffset": 147470,
                     "endColumn": 109,
-                    "endOffset": 147576
+                    "endOffset": 147575
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7951,9 +7951,9 @@
                 "to": {
                     "startLine": 2035,
                     "startColumn": 4,
-                    "startOffset": 147581,
+                    "startOffset": 147580,
                     "endColumn": 83,
-                    "endOffset": 147660
+                    "endOffset": 147659
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7963,9 +7963,9 @@
                 "to": {
                     "startLine": 2036,
                     "startColumn": 4,
-                    "startOffset": 147665,
+                    "startOffset": 147664,
                     "endColumn": 101,
-                    "endOffset": 147762
+                    "endOffset": 147761
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7975,9 +7975,9 @@
                 "to": {
                     "startLine": 2037,
                     "startColumn": 4,
-                    "startOffset": 147767,
+                    "startOffset": 147766,
                     "endColumn": 83,
-                    "endOffset": 147846
+                    "endOffset": 147845
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7987,9 +7987,9 @@
                 "to": {
                     "startLine": 2038,
                     "startColumn": 4,
-                    "startOffset": 147851,
+                    "startOffset": 147850,
                     "endColumn": 53,
-                    "endOffset": 147900
+                    "endOffset": 147899
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -7999,9 +7999,9 @@
                 "to": {
                     "startLine": 2039,
                     "startColumn": 4,
-                    "startOffset": 147905,
+                    "startOffset": 147904,
                     "endColumn": 63,
-                    "endOffset": 147964
+                    "endOffset": 147963
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -8011,9 +8011,9 @@
                 "to": {
                     "startLine": 2040,
                     "startColumn": 4,
-                    "startOffset": 147969,
+                    "startOffset": 147968,
                     "endColumn": 105,
-                    "endOffset": 148070
+                    "endOffset": 148069
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -8023,9 +8023,9 @@
                 "to": {
                     "startLine": 2041,
                     "startColumn": 4,
-                    "startOffset": 148075,
+                    "startOffset": 148074,
                     "endColumn": 109,
-                    "endOffset": 148180
+                    "endOffset": 148179
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -8035,9 +8035,9 @@
                 "to": {
                     "startLine": 2042,
                     "startColumn": 4,
-                    "startOffset": 148185,
+                    "startOffset": 148184,
                     "endColumn": 83,
-                    "endOffset": 148264
+                    "endOffset": 148263
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -8047,9 +8047,9 @@
                 "to": {
                     "startLine": 2043,
                     "startColumn": 4,
-                    "startOffset": 148269,
+                    "startOffset": 148268,
                     "endColumn": 119,
-                    "endOffset": 148384
+                    "endOffset": 148383
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\values\\values.xml"
@@ -8059,10 +8059,10 @@
                 "to": {
                     "startLine": 2044,
                     "startColumn": 4,
-                    "startOffset": 148389,
+                    "startOffset": 148388,
                     "endLine": 2045,
                     "endColumn": 12,
-                    "endOffset": 148484
+                    "endOffset": 148483
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -8072,10 +8072,10 @@
                 "to": {
                     "startLine": 2046,
                     "startColumn": 4,
-                    "startOffset": 148489,
+                    "startOffset": 148488,
                     "endLine": 2052,
                     "endColumn": 12,
-                    "endOffset": 148899
+                    "endOffset": 148898
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -8085,10 +8085,10 @@
                 "to": {
                     "startLine": 2053,
                     "startColumn": 4,
-                    "startOffset": 148904,
+                    "startOffset": 148903,
                     "endLine": 2056,
                     "endColumn": 12,
-                    "endOffset": 149106
+                    "endOffset": 149105
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -8098,10 +8098,10 @@
                 "to": {
                     "startLine": 2057,
                     "startColumn": 4,
-                    "startOffset": 149111,
+                    "startOffset": 149110,
                     "endLine": 2059,
                     "endColumn": 12,
-                    "endOffset": 149265
+                    "endOffset": 149264
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -8111,10 +8111,10 @@
                 "to": {
                     "startLine": 2060,
                     "startColumn": 4,
-                    "startOffset": 149270,
+                    "startOffset": 149269,
                     "endLine": 2068,
                     "endColumn": 12,
-                    "endOffset": 149830
+                    "endOffset": 149829
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -8124,10 +8124,10 @@
                 "to": {
                     "startLine": 2069,
                     "startColumn": 4,
-                    "startOffset": 149835,
+                    "startOffset": 149834,
                     "endLine": 2074,
                     "endColumn": 12,
-                    "endOffset": 150191
+                    "endOffset": 150190
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -8137,10 +8137,10 @@
                 "to": {
                     "startLine": 2075,
                     "startColumn": 4,
-                    "startOffset": 150196,
+                    "startOffset": 150195,
                     "endLine": 2077,
                     "endColumn": 12,
-                    "endOffset": 150320
+                    "endOffset": 150319
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -8150,10 +8150,10 @@
                 "to": {
                     "startLine": 2078,
                     "startColumn": 4,
-                    "startOffset": 150325,
+                    "startOffset": 150324,
                     "endLine": 2086,
                     "endColumn": 12,
-                    "endOffset": 150987
+                    "endOffset": 150986
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -8163,10 +8163,10 @@
                 "to": {
                     "startLine": 2087,
                     "startColumn": 4,
-                    "startOffset": 150992,
+                    "startOffset": 150991,
                     "endLine": 2090,
                     "endColumn": 12,
-                    "endOffset": 151167
+                    "endOffset": 151166
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
@@ -8176,10 +8176,10 @@
                 "to": {
                     "startLine": 2091,
                     "startColumn": 4,
-                    "startOffset": 151172,
+                    "startOffset": 151171,
                     "endLine": 2098,
                     "endColumn": 12,
-                    "endOffset": 151772
+                    "endOffset": 151771
                 },
                 "from": {
                     "file": "L:\\barcode-reader-new-ver\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\values\\values.xml"
