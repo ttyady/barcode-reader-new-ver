@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -234,49 +235,62 @@ public class DataRegistration extends Activity {
         String strProduct = mEditText01Product.getText().toString();
         String strMadeIn = mEditText01MadeIn.getText().toString();
         String strNumber = mEditText01Number.getText().toString();
+        /*テスト*/
+        DBAdapter dbAdapter = new DBAdapter(this);
+        dbAdapter.openDB();                                         // DBの読み書き
+        String[] name = {strProduct};
+        Cursor c = dbAdapter.searchDB(null,"product",name);
+        if (c.moveToFirst()) {
+            do {
+                Toast.makeText(this, "重複登録 商品名:"+c.getString(2), Toast.LENGTH_SHORT).show();
+            } while (c.moveToNext());
+        }else {
+            /*テスト*/
+            // EditTextが空白の場合
+            if (strProduct.equals("") || strMadeIn.equals("") || strNumber.equals("")) {
 
-        // EditTextが空白の場合
-        if (strProduct.equals("") || strMadeIn.equals("") || strNumber.equals("")) {
+                if (strProduct.equals("")) {
+                    mText01Kome01.setText("※");     // 品名が空白の場合、※印を表示
+                } else {
+                    mText01Kome01.setText("");      // 空白でない場合は※印を消す
+                }
 
-            if (strProduct.equals("")) {
-                mText01Kome01.setText("※");     // 品名が空白の場合、※印を表示
-            } else {
-                mText01Kome01.setText("");      // 空白でない場合は※印を消す
+                if (strMadeIn.equals("")) {
+                    mText01Kome02.setText("※");     // 産地が空白の場合、※印を表示
+                } else {
+                    mText01Kome02.setText("");      // 空白でない場合は※印を消す
+                }
+
+                if (strNumber.equals("")) {
+                    mText01Kome03.setText("※");     // 個数が空白の場合、※印を表示
+                } else {
+                    mText01Kome03.setText("");      // 空白でない場合は※印を消す
+                }
+
+
+                Toast.makeText(DataRegistration.this, "※の箇所を入力して下さい。", Toast.LENGTH_SHORT).show();
+
+            } else {        // EditTextが全て入力されている場合
+
+                // 入力されたバーコードは文字列からLong型へ変換
+                Long iProduct = Long.parseLong(strProduct);
+                //int iNumber = Integer.parseInt(strNumber);
+
+    /*            // DBへの登録処理
+                DBAdapter dbAdapter = new DBAdapter(this);
+                dbAdapter.openDB();                                         // DBの読み書き*/
+
+                //dbAdapter.saveDB(strProduct, strMadeIn, iNumber);   // DBに登録
+                dbAdapter.saveDB(iProduct, strMadeIn, strNumber);   // DBに登録
+                // dbAdapter.closeDB();                                        // DBを閉じる
+
+                init();     // 初期値設定
+                Toast.makeText(DataRegistration.this, "DB登録完了", Toast.LENGTH_SHORT).show();
+
             }
-
-            if (strMadeIn.equals("")) {
-                mText01Kome02.setText("※");     // 産地が空白の場合、※印を表示
-            } else {
-                mText01Kome02.setText("");      // 空白でない場合は※印を消す
-            }
-
-            if (strNumber.equals("")) {
-                mText01Kome03.setText("※");     // 個数が空白の場合、※印を表示
-            } else {
-                mText01Kome03.setText("");      // 空白でない場合は※印を消す
-            }
-
-
-            Toast.makeText(DataRegistration.this, "※の箇所を入力して下さい。", Toast.LENGTH_SHORT).show();
-
-        } else {        // EditTextが全て入力されている場合
-
-            // 入力されたバーコードは文字列からLong型へ変換
-            Long iProduct = Long.parseLong(strProduct);
-            //int iNumber = Integer.parseInt(strNumber);
-
-            // DBへの登録処理
-            DBAdapter dbAdapter = new DBAdapter(this);
-            dbAdapter.openDB();                                         // DBの読み書き
-
-            //dbAdapter.saveDB(strProduct, strMadeIn, iNumber);   // DBに登録
-            dbAdapter.saveDB(iProduct, strMadeIn, strNumber);   // DBに登録
-            dbAdapter.closeDB();                                        // DBを閉じる
-
-            init();     // 初期値設定
-            Toast.makeText(DataRegistration.this,"DB登録完了",Toast.LENGTH_SHORT).show();
-
         }
+        c.close();
+        dbAdapter.closeDB();
 
     }
 
