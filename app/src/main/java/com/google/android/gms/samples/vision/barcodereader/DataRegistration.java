@@ -22,6 +22,7 @@ import android.widget.Toast;
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.barcode.Barcode;
 
+import java.text.DecimalFormat;
 import java.util.Calendar;
 
 public class DataRegistration extends Activity {
@@ -71,7 +72,13 @@ public class DataRegistration extends Activity {
         varDateSetListener = new DatePickerDialog.OnDateSetListener(){
             @Override
             public void onDateSet(DatePicker view , int year , int monthOfYear , int dayOfMonth){
-                mEditText01Number.setText(year + "/" + (monthOfYear + 1) + "/" + dayOfMonth);
+
+                DecimalFormat format_m = new DecimalFormat("00");
+                DecimalFormat format_d = new DecimalFormat("00");
+
+
+
+                mEditText01Number.setText(year + "/" + (format_m.format(monthOfYear + 1)) + "/" + format_d.format(dayOfMonth));
             }
         };
 

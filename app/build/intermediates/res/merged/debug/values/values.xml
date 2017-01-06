@@ -579,8 +579,8 @@
     <string name="barcode_success">Barcode read successfully</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="button01_regist">登録</string>
-    <string name="button01_show">表示</string>
-    <string name="button02_alldelete">全削除</string>
+    <string name="button01_show">データ表示</string>
+    <string name="button02_alldelete">全件削除</string>
     <string name="button04_search">検索</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>

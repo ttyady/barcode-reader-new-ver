@@ -62,12 +62,24 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
+
+    <Button
+        android:id="@+id/button01Show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/barcode_save"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/button01_show"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="database削除"
         android:id="@+id/delete_database"
-        android:layout_below="@id/barcode_save"
+        android:layout_below="@id/button01Show"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"/>
 
