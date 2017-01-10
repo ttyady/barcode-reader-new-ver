@@ -12,23 +12,23 @@ import android.util.Log;
  */
 public class MyListItem {
     protected int id;           // ID
-    protected String product;   // 品名
-    protected String madeIn;    // 産地
-    protected String number;    // 個数
+    protected String barcode;   // バーコード
+    protected String product;    // 商品名
+    protected String disposal;    // 廃棄日
 
     /**
      * MyListItem()
      *
      * @param id      int ID
-     * @param product String 品名
-     * @param madeIn  String 産地
-     * @param number  String 個数
+     * @param barcode String バーコード
+     * @param product  String 商品名
+     * @param disposal  String 廃棄日
      */
-    public MyListItem(int id, String product, String madeIn, String number) {
+    public MyListItem(int id, String barcode, String product, String disposal) {
         this.id = id;
+        this.barcode = barcode;
         this.product = product;
-        this.madeIn = madeIn;
-        this.number = number;
+        this.disposal = disposal;
     }
 
     /**
@@ -43,33 +43,33 @@ public class MyListItem {
     }
 
     /**
-     * 品名を取得
+     * バーコードを取得
+     * getBarcode()
+     *
+     * @return barcode String バーコード
+     */
+    public String getBarcode() {
+        return barcode;
+    }
+
+    /**
+     * 商品名を取得
      * getProduct()
      *
-     * @return product String 品名
+     * @return product String 商品名
      */
     public String getProduct() {
         return product;
     }
 
     /**
-     * 産地を取得
-     * getMadeIn()
+     * 廃棄日を取得
+     * getDisposal()
      *
-     * @return madeIn String 産地
+     * @return disposal String 廃棄日
      */
-    public String getMadeIn() {
-        return madeIn;
-    }
-
-    /**
-     * 個数を取得
-     * getNumber()
-     *
-     * @return number String 個数
-     */
-    public String getNumber() {
-        return number;
+    public String getDisposal() {
+        return disposal;
     }
 
 }

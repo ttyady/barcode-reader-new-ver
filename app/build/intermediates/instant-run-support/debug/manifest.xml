@@ -46,14 +46,6 @@
             android:label="DataRegistration" >
         </activity>
         <activity
-            android:name="com.google.android.gms.samples.vision.barcodereader.SelectSheetProduct"
-            android:label="SelectSheetProduct" >
-        </activity>
-        <activity
-            android:name="com.google.android.gms.samples.vision.barcodereader.SelectSheetTable"
-            android:label="SelectSheetTable" >
-        </activity>
-        <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.SelectSheetListView"
             android:label="SelectSheetListView" >
         </activity>

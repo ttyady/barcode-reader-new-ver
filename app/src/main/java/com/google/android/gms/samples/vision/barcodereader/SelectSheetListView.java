@@ -4,12 +4,12 @@ package com.google.android.gms.samples.vision.barcodereader;
  * Created by ttyady on 2016/12/27.
  */
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,7 +26,7 @@ import java.util.List;
  * ListView表示画面に関連するクラス
  * SelectSheetListView
  */
-public class SelectSheetListView extends AppCompatActivity {
+public class SelectSheetListView extends Activity {
 
     private DBAdapter dbAdapter;
     private MyBaseAdapter myBaseAdapter;
@@ -34,7 +34,7 @@ public class SelectSheetListView extends AppCompatActivity {
     private ListView mListView03;
     protected MyListItem myListItem;
 
-    // 参照するDBのカラム：ID,品名,産地,個数,単価の全部なのでnullを指定
+    // 参照するDBのカラム：ID,バーコード,商品名,廃棄日の全部なのでnullを指定
     private String[] columns = null;
 
     @Override
@@ -52,7 +52,7 @@ public class SelectSheetListView extends AppCompatActivity {
         myBaseAdapter = new MyBaseAdapter(this, items);
 
         // ListViewの結び付け
-        mListView03 = (ListView) findViewById(R.id.listView03);
+        mListView03 = (ListView) findViewById(R.id.listView);
 
         loadMyList();   // DBを読み込む＆更新する処理
 
@@ -121,9 +121,9 @@ public class SelectSheetListView extends AppCompatActivity {
                         c.getString(3));
 
                 Log.d("取得したCursor(ID):", String.valueOf(c.getInt(0)));
-                Log.d("取得したCursor(品名):", c.getString(1));
-                Log.d("取得したCursor(産地):", c.getString(2));
-                Log.d("取得したCursor(個数):", c.getString(3));
+                Log.d("取得したCursor(バーコード):", c.getString(1));
+                Log.d("取得したCursor(商品名):", c.getString(2));
+                Log.d("取得したCursor(廃棄日):", c.getString(3));
 
                 items.add(myListItem);          // 取得した要素をitemsに追加
 
@@ -147,9 +147,9 @@ public class SelectSheetListView extends AppCompatActivity {
 
         // 毎回findViewByIdをする事なく、高速化が出来るようするholderクラス
         private class ViewHolder {
-            TextView text05Product;
-            TextView text05MadeIn;
-            TextView text05Number;
+            TextView textBarcode;
+            TextView textProduct;
+            TextView textDisposal;
         }
 
         // コンストラクタの生成
@@ -192,15 +192,15 @@ public class SelectSheetListView extends AppCompatActivity {
                         (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                 view = inflater.inflate(R.layout.row_sheet_listview, parent, false);
 
-                TextView text05Product = (TextView) view.findViewById(R.id.text05Product);      // 品名のTextView
-                TextView text05MadeIn = (TextView) view.findViewById(R.id.text05MadeIn);        // 産地のTextView
-                TextView text05Number = (TextView) view.findViewById(R.id.text05Number);        // 個数のTextView
+                TextView textBarcode = (TextView) view.findViewById(R.id.textBarcode);      // バーコードのTextView
+                TextView textProduct = (TextView) view.findViewById(R.id.textProduct);        // 商品名のTextView
+                TextView textDisposal = (TextView) view.findViewById(R.id.textDisposal);        // 廃棄日のTextView
 
                 // holderにviewを持たせておく
                 holder = new ViewHolder();
-                holder.text05Product = text05Product;
-                holder.text05MadeIn = text05MadeIn;
-                holder.text05Number = text05Number;
+                holder.textBarcode = textBarcode;
+                holder.textProduct = textProduct;
+                holder.textDisposal = textDisposal;
                 view.setTag(holder);
 
             } else {
@@ -209,9 +209,9 @@ public class SelectSheetListView extends AppCompatActivity {
             }
 
             // 取得した各データを各TextViewにセット
-            holder.text05Product.setText(myListItem.getProduct());
-            holder.text05MadeIn.setText(myListItem.getMadeIn());
-            holder.text05Number.setText(myListItem.getNumber());
+            holder.textBarcode.setText(myListItem.getBarcode());
+            holder.textProduct.setText(myListItem.getProduct());
+            holder.textDisposal.setText(myListItem.getDisposal());
 
             return view;
 

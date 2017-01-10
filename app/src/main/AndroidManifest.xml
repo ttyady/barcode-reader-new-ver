@@ -38,12 +38,6 @@
         <activity android:name=".DataRegistration"
             android:label="DataRegistration">
         </activity>
-        <activity android:name=".SelectSheetProduct"
-            android:label="SelectSheetProduct">
-        </activity>
-        <activity android:name=".SelectSheetTable"
-            android:label="SelectSheetTable">
-        </activity>
         <activity android:name=".SelectSheetListView"
             android:label="SelectSheetListView">
         </activity>

@@ -10,7 +10,7 @@
 
     <!-- 品名 -->
     <TextView
-        android:id="@+id/text05MadeIn"
+        android:id="@+id/textProduct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.4"
@@ -24,15 +24,15 @@
 
         <!-- タイトル：廃棄日 -->
         <TextView
-            android:id="@+id/text05TitleNumber"
+            android:id="@+id/textTitleDisposal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text05_title_number"
+            android:text="@string/text_title_disposal"
             android:textSize="20sp" />
 
         <!-- データ表示用：廃棄日 -->
         <TextView
-            android:id="@+id/text05Number"
+            android:id="@+id/textDisposal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
@@ -41,15 +41,15 @@
 
         <!-- タイトル：バーコード -->
         <TextView
-            android:id="@+id/text05TitleMadeIn"
+            android:id="@+id/textTitleBarcode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text05_title_product"
+            android:text="@string/text_title_barcode"
             android:textSize="10sp" />
 
         <!-- データ表示用：バーコード -->
         <TextView
-            android:id="@+id/text05Product"
+            android:id="@+id/textBarcode"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"

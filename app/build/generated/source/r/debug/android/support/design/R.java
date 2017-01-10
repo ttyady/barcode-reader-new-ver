@@ -839,7 +839,7 @@ public final class R {
 		public static final int select_dialog_item_material = 0x7f030033;
 		public static final int select_dialog_multichoice_material = 0x7f030034;
 		public static final int select_dialog_singlechoice_material = 0x7f030035;
-		public static final int support_simple_spinner_dropdown_item = 0x7f030039;
+		public static final int support_simple_spinner_dropdown_item = 0x7f030037;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f050000;
@@ -875,7 +875,7 @@ public final class R {
 		public static final int abc_toolbar_collapse_description = 0x7f050012;
 		public static final int appbar_scrolling_view_behavior = 0x7f050037;
 		public static final int bottom_sheet_behavior = 0x7f05003d;
-		public static final int character_counter_pattern = 0x7f050042;
+		public static final int character_counter_pattern = 0x7f050040;
 		public static final int search_menu_title = 0x7f050027;
 		public static final int status_bar_notification_info_overflow = 0x7f050028;
 	}

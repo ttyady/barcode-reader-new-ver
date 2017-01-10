@@ -16,9 +16,9 @@
 
 package com.google.android.gms.samples.vision.barcodereader;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
 import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
@@ -56,8 +56,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         findViewById(R.id.read_barcode).setOnClickListener(this);
         findViewById(R.id.barcode_save).setOnClickListener(this);
-        findViewById(R.id.delete_database).setOnClickListener(this);
         findViewById(R.id.buttonShow).setOnClickListener(this);
+        // データベース内容更新時用　データベース削除ボタン
+        findViewById(R.id.delete_database).setOnClickListener(this);
+
     }
 
     /**
@@ -84,17 +86,19 @@ public class MainActivity extends Activity implements View.OnClickListener {
             intent.putExtra("barcodeValue",bar);
             startActivity(intent);
         }
+
+        if (v.getId() == R.id.buttonShow){
+            Intent intent = new Intent(this, SelectSheetListView.class);
+            startActivity(intent);
+        }
+        // データベース更新時用　データベース削除コマンド
         if (v.getId() == R.id.delete_database) {
             Toast.makeText(this,"データベース削除完了",Toast.LENGTH_SHORT).show();
             Log.d(TAG, "database削除");
             DBAdapter dbA = new DBAdapter(this);
             dbA.databaseDelete();
+        }
 
-        }
-        if (v.getId() == R.id.buttonShow){
-            Intent intent = new Intent(this, SelectSheetListView.class);
-            startActivity(intent);
-        }
     }
 
     /**

@@ -81,9 +81,6 @@ public class DataRegistration extends Activity {
             }
         };
 
-/*        // ラジオボタン選択時
-        mRadioGroup01Show.setOnCheckedChangeListener(this);*/
-
         // 登録ボタン押下時処理
         mButton01Regist.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -106,10 +103,6 @@ public class DataRegistration extends Activity {
             public void onClick(View v) {
                 intent = new Intent(DataRegistration.this, SelectSheetListView.class);
                 startActivity(intent);      // 各画面へ遷移
-/*                } else {
-                    Toast.makeText(DataRegistration.this, "ラジオボタンが選択されていません。", Toast.LENGTH_SHORT).show();
-                }*/
-
             }
         });
 
@@ -155,22 +148,19 @@ public class DataRegistration extends Activity {
         String barcodedata = intent.getStringExtra("barcodeValue");
         mEditTextBarcode.setText(barcodedata);*/
         mEditTextProduct = (EditText) findViewById(R.id.editTextProduct);     // 商品名
-        mEditTextDisposal = (EditText) findViewById(R.id.editTextDisposal);     // 個数
+        mEditTextDisposal = (EditText) findViewById(R.id.editTextDisposal);     // 廃棄日
 
-        mText01Kome01 = (TextView) findViewById(R.id.text01Kome01);             // 品名の※印
-        mText01Kome02 = (TextView) findViewById(R.id.text01Kome02);             // 産地※印
-        mText01Kome03 = (TextView) findViewById(R.id.text01Kome03);             // 個数の※印
+        mText01Kome01 = (TextView) findViewById(R.id.text01Kome01);             // バーコードの※印
+        mText01Kome02 = (TextView) findViewById(R.id.text01Kome02);             // 商品名※印
+        mText01Kome03 = (TextView) findViewById(R.id.text01Kome03);             // 廃棄日の※印
 
 
         mButton01Regist = (Button) findViewById(R.id.buttonRegist);           // 登録ボタン
         mButton01Show = (Button) findViewById(R.id.buttonShow);               // 表示ボタン
         mButtonReadBarcode = (Button) findViewById(R.id.re_read_barcode);        // バーコード読み取りボタン
 
-        //mRadioGroup01Show = (RadioGroup) findViewById(R.id.radioGroup01);       // 選択用ラジオボタングループ
-
         autoFocus = (CompoundButton) findViewById(R.id.re_auto_focus);
         useFlash = (CompoundButton) findViewById(R.id.re_use_flash);
-
 
     }
 
@@ -204,29 +194,6 @@ public class DataRegistration extends Activity {
         mEditTextBarcode.requestFocus();      // フォーカスを品名のEditTextに指定
     }
 
-/*    *//**
-     * ラジオボタン選択処理
-     * onCheckedChanged()
-     *//*
-    @Override
-    public void onCheckedChanged(RadioGroup group, int checkedId) {
-        switch (checkedId) {
-            case R.id.radioButton01Product:         // 品名一覧(ListView×ArrayAdapter)を選択した場合
-                intent = new Intent(DataRegistration.this, SelectSheetProduct.class);
-                break;
-            case R.id.radioButton01ListView:        // ListView表示を選択した場合
-                intent = new Intent(DataRegistration.this, SelectSheetListView.class);
-                break;
-            case R.id.radioButton01TableLayout:     // TableLayout表示を選択した場合
-                intent = new Intent(DataRegistration.this, SelectSheetTable.class);
-                break;
-        }
-    }*/
-
-    /**
-     * EditTextに入力したテキストをDBに登録
-     * saveDB()
-     */
     private void saveList() {
 
         // 各EditTextで入力されたテキストを取得
@@ -274,13 +241,7 @@ public class DataRegistration extends Activity {
                 Long iProduct = Long.parseLong(strProduct);
                 //int iNumber = Integer.parseInt(strNumber);
 
-    /*            // DBへの登録処理
-                DBAdapter dbAdapter = new DBAdapter(this);
-                dbAdapter.openDB();                                         // DBの読み書き*/
-
-                //dbAdapter.saveDB(strProduct, strMadeIn, iNumber);   // DBに登録
                 dbAdapter.saveDB(iProduct, strMadeIn, strNumber);   // DBに登録
-                // dbAdapter.closeDB();                                        // DBを閉じる
 
                 init();     // 初期値設定
                 Toast.makeText(DataRegistration.this, "DB登録完了", Toast.LENGTH_SHORT).show();
@@ -307,29 +268,4 @@ public class DataRegistration extends Activity {
             super.onActivityResult(requestCode, resultCode, data);
         }
     }
-/*
-    // メニュー未使用
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    // メニュー未使用
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }*/
-
 }

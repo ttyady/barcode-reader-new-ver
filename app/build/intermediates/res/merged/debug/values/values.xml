@@ -570,7 +570,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">DBSample</string>
+    <string name="app_name">BarcodeCapture</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auto_focus">Auto Focus</string>
     <string name="barcode_error">"Error reading barcode: %1$s"</string>
@@ -580,8 +580,6 @@
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="button01_regist">登録</string>
     <string name="button01_show">データ表示</string>
-    <string name="button02_alldelete">全件削除</string>
-    <string name="button04_search">検索</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
@@ -604,15 +602,10 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
-    <string name="name_selectsheet_listview">ListView表示画面</string>
-    <string name="name_selectsheet_product">バーコード一覧画面</string>
-    <string name="name_selectsheet_tabel">TableLayout表示画面</string>
+    <string name="name_selectsheet_listview">ListView</string>
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="ok">OK</string>
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
-    <string name="radio01_listview">ListView表示 (ListView×BaseAdapter)</string>
-    <string name="radio01_product">バーコード一覧 (ListView×ArrayAdapter)</string>
-    <string name="radio01_tablelayout">TableLayout表示</string>
     <string name="read_barcode">Read Barcode</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -623,14 +616,8 @@
     <string name="text01_madein">品名</string>
     <string name="text01_number">廃棄日</string>
     <string name="text01_product">バーコード</string>
-    <string name="text02_title">バーコード一覧</string>
-    <string name="text02_title_detail">ListViewを表示する為にArrayAdapterを使ってシンプルに品名だけをリスト表示します。</string>
-    <string name="text03_title_detail">BaseAdapterを使いListViewをカスタムしてリスト表示します。</string>
-    <string name="text04_hinttext">バーコードを入力して下さい。</string>
-    <string name="text04_title_detail">SearchViewを使ってバーコードを検索し、DBから取得したデータをTableRowに加えていく表示の仕方です。</string>
-    <string name="text05_title_madein">品名:</string>
-    <string name="text05_title_number">廃棄日:</string>
-    <string name="text05_title_product">バーコード:</string>
+    <string name="text_title_barcode">バーコード:</string>
+    <string name="text_title_disposal">廃棄日:</string>
     <string name="title_activity_main">Barcode Reader Sample</string>
     <string name="use_flash">Use Flash</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

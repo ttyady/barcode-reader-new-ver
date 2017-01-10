@@ -79,31 +79,6 @@ public class DBAdapter {
      * @param disposal  廃棄日
      */
 
-/*    //-------------------------------------------------
-    public void saveDB() {
-        db.beginTransaction();          // トランザクション開始
-
-        try {
-            ContentValues values = new ContentValues();     // ContentValuesでデータを設定していく
-            values.put(COL_BARCODE, "ASDF");
-            values.put(COL_PRODUCT, "jap");
-            values.put(COL_DISPOSAL, 4214);
-
-            // insertメソッド データ登録
-            // 第1引数：DBのテーブル名
-            // 第2引数：更新する条件式
-            // 第3引数：ContentValues
-            db.insert(DB_TABLE, null, values);      // レコードへ登録
-
-            db.setTransactionSuccessful();      // トランザクションへコミット
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            db.endTransaction();                // トランザクションの終了
-        }
-    }
-
-    //-------------------------------------------------*/
     public void saveDB(Long barcode, String product, String disposal) {
 
         db.beginTransaction();          // トランザクション開始
