@@ -31,7 +31,7 @@
     <string name="text01_kome">※</string>
     <string name="text01_hinttext">全角・半角12文字以内</string>
     <string name="text01_hintnumber">半角数字</string>
-    <string name="text01_hintdate">mm/dd</string>
+    <string name="text01_hintdate">yyyy/mm/dd</string>
     <string name="button01_regist">登録</string>
     <string name="button01_show">データ表示</string>
 

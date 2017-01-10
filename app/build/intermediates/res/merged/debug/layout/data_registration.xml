@@ -8,16 +8,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".DataRegistration">
 
-    <!-- 品名 -->
+    <!-- バーコード -->
     <LinearLayout
-        android:id="@+id/linearLayout01Product"
+        android:id="@+id/linearLayoutBarcode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/text01Product"
+            android:id="@+id/textBarcode"
             android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
@@ -37,7 +37,7 @@
         <!-- ellipsize：文字が行に収まりきらない末尾を「...」表示 -->
         <!-- inputType：表示するキーボードを数字に指定 -->
         <EditText
-            android:id="@+id/editText01Product"
+            android:id="@+id/editTextBarcode"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -53,16 +53,16 @@
 
     <!-- 産地 -->
     <LinearLayout
-        android:id="@+id/linearLayout01MadeIn"
+        android:id="@+id/linearLayoutProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/linearLayout01Product"
+        android:layout_below="@+id/linearLayoutBarcode"
         android:layout_marginTop="8dp"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/text01MadeIn"
+            android:id="@+id/textProduct"
             android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
@@ -80,7 +80,7 @@
             android:textSize="14sp" />
 
         <EditText
-            android:id="@+id/editText01MadeIn"
+            android:id="@+id/editTextProduct"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -97,16 +97,16 @@
 
     <!-- 個数 -->
     <LinearLayout
-        android:id="@+id/linearLayout01Number"
+        android:id="@+id/linearLayoutDisposal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/linearLayout01MadeIn"
+        android:layout_below="@+id/linearLayoutProduct"
         android:layout_marginTop="8dp"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/text01Number"
+            android:id="@+id/textDisposal"
             android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
@@ -125,7 +125,7 @@
 
         <!-- inputType：表示するキーボードをカレンダーに指定 -->
         <EditText
-            android:id="@+id/editText01Number"
+            android:id="@+id/editTextDisposal"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -146,10 +146,10 @@
 
     <!-- 登録ボタン -->
     <Button
-        android:id="@+id/button01Regist"
+        android:id="@+id/buttonRegist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/linearLayout01Number"
+        android:layout_below="@+id/linearLayoutDisposal"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:text="@string/button01_regist"
@@ -197,10 +197,10 @@
 
     <!-- 表示ボタン -->
     <Button
-        android:id="@+id/button01Show"
+        android:id="@+id/buttonShow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button01Regist"
+        android:layout_below="@+id/buttonRegist"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:text="@string/button01_show"
@@ -210,7 +210,7 @@
         android:id="@+id/re_read_barcode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button01Show"
+        android:layout_below="@id/buttonShow"
         android:text="READ BARCODE"/>
     <Switch
         android:layout_width="wrap_content"

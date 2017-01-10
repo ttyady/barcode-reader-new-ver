@@ -57,7 +57,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.read_barcode).setOnClickListener(this);
         findViewById(R.id.barcode_save).setOnClickListener(this);
         findViewById(R.id.delete_database).setOnClickListener(this);
-        findViewById(R.id.button01Show).setOnClickListener(this);
+        findViewById(R.id.buttonShow).setOnClickListener(this);
     }
 
     /**
@@ -91,7 +91,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             dbA.databaseDelete();
 
         }
-        if (v.getId() == R.id.button01Show){
+        if (v.getId() == R.id.buttonShow){
             Intent intent = new Intent(this, SelectSheetListView.class);
             startActivity(intent);
         }

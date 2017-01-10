@@ -16,7 +16,6 @@ import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.DatePicker;
 import android.widget.EditText;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,19 +28,18 @@ import java.util.Calendar;
 public class DataRegistration extends Activity {
 
 
-    private EditText mEditText01Product;        // 品名
-    private EditText mEditText01MadeIn;         // 産地
-    private EditText mEditText01Number;         // 個数
+    private EditText mEditTextBarcode;     // バーコード
+    private EditText mEditTextProduct;         // 商品名
+    private EditText mEditTextDisposal;         // 廃棄日
 
-    private TextView mText01Kome01;             // 品名の※印
-    private TextView mText01Kome02;             // 産地の※印
-    private TextView mText01Kome03;             // 個数の※印
+    private TextView mText01Kome01;             // バーコードの※印
+    private TextView mText01Kome02;             // 商品名の※印
+    private TextView mText01Kome03;             // 廃棄日の※印
 
     private Button mButton01Regist;             // 登録ボタン
     private Button mButton01Show;               // 表示ボタン
     private Button mButtonReadBarcode;         // バーコード読み込みボタン
 
-    private RadioGroup mRadioGroup01Show;       // 選択用ラジオボタングループ
 
     private CompoundButton autoFocus;
     private CompoundButton useFlash;
@@ -79,7 +77,7 @@ public class DataRegistration extends Activity {
 
 
 
-                mEditText01Number.setText(year + "/" + (format_m.format(monthOfYear + 1)) + "/" + format_d.format(dayOfMonth));
+                mEditTextDisposal.setText(year + "/" + (format_m.format(monthOfYear + 1)) + "/" + format_d.format(dayOfMonth));
             }
         };
 
@@ -128,7 +126,7 @@ public class DataRegistration extends Activity {
             }
         });
 
-        mEditText01Number.setOnClickListener(new View.OnClickListener() {
+        mEditTextDisposal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Calendar calendar = Calendar.getInstance();
@@ -152,20 +150,20 @@ public class DataRegistration extends Activity {
      */
     private void findViews() {
 
-        mEditText01Product = (EditText) findViewById(R.id.editText01Product);   // 品名
+        mEditTextBarcode = (EditText) findViewById(R.id.editTextBarcode);   // バーコード
 /*        Intent intent = getIntent();
         String barcodedata = intent.getStringExtra("barcodeValue");
-        mEditText01Product.setText(barcodedata);*/
-        mEditText01MadeIn = (EditText) findViewById(R.id.editText01MadeIn);     // 産地
-        mEditText01Number = (EditText) findViewById(R.id.editText01Number);     // 個数
+        mEditTextBarcode.setText(barcodedata);*/
+        mEditTextProduct = (EditText) findViewById(R.id.editTextProduct);     // 商品名
+        mEditTextDisposal = (EditText) findViewById(R.id.editTextDisposal);     // 個数
 
         mText01Kome01 = (TextView) findViewById(R.id.text01Kome01);             // 品名の※印
         mText01Kome02 = (TextView) findViewById(R.id.text01Kome02);             // 産地※印
         mText01Kome03 = (TextView) findViewById(R.id.text01Kome03);             // 個数の※印
 
 
-        mButton01Regist = (Button) findViewById(R.id.button01Regist);           // 登録ボタン
-        mButton01Show = (Button) findViewById(R.id.button01Show);               // 表示ボタン
+        mButton01Regist = (Button) findViewById(R.id.buttonRegist);           // 登録ボタン
+        mButton01Show = (Button) findViewById(R.id.buttonShow);               // 表示ボタン
         mButtonReadBarcode = (Button) findViewById(R.id.re_read_barcode);        // バーコード読み取りボタン
 
         //mRadioGroup01Show = (RadioGroup) findViewById(R.id.radioGroup01);       // 選択用ラジオボタングループ
@@ -181,14 +179,14 @@ public class DataRegistration extends Activity {
      * init()
      */
     private void init(String barcodedata) {
-        mEditText01Product.setText(barcodedata);
-        mEditText01MadeIn.setText("");
-        mEditText01Number.setText("");
+        mEditTextBarcode.setText(barcodedata);
+        mEditTextProduct.setText("");
+        mEditTextDisposal.setText("");
 
         mText01Kome01.setText("");
         mText01Kome02.setText("");
         mText01Kome03.setText("");
-        mEditText01Product.requestFocus();      // フォーカスを品名のEditTextに指定
+        mEditTextBarcode.requestFocus();      // フォーカスを品名のEditTextに指定
     }
 
     /**
@@ -196,14 +194,14 @@ public class DataRegistration extends Activity {
      * init()
      */
     private void init() {
-        mEditText01Product.setText("");
-        mEditText01MadeIn.setText("");
-        mEditText01Number.setText("");
+        mEditTextBarcode.setText("");
+        mEditTextProduct.setText("");
+        mEditTextDisposal.setText("");
 
         mText01Kome01.setText("");
         mText01Kome02.setText("");
         mText01Kome03.setText("");
-        mEditText01Product.requestFocus();      // フォーカスを品名のEditTextに指定
+        mEditTextBarcode.requestFocus();      // フォーカスを品名のEditTextに指定
     }
 
 /*    *//**
@@ -232,9 +230,9 @@ public class DataRegistration extends Activity {
     private void saveList() {
 
         // 各EditTextで入力されたテキストを取得
-        String strProduct = mEditText01Product.getText().toString();
-        String strMadeIn = mEditText01MadeIn.getText().toString();
-        String strNumber = mEditText01Number.getText().toString();
+        String strProduct = mEditTextBarcode.getText().toString();
+        String strMadeIn = mEditTextProduct.getText().toString();
+        String strNumber = mEditTextDisposal.getText().toString();
         /*テスト*/
         DBAdapter dbAdapter = new DBAdapter(this);
         dbAdapter.openDB();                                         // DBの読み書き
@@ -301,7 +299,7 @@ public class DataRegistration extends Activity {
                 if (data != null) {
                     Barcode barcode = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
 
-                    mEditText01Product.setText(barcode.displayValue);
+                    mEditTextBarcode.setText(barcode.displayValue);
                 }
             }
         }
