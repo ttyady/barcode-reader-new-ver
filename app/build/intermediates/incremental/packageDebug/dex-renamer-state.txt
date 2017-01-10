@@ -1,4 +1,4 @@
-#Tue Jan 10 11:16:06 JST 2017
+#Tue Jan 10 13:27:05 JST 2017
 base.0=L\:\\barcode-reader-new-ver\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_dd5fc8823b25cfc69a409b9c4a1c28be3cf629f7
 renamed.1=classes2.dex
 renamed.0=classes.dex

@@ -24,9 +24,9 @@ public class DBAdapter {
      * DBのカラム名
      */
     public final static String COL_ID = "_id";             // id
-    public final static String COL_BARCODE = "barcode";    // 品名
-    public final static String COL_PRODUCT = "product";      // 産地
-    public final static String COL_NUMBER = "number";      // 個数
+    public final static String COL_BARCODE = "barcode";    // バーコード
+    public final static String COL_PRODUCT = "product";      // 商品名
+    public final static String COL_DISPOSAL = "disposal";      // 廃棄日
 
     private SQLiteDatabase db = null;           // SQLiteDatabase
     private DBHelper dbHelper = null;           // DBHepler
@@ -74,9 +74,9 @@ public class DBAdapter {
      * DBのレコードへ登録
      * saveDB()
      *
-     * @param barcode 品名
-     * @param product  産地
-     * @param number  個数
+     * @param barcode バーコード
+     * @param product  商品名
+     * @param disposal  廃棄日
      */
 
 /*    //-------------------------------------------------
@@ -87,7 +87,7 @@ public class DBAdapter {
             ContentValues values = new ContentValues();     // ContentValuesでデータを設定していく
             values.put(COL_BARCODE, "ASDF");
             values.put(COL_PRODUCT, "jap");
-            values.put(COL_NUMBER, 4214);
+            values.put(COL_DISPOSAL, 4214);
 
             // insertメソッド データ登録
             // 第1引数：DBのテーブル名
@@ -104,7 +104,7 @@ public class DBAdapter {
     }
 
     //-------------------------------------------------*/
-    public void saveDB(Long barcode, String product, String number) {
+    public void saveDB(Long barcode, String product, String disposal) {
 
         db.beginTransaction();          // トランザクション開始
 
@@ -112,7 +112,7 @@ public class DBAdapter {
             ContentValues values = new ContentValues();     // ContentValuesでデータを設定していく
             values.put(COL_BARCODE, barcode);
             values.put(COL_PRODUCT, product);
-            values.put(COL_NUMBER, number);
+            values.put(COL_DISPOSAL, disposal);
 
             // insertメソッド データ登録
             // 第1引数：DBのテーブル名
@@ -145,7 +145,7 @@ public class DBAdapter {
         // 第5引数：集計条件(GROUP BY句)
         // 第6引数：選択条件(HAVING句)
         // 第7引数：ソート条件(ODERBY句)
-        return db.query(DB_TABLE, columns, null, null, null, null, COL_NUMBER+" ASC");
+        return db.query(DB_TABLE, columns, null, null, null, null, COL_DISPOSAL +" ASC");
     }
 
     /**
@@ -234,7 +234,7 @@ public class DBAdapter {
                     + COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
                     + COL_BARCODE + " INTEGER NOT NULL,"
                     + COL_PRODUCT + " TEXT NOT NULL,"
-                    + COL_NUMBER + " TEXT NOT NULL"
+                    + COL_DISPOSAL + " TEXT NOT NULL"
                     + ");";
 
             db.execSQL(createTbl);      //SQL文の実行

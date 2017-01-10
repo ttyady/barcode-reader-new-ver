@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jan 10 11:16:06 JST 2017
+#Tue Jan 10 13:27:06 JST 2017
 210.set=ANDROID_RESOURCE
 282.file=L\:\\barcode-reader-new-ver\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_menu.xml
 14.set=ANDROID_RESOURCE
