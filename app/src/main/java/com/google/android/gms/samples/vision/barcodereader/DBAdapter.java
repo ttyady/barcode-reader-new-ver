@@ -24,8 +24,8 @@ public class DBAdapter {
      * DBのカラム名
      */
     public final static String COL_ID = "_id";             // id
-    public final static String COL_PRODUCT = "product";    // 品名
-    public final static String COL_MADEIN = "madein";      // 産地
+    public final static String COL_BARCODE = "barcode";    // 品名
+    public final static String COL_PRODUCT = "product";      // 産地
     public final static String COL_NUMBER = "number";      // 個数
 
     private SQLiteDatabase db = null;           // SQLiteDatabase
@@ -74,8 +74,8 @@ public class DBAdapter {
      * DBのレコードへ登録
      * saveDB()
      *
-     * @param product 品名
-     * @param madein  産地
+     * @param barcode 品名
+     * @param product  産地
      * @param number  個数
      */
 
@@ -85,8 +85,8 @@ public class DBAdapter {
 
         try {
             ContentValues values = new ContentValues();     // ContentValuesでデータを設定していく
-            values.put(COL_PRODUCT, "ASDF");
-            values.put(COL_MADEIN, "jap");
+            values.put(COL_BARCODE, "ASDF");
+            values.put(COL_PRODUCT, "jap");
             values.put(COL_NUMBER, 4214);
 
             // insertメソッド データ登録
@@ -104,14 +104,14 @@ public class DBAdapter {
     }
 
     //-------------------------------------------------*/
-    public void saveDB(Long product, String madein, String number) {
+    public void saveDB(Long barcode, String product, String number) {
 
         db.beginTransaction();          // トランザクション開始
 
         try {
             ContentValues values = new ContentValues();     // ContentValuesでデータを設定していく
+            values.put(COL_BARCODE, barcode);
             values.put(COL_PRODUCT, product);
-            values.put(COL_MADEIN, madein);
             values.put(COL_NUMBER, number);
 
             // insertメソッド データ登録
@@ -232,8 +232,8 @@ public class DBAdapter {
             //テーブルを作成するSQL文の定義 ※スペースに気を付ける
             String createTbl = "CREATE TABLE " + DB_TABLE + " ("
                     + COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
-                    + COL_PRODUCT + " INTEGER NOT NULL,"
-                    + COL_MADEIN + " TEXT NOT NULL,"
+                    + COL_BARCODE + " INTEGER NOT NULL,"
+                    + COL_PRODUCT + " TEXT NOT NULL,"
                     + COL_NUMBER + " TEXT NOT NULL"
                     + ");";
 

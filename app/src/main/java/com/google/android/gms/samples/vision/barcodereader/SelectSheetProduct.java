@@ -44,7 +44,7 @@ public class SelectSheetProduct extends AppCompatActivity {
         items = new ArrayList<>();
 
         // DBのデータを取得
-        String[] columns = {DBAdapter.COL_PRODUCT};     // DBのカラム：品名
+        String[] columns = {DBAdapter.COL_BARCODE};     // DBのカラム：品名
         Cursor c = dbAdapter.getDB(columns);
 
         if (c.moveToFirst()) {

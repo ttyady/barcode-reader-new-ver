@@ -239,7 +239,7 @@ public class DataRegistration extends Activity {
         DBAdapter dbAdapter = new DBAdapter(this);
         dbAdapter.openDB();                                         // DBの読み書き
         String[] name = {strProduct};
-        Cursor c = dbAdapter.searchDB(null,"product",name);
+        Cursor c = dbAdapter.searchDB(null,"barcode",name);
         if (c.moveToFirst()) {
             do {
                 Toast.makeText(this, "重複登録 商品名:"+c.getString(2), Toast.LENGTH_SHORT).show();
