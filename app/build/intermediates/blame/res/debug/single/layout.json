@@ -88,8 +88,16 @@
         "source": "L:\\barcode-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "L:\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_row_listview.xml",
+        "source": "L:\\barcode-reader\\app\\src\\main\\res\\layout\\product_row_listview.xml"
+    },
+    {
         "merged": "L:\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
         "source": "L:\\barcode-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "L:\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_listview.xml",
+        "source": "L:\\barcode-reader\\app\\src\\main\\res\\layout\\product_listview.xml"
     },
     {
         "merged": "L:\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",

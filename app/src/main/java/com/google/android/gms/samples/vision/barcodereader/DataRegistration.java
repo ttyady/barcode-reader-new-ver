@@ -39,7 +39,6 @@ public class DataRegistration extends Activity {
     private Button mButton01Regist;             // 登録ボタン
     private Button mButton01Show;               // 表示ボタン
     private Button mButtonReadBarcode;         // バーコード読み込みボタン
-    private Button productButton;
 
 
     private CompoundButton autoFocus;
@@ -135,28 +134,29 @@ public class DataRegistration extends Activity {
             }
         });
 
-        productButton.setOnClickListener(new View.OnClickListener() {
+        mEditTextBarcode.setOnFocusChangeListener(new View.OnFocusChangeListener(){
             @Override
-            public void onClick(View v) {
-                String strBarcode = mEditTextBarcode.getText().toString();
-                DBAdapter dbAdapter = new DBAdapter(DataRegistration.this);
-                dbAdapter.openDB();                                         // DBの読み書き
-                String[] name = {strBarcode};
-                Cursor c = dbAdapter.searchDB2(null,"barcode",name);
-                if (c.moveToFirst()) {
-                    do {
-                        Toast.makeText(DataRegistration.this, "商品発見:"+c.getString(1), Toast.LENGTH_SHORT).show();
-                        mEditTextProduct.setText(c.getString(1));
-                    } while (c.moveToNext());
-                }else{
-                    //バーコードが見つからなかった場合
-                    Toast.makeText(DataRegistration.this, "商品名が登録されていません", Toast.LENGTH_SHORT).show();
+            public void onFocusChange(View v,boolean hasFocus){
+                if(hasFocus == false) { //focusが外れたら
+                    String strBarcode = mEditTextBarcode.getText().toString();
+                    DBAdapter dbAdapter = new DBAdapter(DataRegistration.this);
+                    dbAdapter.openDB();                                         // DBの読み書き
+                    String[] name = {strBarcode};
+                    Cursor c = dbAdapter.searchDB2(null,"barcode",name);
+                    if (c.moveToFirst()) {
+                        do {
+                            Toast.makeText(DataRegistration.this, "商品発見:"+c.getString(1), Toast.LENGTH_SHORT).show();
+                            mEditTextProduct.setText(c.getString(1));
+                        } while (c.moveToNext());
+                    }else{
+                        //バーコードが見つからなかった場合
+                        Toast.makeText(DataRegistration.this, "商品名が登録されていません", Toast.LENGTH_SHORT).show();
+                        mEditTextProduct.setText("");
 
-
+                    }
                 }
             }
-        }
-        );
+        });
     }
 
 
@@ -182,7 +182,6 @@ public class DataRegistration extends Activity {
         mButton01Regist = (Button) findViewById(R.id.buttonRegist);           // 登録ボタン
         mButton01Show = (Button) findViewById(R.id.buttonShow);               // 表示ボタン
         mButtonReadBarcode = (Button) findViewById(R.id.re_read_barcode);        // バーコード読み取りボタン
-        productButton = (Button) findViewById(R.id.productButton);
 
         autoFocus = (CompoundButton) findViewById(R.id.re_auto_focus);
         useFlash = (CompoundButton) findViewById(R.id.re_use_flash);
@@ -217,6 +216,7 @@ public class DataRegistration extends Activity {
         mText01Kome02.setText("");
         mText01Kome03.setText("");
         mEditTextBarcode.requestFocus();      // フォーカスを品名のEditTextに指定
+
     }
 
     private void saveList() {
