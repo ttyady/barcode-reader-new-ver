@@ -49,6 +49,11 @@
             android:minLines="1"
             android:singleLine="true"
             android:textSize="16sp" />
+        <Button
+            android:id="@+id/productButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品名検索"/>
     </LinearLayout>
 
     <!-- 産地 -->
@@ -93,6 +98,7 @@
             android:minLines="1"
             android:singleLine="true"
             android:textSize="16sp" />
+
     </LinearLayout>
 
     <!-- 個数 -->

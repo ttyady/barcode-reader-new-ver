@@ -39,6 +39,7 @@ public class DataRegistration extends Activity {
     private Button mButton01Regist;             // 登録ボタン
     private Button mButton01Show;               // 表示ボタン
     private Button mButtonReadBarcode;         // バーコード読み込みボタン
+    private Button productButton;
 
 
     private CompoundButton autoFocus;
@@ -133,6 +134,29 @@ public class DataRegistration extends Activity {
                 dateDialog.show();
             }
         });
+
+        productButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String strBarcode = mEditTextBarcode.getText().toString();
+                DBAdapter dbAdapter = new DBAdapter(DataRegistration.this);
+                dbAdapter.openDB();                                         // DBの読み書き
+                String[] name = {strBarcode};
+                Cursor c = dbAdapter.searchDB2(null,"barcode",name);
+                if (c.moveToFirst()) {
+                    do {
+                        Toast.makeText(DataRegistration.this, "商品発見:"+c.getString(1), Toast.LENGTH_SHORT).show();
+                        mEditTextProduct.setText(c.getString(1));
+                    } while (c.moveToNext());
+                }else{
+                    //バーコードが見つからなかった場合
+                    Toast.makeText(DataRegistration.this, "商品名が登録されていません", Toast.LENGTH_SHORT).show();
+
+
+                }
+            }
+        }
+        );
     }
 
 
@@ -158,6 +182,7 @@ public class DataRegistration extends Activity {
         mButton01Regist = (Button) findViewById(R.id.buttonRegist);           // 登録ボタン
         mButton01Show = (Button) findViewById(R.id.buttonShow);               // 表示ボタン
         mButtonReadBarcode = (Button) findViewById(R.id.re_read_barcode);        // バーコード読み取りボタン
+        productButton = (Button) findViewById(R.id.productButton);
 
         autoFocus = (CompoundButton) findViewById(R.id.re_auto_focus);
         useFlash = (CompoundButton) findViewById(R.id.re_use_flash);
@@ -197,59 +222,53 @@ public class DataRegistration extends Activity {
     private void saveList() {
 
         // 各EditTextで入力されたテキストを取得
-        String strProduct = mEditTextBarcode.getText().toString();
-        String strMadeIn = mEditTextProduct.getText().toString();
-        String strNumber = mEditTextDisposal.getText().toString();
-        /*テスト*/
-        DBAdapter dbAdapter = new DBAdapter(this);
-        dbAdapter.openDB();                                         // DBの読み書き
-        String[] name = {strProduct};
-        Cursor c = dbAdapter.searchDB(null,"barcode",name);
-        if (c.moveToFirst()) {
-            do {
-                Toast.makeText(this, "重複登録 商品名:"+c.getString(2), Toast.LENGTH_SHORT).show();
-            } while (c.moveToNext());
-        }else {
-            /*テスト*/
-            // EditTextが空白の場合
-            if (strProduct.equals("") || strMadeIn.equals("") || strNumber.equals("")) {
-
-                if (strProduct.equals("")) {
-                    mText01Kome01.setText("※");     // 品名が空白の場合、※印を表示
-                } else {
-                    mText01Kome01.setText("");      // 空白でない場合は※印を消す
-                }
-
-                if (strMadeIn.equals("")) {
-                    mText01Kome02.setText("※");     // 産地が空白の場合、※印を表示
-                } else {
-                    mText01Kome02.setText("");      // 空白でない場合は※印を消す
-                }
-
-                if (strNumber.equals("")) {
-                    mText01Kome03.setText("※");     // 個数が空白の場合、※印を表示
-                } else {
-                    mText01Kome03.setText("");      // 空白でない場合は※印を消す
-                }
+        String strBarcode = mEditTextBarcode.getText().toString();
+        String strProduct = mEditTextProduct.getText().toString();
+        String strDisposal = mEditTextDisposal.getText().toString();
 
 
-                Toast.makeText(DataRegistration.this, "※の箇所を入力して下さい。", Toast.LENGTH_SHORT).show();
+        // EditTextが空白の場合
+        if (strBarcode.equals("") || strProduct.equals("") || strDisposal.equals("")) {
 
-            } else {        // EditTextが全て入力されている場合
-
-                // 入力されたバーコードは文字列からLong型へ変換
-                Long iProduct = Long.parseLong(strProduct);
-                //int iNumber = Integer.parseInt(strNumber);
-
-                dbAdapter.saveDB(iProduct, strMadeIn, strNumber);   // DBに登録
-
-                init();     // 初期値設定
-                Toast.makeText(DataRegistration.this, "DB登録完了", Toast.LENGTH_SHORT).show();
-
+            if (strBarcode.equals("")) {
+                mText01Kome01.setText("※");     // 品名が空白の場合、※印を表示
+            } else {
+                mText01Kome01.setText("");      // 空白でない場合は※印を消す
             }
+
+            if (strProduct.equals("")) {
+                mText01Kome02.setText("※");     // 産地が空白の場合、※印を表示
+            } else {
+                mText01Kome02.setText("");      // 空白でない場合は※印を消す
+            }
+
+            if (strDisposal.equals("")) {
+                mText01Kome03.setText("※");     // 個数が空白の場合、※印を表示
+            } else {
+                mText01Kome03.setText("");      // 空白でない場合は※印を消す
+            }
+
+
+            Toast.makeText(DataRegistration.this, "※の箇所を入力して下さい。", Toast.LENGTH_SHORT).show();
+
+        } else {        // EditTextが全て入力されている場合
+            DBAdapter dbAdapter = new DBAdapter(this);
+            dbAdapter.openDB();                                         // DBの読み書き
+
+            // 入力されたバーコードは文字列からLong型へ変換
+            Long iBarcode = Long.parseLong(strBarcode);
+            //int iNumber = Integer.parseInt(strNumber);
+
+            dbAdapter.saveDB(iBarcode,strDisposal);   // DBに登録
+            dbAdapter.saveDB2(iBarcode,strProduct);   // DBに登録
+
+
+            init();     // 初期値設定
+            Toast.makeText(DataRegistration.this, "DB登録完了", Toast.LENGTH_SHORT).show();
+            dbAdapter.closeDB();
+
         }
-        c.close();
-        dbAdapter.closeDB();
+
 
     }
 

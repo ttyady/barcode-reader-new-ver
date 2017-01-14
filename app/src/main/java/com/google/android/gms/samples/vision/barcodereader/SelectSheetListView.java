@@ -109,16 +109,15 @@ public class SelectSheetListView extends Activity {
         dbAdapter.openDB();     // DBの読み込み(読み書きの方)
 
         // DBのデータを取得
-        Cursor c = dbAdapter.getDB(columns);
+        Cursor c = dbAdapter.getDB2();
 
         if (c.moveToFirst()) {
             do {
-                // MyListItemのコンストラクタ呼び出し(myListItemのオブジェクト生成)
                 myListItem = new MyListItem(
-                        c.getInt(0),
-                        c.getString(1),
-                        c.getString(2),
-                        c.getString(3));
+                        c.getInt(0),        //id
+                        c.getString(1),     //barcode
+                        c.getString(2),     //product
+                        c.getString(3));    //disposal
 
                 Log.d("取得したCursor(ID):", String.valueOf(c.getInt(0)));
                 Log.d("取得したCursor(バーコード):", c.getString(1));
@@ -126,7 +125,18 @@ public class SelectSheetListView extends Activity {
                 Log.d("取得したCursor(廃棄日):", c.getString(3));
 
                 items.add(myListItem);          // 取得した要素をitemsに追加
+/*                // MyListItemのコンストラクタ呼び出し(myListItemのオブジェクト生成)
+                myListItem = new MyListItem(
+                        c.getInt(0),
+                        c.getString(1),
+                        c.getString(2));
 
+                Log.d("取得したCursor(ID):", String.valueOf(c.getInt(0)));
+                Log.d("取得したCursor(バーコード):", c.getString(1));
+                Log.d("取得したCursor(廃棄日):", c.getString(2));
+
+                items.add(myListItem);          // 取得した要素をitemsに追加
+*/
             } while (c.moveToNext());
         }
         c.close();

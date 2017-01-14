@@ -18,6 +18,7 @@ public class DBAdapter {
 
     private final static String DB_NAME = "sample.db";      // DB名
     private final static String DB_TABLE = "mySheet";       // DBのテーブル名
+    private final static String DB_TABLE2 = "mySheet2";     // DBのテーブル名2
     private final static int DB_VERSION = 1;                // DBのバージョン
 
     /**
@@ -31,6 +32,8 @@ public class DBAdapter {
     private SQLiteDatabase db = null;           // SQLiteDatabase
     private DBHelper dbHelper = null;           // DBHepler
     protected Context context;                  // Context
+
+
 
 
     // コンストラクタ
@@ -75,18 +78,16 @@ public class DBAdapter {
      * saveDB()
      *
      * @param barcode バーコード
-     * @param product  商品名
      * @param disposal  廃棄日
      */
 
-    public void saveDB(Long barcode, String product, String disposal) {
+    public void saveDB(Long barcode,String disposal) {
 
         db.beginTransaction();          // トランザクション開始
 
         try {
             ContentValues values = new ContentValues();     // ContentValuesでデータを設定していく
             values.put(COL_BARCODE, barcode);
-            values.put(COL_PRODUCT, product);
             values.put(COL_DISPOSAL, disposal);
 
             // insertメソッド データ登録
@@ -94,6 +95,36 @@ public class DBAdapter {
             // 第2引数：更新する条件式
             // 第3引数：ContentValues
             db.insert(DB_TABLE, null, values);      // レコードへ登録
+
+            db.setTransactionSuccessful();      // トランザクションへコミット
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            db.endTransaction();                // トランザクションの終了
+        }
+    }
+
+    /**
+     * DBのレコードへ登録
+     * saveDB2()
+     *
+     * @param barcode バーコード
+     * @param product  商品名
+     */
+    public void saveDB2(Long barcode,String product) {
+
+        db.beginTransaction();          // トランザクション開始
+
+        try {
+            ContentValues values = new ContentValues();     // ContentValuesでデータを設定していく
+            values.put(COL_BARCODE, barcode);
+            values.put(COL_PRODUCT, product);
+
+            // insertメソッド データ登録
+            // 第1引数：DBのテーブル名
+            // 第2引数：更新する条件式
+            // 第3引数：ContentValues
+            db.insert(DB_TABLE2, null, values);      // レコードへ登録
 
             db.setTransactionSuccessful();      // トランザクションへコミット
         } catch (Exception e) {
@@ -123,6 +154,12 @@ public class DBAdapter {
         return db.query(DB_TABLE, columns, null, null, null, null, COL_DISPOSAL +" ASC");
     }
 
+    public Cursor getDB2(){
+        String sqlstr = "SELECT mySheet._id,mySheet.barcode,mySheet2.product,mySheet.disposal FROM mySheet INNER JOIN mySheet2 ON mySheet.barcode = mySheet2.barcode;";
+        Cursor c = db.rawQuery(sqlstr,null);
+        return c;
+    }
+
     /**
      * DBの検索したデータを取得
      * searchDB()
@@ -134,6 +171,10 @@ public class DBAdapter {
      */
     public Cursor searchDB(String[] columns, String column, String[] name) {
         return db.query(DB_TABLE, columns, column + " like ?", name, null, null, null);
+    }
+
+    public Cursor searchDB2(String[] columns, String column, String[] name) {
+        return db.query(DB_TABLE2, columns, column + " like ?", name, null, null, null);
     }
 
     /**
@@ -208,11 +249,15 @@ public class DBAdapter {
             String createTbl = "CREATE TABLE " + DB_TABLE + " ("
                     + COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
                     + COL_BARCODE + " INTEGER NOT NULL,"
-                    + COL_PRODUCT + " TEXT NOT NULL,"
                     + COL_DISPOSAL + " TEXT NOT NULL"
                     + ");";
 
+            String createTbl2 = "CREATE TABLE " + DB_TABLE2 + " ("
+                    + COL_BARCODE + " INTEGER PRIMARY KEY,"
+                    + COL_PRODUCT + " TEXT NOT NULL"
+                    + ");";
             db.execSQL(createTbl);      //SQL文の実行
+            db.execSQL(createTbl2);
         }
 
         /**
@@ -226,6 +271,7 @@ public class DBAdapter {
         public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
             // DBからテーブル削除
             db.execSQL("DROP TABLE IF EXISTS" + DB_TABLE);
+            db.execSQL("DROP TABLE IF EXISTS" + DB_TABLE2);
             // テーブル生成
             onCreate(db);
         }

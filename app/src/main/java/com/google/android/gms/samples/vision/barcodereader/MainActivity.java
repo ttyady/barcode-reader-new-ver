@@ -59,7 +59,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.buttonShow).setOnClickListener(this);
         // データベース内容更新時用　データベース削除ボタン
         findViewById(R.id.delete_database).setOnClickListener(this);
-
     }
 
     /**
