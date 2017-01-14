@@ -2732,7 +2732,7 @@ containing a value of this type.
         public static final int beginning=0x7f0b0034;
         public static final int bottom=0x7f0b0022;
         public static final int buttonPanel=0x7f0b004e;
-        public static final int buttonRegist=0x7f0b008c;
+        public static final int buttonRegist=0x7f0b0088;
         public static final int buttonShow=0x7f0b007a;
         public static final int cancel_action=0x7f0b009b;
         public static final int center=0x7f0b0023;
@@ -2757,7 +2757,7 @@ containing a value of this type.
         public static final int design_navigation_view=0x7f0b0095;
         public static final int disableHome=0x7f0b000e;
         public static final int editTextBarcode=0x7f0b0082;
-        public static final int editTextDisposal=0x7f0b008b;
+        public static final int editTextDisposal=0x7f0b008f;
         public static final int editTextProduct=0x7f0b0087;
         public static final int edit_query=0x7f0b0067;
         public static final int end=0x7f0b0026;
@@ -2785,7 +2785,7 @@ containing a value of this type.
         public static final int line1=0x7f0b009f;
         public static final int line3=0x7f0b00a3;
         public static final int linearLayoutBarcode=0x7f0b007f;
-        public static final int linearLayoutDisposal=0x7f0b0088;
+        public static final int linearLayoutDisposal=0x7f0b0089;
         public static final int linearLayoutProduct=0x7f0b0084;
         public static final int listMode=0x7f0b000b;
         public static final int listView=0x7f0b00a9;
@@ -2806,9 +2806,9 @@ containing a value of this type.
         public static final int progress_circular=0x7f0b0006;
         public static final int progress_horizontal=0x7f0b0007;
         public static final int radio=0x7f0b005e;
-        public static final int re_auto_focus=0x7f0b008e;
-        public static final int re_read_barcode=0x7f0b008d;
-        public static final int re_use_flash=0x7f0b008f;
+        public static final int re_auto_focus=0x7f0b008b;
+        public static final int re_read_barcode=0x7f0b008a;
+        public static final int re_use_flash=0x7f0b008c;
         public static final int read_barcode=0x7f0b0076;
         public static final int right=0x7f0b0029;
         public static final int screen=0x7f0b001c;
@@ -2850,10 +2850,10 @@ containing a value of this type.
         public static final int text=0x7f0b00a4;
         public static final int text01Kome01=0x7f0b0081;
         public static final int text01Kome02=0x7f0b0086;
-        public static final int text01Kome03=0x7f0b008a;
+        public static final int text01Kome03=0x7f0b008e;
         public static final int text2=0x7f0b00a2;
         public static final int textBarcode=0x7f0b0080;
-        public static final int textDisposal=0x7f0b0089;
+        public static final int textDisposal=0x7f0b008d;
         public static final int textProduct=0x7f0b0085;
         public static final int textSpacerNoButtons=0x7f0b0057;
         public static final int textTitleBarcode=0x7f0b00a8;
