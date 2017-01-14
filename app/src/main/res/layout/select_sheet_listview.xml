@@ -10,6 +10,11 @@
 
 
     <!-- ListView -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ProductShowButton"
+        android:text="商品名表示"/>
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"

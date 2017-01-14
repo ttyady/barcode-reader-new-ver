@@ -697,6 +697,7 @@ int drawable navigation_empty_icon 0x7f02007e
 int drawable notification_template_icon_bg 0x7f020081
 int drawable row_deco1 0x7f02007f
 int drawable row_deco2 0x7f020080
+int id ProductShowButton 0x7f0b00ab
 int id action0 0x7f0b0099
 int id action_bar 0x7f0b0065
 int id action_bar_activity_content 0x7f0b0000
@@ -782,7 +783,7 @@ int id linearLayoutBarcode 0x7f0b007f
 int id linearLayoutDisposal 0x7f0b0088
 int id linearLayoutProduct 0x7f0b0083
 int id listMode 0x7f0b000b
-int id listView 0x7f0b00ab
+int id listView 0x7f0b00ac
 int id list_item 0x7f0b004b
 int id media_actions 0x7f0b009c
 int id middle 0x7f0b0035

@@ -155,7 +155,7 @@ public class DBAdapter {
     }
 
     public Cursor getDB2(){
-        String sqlstr = "SELECT mySheet._id,mySheet.barcode,mySheet2.product,mySheet.disposal FROM mySheet INNER JOIN mySheet2 ON mySheet.barcode = mySheet2.barcode;";
+        String sqlstr = "SELECT mySheet._id,mySheet.barcode,mySheet2.product,mySheet.disposal FROM mySheet INNER JOIN mySheet2 ON mySheet.barcode = mySheet2.barcode ORDER BY mySheet.disposal ASC;";
         Cursor c = db.rawQuery(sqlstr,null);
         return c;
     }

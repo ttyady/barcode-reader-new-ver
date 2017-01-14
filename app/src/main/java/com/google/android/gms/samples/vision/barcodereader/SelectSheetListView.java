@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,6 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -33,6 +35,7 @@ public class SelectSheetListView extends Activity {
     private List<MyListItem> items;
     private ListView mListView03;
     protected MyListItem myListItem;
+    private Button ProductShowButton;
 
     // 参照するDBのカラム：ID,バーコード,商品名,廃棄日の全部なのでnullを指定
     private String[] columns = null;
@@ -95,6 +98,16 @@ public class SelectSheetListView extends Activity {
                 return false;
             }
         });
+        findViewById(R.id.ProductShowButton).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(SelectSheetListView.this, BarcodeCaptureActivity.class);
+
+                startActivity(intent);
+
+            }
+        });
+
     }
 
     /**
@@ -227,4 +240,5 @@ public class SelectSheetListView extends Activity {
 
         }
     }
+
 }
