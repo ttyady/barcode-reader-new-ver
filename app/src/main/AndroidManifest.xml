@@ -41,6 +41,9 @@
         <activity android:name=".SelectSheetListView"
             android:label="SelectSheetListView">
         </activity>
+        <activity android:name=".ProductListView"
+            android:label="ProductListView">
+        </activity>
     </application>
 
 </manifest>

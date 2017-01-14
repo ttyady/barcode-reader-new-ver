@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 15 06:28:02 JST 2017
+#Sun Jan 15 06:34:19 JST 2017
 20.base=L\:\\barcode-reader\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=L\:\\barcode-reader\\app\\build\\intermediates\\res\\resources-debug.ap_
 493.base=L\:\\barcode-reader\\app\\build\\intermediates\\res\\resources-debug.ap_

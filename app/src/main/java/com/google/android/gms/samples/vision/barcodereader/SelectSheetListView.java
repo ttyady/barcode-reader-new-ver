@@ -101,7 +101,7 @@ public class SelectSheetListView extends Activity {
         findViewById(R.id.ProductShowButton).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(SelectSheetListView.this, BarcodeCaptureActivity.class);
+                Intent intent = new Intent(SelectSheetListView.this, ProductListView.class);
 
                 startActivity(intent);
 

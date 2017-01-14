@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:3:5-66
 		INJECTED from L:\barcode-reader\app\src\main\AndroidManifest.xml
@@ -24,7 +24,7 @@ ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:8:5-65
 	android:name
 		ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:8:22-62
 application
-ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:10:5-44:19
+ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:10:5-47:19
 MERGED from [com.google.android.gms:play-services-vision:9.4.0] L:\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-base:9.4.0] L:\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] L:\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:5:5-20
@@ -100,6 +100,12 @@ ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:41:9-43:20
 		ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:42:13-48
 	android:name
 		ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:41:19-54
+activity#com.google.android.gms.samples.vision.barcodereader.ProductListView
+ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:44:9-46:20
+	android:label
+		ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:45:13-44
+	android:name
+		ADDED from L:\barcode-reader\app\src\main\AndroidManifest.xml:44:19-50
 uses-sdk
 INJECTED from L:\barcode-reader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-vision:9.4.0] L:\barcode-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\AndroidManifest.xml:4:5-42
