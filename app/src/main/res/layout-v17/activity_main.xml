@@ -74,13 +74,13 @@
         android:textSize="16sp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"/>
-    <Button
+<!--    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="database削除"
         android:id="@+id/delete_database"
         android:layout_below="@id/buttonShow"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"/>-->
 
 </RelativeLayout>
