@@ -2789,7 +2789,7 @@ containing a value of this type.
         public static final int linearLayoutDisposal=0x7f0b0088;
         public static final int linearLayoutProduct=0x7f0b0083;
         public static final int listMode=0x7f0b000b;
-        public static final int listView=0x7f0b00ac;
+        public static final int listView=0x7f0b00a6;
         public static final int list_item=0x7f0b004b;
         public static final int media_actions=0x7f0b009c;
         public static final int middle=0x7f0b0035;
@@ -2803,7 +2803,6 @@ containing a value of this type.
         public static final int parentPanel=0x7f0b0050;
         public static final int pin=0x7f0b002d;
         public static final int preview=0x7f0b007d;
-        public static final int productlistView=0x7f0b00a6;
         public static final int progress_circular=0x7f0b0006;
         public static final int progress_horizontal=0x7f0b0007;
         public static final int radio=0x7f0b005e;

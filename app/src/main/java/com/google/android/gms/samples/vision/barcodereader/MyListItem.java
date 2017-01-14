@@ -30,6 +30,10 @@ public class MyListItem {
         this.product = product;
         this.disposal = disposal;
     }
+    public MyListItem(String barcode,String product) {
+        this.barcode = barcode;
+        this.product = product;
+    }
 
     /**
      * IDを取得

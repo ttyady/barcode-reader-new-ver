@@ -8,7 +8,6 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.util.Log;
@@ -43,7 +42,7 @@ public class ProductListView extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.select_sheet_listview);
+        setContentView(R.layout.product_listview);
 
         // DBAdapterのコンストラクタ呼び出し
         dbAdapter = new DBAdapter(this);
@@ -76,11 +75,11 @@ public class ProductListView extends Activity {
 
                         // IDを取得する
                         myListItem = items.get(position);
-                        int listId = myListItem.getId();
+                        String listBarcode = myListItem.getBarcode();
 
                         dbAdapter.openDB();     // DBの読み込み(読み書きの方)
-                        dbAdapter.selectDelete(String.valueOf(listId));     // DBから取得したIDが入っているデータを削除する
-                        Log.d("Long click : ", String.valueOf(listId));
+                        dbAdapter.selectDelete2(String.valueOf(listBarcode));     // DBから取得したIDが入っているデータを削除する
+                        Log.d("Long click : ", String.valueOf(listBarcode));
                         dbAdapter.closeDB();    // DBを閉じる
                         loadMyList();
                     }
@@ -98,16 +97,6 @@ public class ProductListView extends Activity {
                 return false;
             }
         });
-        findViewById(R.id.ProductShowButton).setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(ProductListView.this, BarcodeCaptureActivity.class);
-
-                startActivity(intent);
-
-            }
-        });
-
     }
 
     /**
@@ -122,20 +111,16 @@ public class ProductListView extends Activity {
         dbAdapter.openDB();     // DBの読み込み(読み書きの方)
 
         // DBのデータを取得
-        Cursor c = dbAdapter.getDB2();
+        Cursor c = dbAdapter.getDB();
 
         if (c.moveToFirst()) {
             do {
                 myListItem = new MyListItem(
-                        c.getInt(0),        //id
-                        c.getString(1),     //barcode
-                        c.getString(2),     //product
-                        c.getString(3));    //disposal
+                        c.getString(0),     //barcode
+                        c.getString(1));
 
-                Log.d("取得したCursor(ID):", String.valueOf(c.getInt(0)));
-                Log.d("取得したCursor(バーコード):", c.getString(1));
-                Log.d("取得したCursor(商品名):", c.getString(2));
-                Log.d("取得したCursor(廃棄日):", c.getString(3));
+                Log.d("取得したCursor(バーコード):", c.getString(0));
+                Log.d("取得したCursor(商品名):", c.getString(1));
 
                 items.add(myListItem);          // 取得した要素をitemsに追加
 /*                // MyListItemのコンストラクタ呼び出し(myListItemのオブジェクト生成)
@@ -213,17 +198,15 @@ public class ProductListView extends Activity {
             if (view == null) {
                 LayoutInflater inflater =
                         (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                view = inflater.inflate(R.layout.row_sheet_listview, parent, false);
+                view = inflater.inflate(R.layout.product_row_listview, parent, false);
 
-                TextView textBarcode = (TextView) view.findViewById(R.id.textBarcode);      // バーコードのTextView
-                TextView textProduct = (TextView) view.findViewById(R.id.textProduct);        // 商品名のTextView
-                TextView textDisposal = (TextView) view.findViewById(R.id.textDisposal);        // 廃棄日のTextView
+                TextView textBarcode = (TextView) view.findViewById(R.id.textBarcode_productview);      // バーコードのTextView
+                TextView textProduct = (TextView) view.findViewById(R.id.textProduct_productview);        // 商品名のTextView
 
                 // holderにviewを持たせておく
                 holder = new ViewHolder();
                 holder.textBarcode = textBarcode;
                 holder.textProduct = textProduct;
-                holder.textDisposal = textDisposal;
                 view.setTag(holder);
 
             } else {
@@ -234,7 +217,6 @@ public class ProductListView extends Activity {
             // 取得した各データを各TextViewにセット
             holder.textBarcode.setText(myListItem.getBarcode());
             holder.textProduct.setText(myListItem.getProduct());
-            holder.textDisposal.setText(myListItem.getDisposal());
 
             return view;
 

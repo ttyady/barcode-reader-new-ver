@@ -783,7 +783,7 @@ int id linearLayoutBarcode 0x7f0b007f
 int id linearLayoutDisposal 0x7f0b0088
 int id linearLayoutProduct 0x7f0b0083
 int id listMode 0x7f0b000b
-int id listView 0x7f0b00ac
+int id listView 0x7f0b00a6
 int id list_item 0x7f0b004b
 int id media_actions 0x7f0b009c
 int id middle 0x7f0b0035
@@ -797,7 +797,6 @@ int id parallax 0x7f0b002c
 int id parentPanel 0x7f0b0050
 int id pin 0x7f0b002d
 int id preview 0x7f0b007d
-int id productlistView 0x7f0b00a6
 int id progress_circular 0x7f0b0006
 int id progress_horizontal 0x7f0b0007
 int id radio 0x7f0b005e

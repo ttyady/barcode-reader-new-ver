@@ -5,33 +5,47 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="391013687605798"
+    timestamp="395807302487085"
     token="-5072868809486272484"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2118" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="4249" />
+        duration="0" />
     <task
         name="verifier"
-        duration="673" />
+        duration="0" />
 
     <artifact
-        location="L:\barcode-reader\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="L:\barcode-reader\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="391013687605798"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="393310239258833"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="L:\barcode-reader\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="395588307728138"
+        verifier="METHOD_ADDED" >
+        <artifact
+            location="L:\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="395807302487085"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="L:\barcode-reader\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

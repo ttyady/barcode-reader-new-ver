@@ -141,8 +141,8 @@ public class DBAdapter {
      * @param columns String[] 取得するカラム名 nullの場合は全カラムを取得
      * @return DBのデータ
      */
-    public Cursor getDB(String[] columns) {
-
+    public Cursor getDB(/*String[] columns*/) {
+/*
         // queryメソッド DBのデータを取得
         // 第1引数：DBのテーブル名
         // 第2引数：取得するカラム名
@@ -152,6 +152,10 @@ public class DBAdapter {
         // 第6引数：選択条件(HAVING句)
         // 第7引数：ソート条件(ODERBY句)
         return db.query(DB_TABLE, columns, null, null, null, null, COL_DISPOSAL +" ASC");
+        */
+        String sqlstr = "SELECT * FROM mySheet2;";
+        Cursor c = db.rawQuery(sqlstr,null);
+        return c;
     }
 
     public Cursor getDB2(){
@@ -159,6 +163,8 @@ public class DBAdapter {
         Cursor c = db.rawQuery(sqlstr,null);
         return c;
     }
+
+
 
     /**
      * DBの検索したデータを取得
@@ -209,6 +215,18 @@ public class DBAdapter {
         db.beginTransaction();                      // トランザクション開始
         try {
             db.delete(DB_TABLE, COL_ID + "=?", new String[]{position});
+            db.setTransactionSuccessful();          // トランザクションへコミット
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            db.endTransaction();                    // トランザクションの終了
+        }
+    }
+    public void selectDelete2(String position) {
+
+        db.beginTransaction();                      // トランザクション開始
+        try {
+            db.delete(DB_TABLE2, COL_BARCODE + "=?", new String[]{position});
             db.setTransactionSuccessful();          // トランザクションへコミット
         } catch (Exception e) {
             e.printStackTrace();

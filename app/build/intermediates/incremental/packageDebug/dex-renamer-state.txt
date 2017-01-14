@@ -1,4 +1,7 @@
-#Sun Jan 15 06:34:19 JST 2017
-base.0=L\:\\barcode-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=L\:\\barcode-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Sun Jan 15 06:58:50 JST 2017
+base.0=L\:\\barcode-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5f13d17c6312531f7d985d19b80fc4bd619cb8f4
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=L\:\\barcode-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_bb0e5afcb9f06c5a18c843460f4c255a4b924e1d\\classes.dex
+base.1=L\:\\barcode-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_bb0e5afcb9f06c5a18c843460f4c255a4b924e1d
+file.0=L\:\\barcode-reader\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5f13d17c6312531f7d985d19b80fc4bd619cb8f4\\classes.dex
