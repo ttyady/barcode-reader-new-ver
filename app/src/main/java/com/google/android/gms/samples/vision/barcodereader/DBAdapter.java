@@ -227,6 +227,7 @@ public class DBAdapter {
         db.beginTransaction();                      // トランザクション開始
         try {
             db.delete(DB_TABLE2, COL_BARCODE + "=?", new String[]{position});
+            db.delete(DB_TABLE, COL_BARCODE + "=?", new String[]{position});
             db.setTransactionSuccessful();          // トランザクションへコミット
         } catch (Exception e) {
             e.printStackTrace();
