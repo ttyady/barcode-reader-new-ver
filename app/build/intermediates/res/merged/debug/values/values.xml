@@ -573,10 +573,6 @@
     <string name="app_name">BarcodeCapture</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auto_focus">Auto Focus</string>
-    <string name="barcode_error">"Error reading barcode: %1$s"</string>
-    <string name="barcode_failure">No barcode captured</string>
-    <string name="barcode_header">Click "Read Barcode" to read a barcode</string>
-    <string name="barcode_success">Barcode read successfully</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="button01_regist">登録</string>
     <string name="button01_show">データ表示</string>
@@ -601,7 +597,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low deve</string>
     <string name="name_selectsheet_listview">ListView</string>
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="ok">OK</string>
@@ -618,7 +614,7 @@
     <string name="text01_product">バーコード</string>
     <string name="text_title_barcode">バーコード:</string>
     <string name="text_title_disposal">廃棄日:</string>
-    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="title_activity_main">廃棄日管理アプリ</string>
     <string name="use_flash">Use Flash</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

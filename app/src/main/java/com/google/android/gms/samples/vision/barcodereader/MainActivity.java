@@ -4,12 +4,12 @@ package com.google.android.gms.samples.vision.barcodereader;
  * Created by ttyady on 2016/12/27.
  */
 
-import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -26,7 +26,7 @@ import java.text.DecimalFormat;
 import java.util.Calendar;
 
 //public class DataRegistration extends Activity {
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     private EditText mEditTextBarcode;     // バーコード
     private EditText mEditTextProduct;         // 商品名
@@ -181,10 +181,10 @@ public class MainActivity extends Activity {
 
         mButton01Regist = (Button) findViewById(R.id.buttonRegist);           // 登録ボタン
         mButton01Show = (Button) findViewById(R.id.buttonShow);               // 表示ボタン
-        mButtonReadBarcode = (Button) findViewById(R.id.re_read_barcode);        // バーコード読み取りボタン
+        mButtonReadBarcode = (Button) findViewById(R.id.read_barcode);        // バーコード読み取りボタン
 
-        autoFocus = (CompoundButton) findViewById(R.id.re_auto_focus);
-        useFlash = (CompoundButton) findViewById(R.id.re_use_flash);
+        autoFocus = (CompoundButton) findViewById(R.id.auto_focus);
+        useFlash = (CompoundButton) findViewById(R.id.use_flash);
 
     }
 

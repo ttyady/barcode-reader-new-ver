@@ -24,20 +24,20 @@
 
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_main" >
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
 
         <activity android:name=".BarcodeCaptureActivity"
-            android:label="Read Barcode"/>
+            android:label="Read Barcode"
+            android:screenOrientation="portrait"/>
 
-        <activity android:name=".DataRegistration"
-            android:label="DataRegistration">
-        </activity>
         <activity android:name=".SelectSheetListView"
             android:label="SelectSheetListView">
         </activity>

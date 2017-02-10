@@ -27,7 +27,7 @@
 
         <TextView
             android:id="@+id/text01Kome01"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
             android:text="@string/text01_kome"
@@ -152,39 +152,6 @@
     </RadioGroup>-->
 
     <!-- 表示ボタン -->
-    <Button
-        android:id="@+id/buttonShow"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/buttonRegist"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="12dp"
-        android:text="@string/button01_show"
-        android:textSize="16sp" />
-
-    <Button
-        android:id="@+id/re_read_barcode"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/buttonShow"
-        android:text="@string/read_barcode"/>
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/auto_focus"
-        android:id="@+id/re_auto_focus"
-        android:layout_below="@+id/re_read_barcode"
-        android:layout_marginBottom="77dp"
-        android:checked="true" />
-
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/use_flash"
-        android:id="@+id/re_use_flash"
-        android:layout_toRightOf="@+id/re_auto_focus"
-        android:layout_alignBaseline="@id/re_auto_focus"
-        android:checked="false" />
 
     <LinearLayout
         android:id="@+id/linearLayoutDisposal"
@@ -231,6 +198,47 @@
             android:focusable="false"
             android:clickable="true"/>
     </LinearLayout>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_focus"
+        android:id="@+id/auto_focus"
+        android:checked="true"
+        android:layout_below="@+id/read_barcode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/use_flash"
+        android:id="@+id/use_flash"
+        android:checked="false"
+        android:layout_below="@+id/read_barcode"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/read_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/read_barcode"
+        android:textSize="16sp"
+        android:layout_below="@+id/buttonRegist"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button01_show"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/auto_focus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>

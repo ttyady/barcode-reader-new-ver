@@ -30,7 +30,8 @@
 
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.MainActivity"
-            android:label="@string/title_activity_main" >
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,11 +40,8 @@
         </activity>
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity"
-            android:label="Read Barcode" />
-        <activity
-            android:name="com.google.android.gms.samples.vision.barcodereader.DataRegistration"
-            android:label="DataRegistration" >
-        </activity>
+            android:label="Read Barcode"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.SelectSheetListView"
             android:label="SelectSheetListView" >
