@@ -4,12 +4,12 @@ package com.google.android.gms.samples.vision.barcodereader;
  * Created by ttyady on 2016/12/27.
  */
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,7 +27,7 @@ import java.util.List;
  * ListView表示画面に関連するクラス
  * SelectSheetListView
  */
-public class ProductListView extends Activity {
+public class ProductListView extends AppCompatActivity {
 
     private DBAdapter dbAdapter;
     private MyBaseAdapter myBaseAdapter;

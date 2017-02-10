@@ -3016,7 +3016,9 @@ containing a value of this type.
         public static final int text_title_barcode=0x7f05004a;
         public static final int text_title_disposal=0x7f05004b;
         public static final int title_activity_main=0x7f05004c;
-        public static final int use_flash=0x7f05004d;
+        public static final int title_disposal_view=0x7f05004d;
+        public static final int title_product_view=0x7f05004e;
+        public static final int use_flash=0x7f05004f;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f07008c;

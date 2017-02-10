@@ -5,6 +5,9 @@
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low deve</string>
     <string name="title_activity_main">廃棄日管理アプリ</string>
+    <string name="title_product_view">商品名表示</string>
+    <string name="title_disposal_view">廃棄日表示</string>
+
     <string name="read_barcode">カメラ起動</string>
     <string name="auto_focus">Auto Focus</string>
     <string name="use_flash">Use Flash</string>

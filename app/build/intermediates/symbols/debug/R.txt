@@ -1004,7 +1004,9 @@ int string text01_product 0x7f050049
 int string text_title_barcode 0x7f05004a
 int string text_title_disposal 0x7f05004b
 int string title_activity_main 0x7f05004c
-int string use_flash 0x7f05004d
+int string title_disposal_view 0x7f05004d
+int string title_product_view 0x7f05004e
+int string use_flash 0x7f05004f
 int style AlertDialog_AppCompat 0x7f07008c
 int style AlertDialog_AppCompat_Light 0x7f07008d
 int style Animation_AppCompat_Dialog 0x7f07008e

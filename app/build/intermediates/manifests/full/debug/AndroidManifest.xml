@@ -44,11 +44,11 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.SelectSheetListView"
-            android:label="SelectSheetListView" >
+            android:label="@string/title_disposal_view" >
         </activity>
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.ProductListView"
-            android:label="ProductListView" >
+            android:label="@string/title_product_view" >
         </activity>
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

@@ -615,6 +615,8 @@
     <string name="text_title_barcode">バーコード:</string>
     <string name="text_title_disposal">廃棄日:</string>
     <string name="title_activity_main">廃棄日管理アプリ</string>
+    <string name="title_disposal_view">廃棄日表示</string>
+    <string name="title_product_view">商品名表示</string>
     <string name="use_flash">Use Flash</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
